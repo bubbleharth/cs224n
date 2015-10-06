@@ -23,7 +23,6 @@ public class IBMModel1Aligner implements WordAligner {
     public Alignment align(SentencePair sentencePair) {
         Alignment alignment = new Alignment();
 
-        sentencePair.targetWords.add(NULL_WORD);
         int numSourceWords = sentencePair.getSourceWords().size();
         int numTargetWords = sentencePair.getTargetWords().size();
 
@@ -49,7 +48,6 @@ public class IBMModel1Aligner implements WordAligner {
     public void train(List<SentencePair> trainingPairs) {
         t = new CounterMap<String,String>();
         for (SentencePair p : trainingPairs) {
-            p.targetWords.add(NULL_WORD);
             for (String source : p.getSourceWords()) {
                 for (String target : p.getTargetWords()) {
                     t.setCount(source, target, 1.0);
@@ -58,7 +56,7 @@ public class IBMModel1Aligner implements WordAligner {
         }
         t = Counters.conditionalNormalize(t);
 
-        for (int iter = 0; iter < 30; iter++) {
+        for (int iter = 0; iter < 10; iter++) {
             CounterMap<String,String> Counts = new CounterMap<String,String>();
             for (SentencePair p : trainingPairs) {
                 for (String target : p.getTargetWords()) {

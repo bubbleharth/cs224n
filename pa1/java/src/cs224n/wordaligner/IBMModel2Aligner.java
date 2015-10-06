@@ -42,7 +42,6 @@ public class IBMModel2Aligner implements WordAligner {
     public Alignment align(SentencePair sentencePair) {
         Alignment alignment = new Alignment();
 
-        sentencePair.targetWords.add(NULL_WORD);
         int numSourceWords = sentencePair.getSourceWords().size();
         int numTargetWords = sentencePair.getTargetWords().size();
 
@@ -54,7 +53,7 @@ public class IBMModel2Aligner implements WordAligner {
             Tuple jlm = new Tuple(ti, l, m);
             for (int si = 0; si < numSourceWords; si++) {
                 String source= sentencePair.getSourceWords().get(si);
-                double prob = q.getCount(jlm, si) * t.getCount(source, target);
+                double prob = t.getCount(source, target) * q.getCount(jlm, si);
                 if (prob > maxProb) {
                     maxProb = prob;
                     maxSource = si;
@@ -76,7 +75,6 @@ public class IBMModel2Aligner implements WordAligner {
 
         q = new CounterMap<Tuple, Integer>();
         for (SentencePair p : trainingPairs) {
-            p.targetWords.add(NULL_WORD);
             int l = p.getSourceWords().size(), m = p.getTargetWords().size();
             for (int j = 0; j < m; j++) {
                 Tuple jlm = new Tuple(j, l, m);
@@ -87,7 +85,7 @@ public class IBMModel2Aligner implements WordAligner {
         }
         q = Counters.conditionalNormalize(q);
 
-        for (int iter = 0; iter < 1; iter++) {
+        for (int iter = 0; iter < 20; iter++) {
             CounterMap<String,String> CountsT = new CounterMap<String,String>();
             CounterMap<Tuple,Integer> CountsQ = new CounterMap<Tuple,Integer>();
             for (SentencePair p : trainingPairs) {
