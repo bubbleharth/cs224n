@@ -59,7 +59,7 @@ public class IBMModel2Aligner implements WordAligner {
                     maxSource = si;
                 }
             }
-            if (maxSource != sentencePair.getSourceWords().size()) 
+            if (ti != sentencePair.getTargetWords().size() - 1) 
                 alignment.addPredictedAlignment(ti, maxSource);
         }
 
@@ -75,6 +75,7 @@ public class IBMModel2Aligner implements WordAligner {
 
         q = new CounterMap<Tuple, Integer>();
         for (SentencePair p : trainingPairs) {
+            p.getTargetWords().add(NULL_WORD);
             int l = p.getSourceWords().size(), m = p.getTargetWords().size();
             for (int j = 0; j < m; j++) {
                 Tuple jlm = new Tuple(j, l, m);

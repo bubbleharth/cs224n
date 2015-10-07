@@ -38,7 +38,7 @@ public class IBMModel1Aligner implements WordAligner {
                     maxSource = si;
                 }
             }
-            if (maxSource != sentencePair.getSourceWords().size()) 
+            if (ti != sentencePair.getTargetWords().size() - 1) 
                 alignment.addPredictedAlignment(ti, maxSource);
         }
 
@@ -48,6 +48,7 @@ public class IBMModel1Aligner implements WordAligner {
     public void train(List<SentencePair> trainingPairs) {
         t = new CounterMap<String,String>();
         for (SentencePair p : trainingPairs) {
+            p.getTargetWords().add(NULL_WORD);
             for (String source : p.getSourceWords()) {
                 for (String target : p.getTargetWords()) {
                     t.setCount(source, target, 1.0);
