@@ -51,7 +51,8 @@ public class PMIAligner implements WordAligner {
                     maxTarget = t;
                 }
             }
-            alignment.addPredictedAlignment(maxTarget, srcIndex);
+            if (maxTarget != numTargetWords - 1)
+                alignment.addPredictedAlignment(maxTarget, srcIndex);
         }
 
         return alignment;
