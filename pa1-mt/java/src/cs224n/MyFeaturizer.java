@@ -27,9 +27,8 @@ public class MyFeaturizer implements RuleFeaturizer<IString, String> {
     // TODO: Return a list of features for the rule. Replace these lines
     // with your own feature.
     List<FeatureValue<String>> features = Generics.newLinkedList();
-/*    features.add(new FeatureValue<String>(String.format("%s:%d", FEATURE_NAME, f.sourcePhrase.size() - f.targetPhrase.size()), 1.0));
-    return features; */
-     features.add(new FeatureValue<String>(String.format("%s:%d", FEATURE_NAME, f.sourcePhrase[f.sourcePhrase.size()-1].equals('?')), 1.0));
+    features.add(new FeatureValue<String>(String.format("%s:%d", FEATURE_NAME, f.sourcePhrase.size() - f.targetPhrase.size()), 1.0));
+    return features; 
   }
 
   @Override
