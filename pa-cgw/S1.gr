@@ -1,0 +1,36 @@
+# The start symbol is START.
+
+# These two rules are required; choose their weights carefully!
+90 START -> S1
+10 START -> S2
+
+# This is a very, very, very simple grammar to get you started.
+
+1 S1 -> Rec Term
+
+5 Rec -> (Pause) (Conj) Clause
+1 Rec -> (Pause) (Conj) Clause Rec
+
+1 Clause -> (Det) NP VP
+1 Clause -> (Det) VP VP
+1 Clause -> (Det) VP
+
+1 VP -> (Conj) VP Conj VP
+1 VP -> Adv VP
+1 VP -> VP Adv
+5 VP -> Verb
+5 VP -> Verb PP
+5 VP -> Verb NP
+5 VP -> Verb Adj
+
+5 NP -> (Det) Nbar
+1 NP -> (Conj) NP Conj NP
+
+5 Nbar -> Noun
+5 Nbar -> Prn
+5 Nbar -> Proper
+1 Nbar -> Adj Nbar
+1 Nbar -> Nbar PP
+1 Nbar -> PP Nbar
+
+1 PP -> Prep NP

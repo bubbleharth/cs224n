@@ -1,8 +1,0 @@
-Vishnu Sundaresan (vishnu@, 05754445)
-    - completed IBM model 2
-    - worked on PMI and IBM model 1 with Jasper
-    - wrote analysis and model description for PMI, IBM1, IBM2
-Jasper Lin (jlin83@, )
-    - completed MT part of project
-    - worked on PMI and IBM model 1 with Vishnu
-    - wrote analysis for MT, conclusion, created figures / tables
