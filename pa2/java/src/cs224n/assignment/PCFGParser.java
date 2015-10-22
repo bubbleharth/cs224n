@@ -77,7 +77,7 @@ public class PCFGParser implements Parser {
             }
 
             //handle unaries
-            handleUnaries(s,b);
+            handleUnaries(s, b);
 
             score.set(index, s);
             back.set(index, b);
@@ -91,19 +91,21 @@ public class PCFGParser implements Parser {
             changed = false;
             Set <Object> keys = new HashSet<Object> (s.keySet());
             for (Object binary: keys){
-                List<Grammar.UnaryRule> unaries = grammar.getUnaryRulesByChild(binary.toString());
-                for (Grammar.UnaryRule unary : unaries){
-                    double probability = s.get(binary) * unary.getScore();
-                    if (!s.containsKey(interner.intern(unary.getParent()))){
-                        changed = true;
-                        s.put(interner.intern(unary.getParent()), probability);
-                        b.put(interner.intern(unary.getParent()), new Triplet<Integer, String, String>(-1, unary.getChild(), null));
-                    }
-                    else if (probability > s.get(interner.intern(unary.getParent()))){
-                        changed = true;
-                        s.put(interner.intern(unary.getParent()), probability);
-                        b.put(interner.intern(unary.getParent()), new Triplet<Integer, String, String>(-1, unary.getChild(), null));
+                if (s.get(binary) > 0) {
+                    List<Grammar.UnaryRule> unaries = grammar.getUnaryRulesByChild(binary.toString());
+                    for (Grammar.UnaryRule unary : unaries){
+                        double probability = s.get(binary) * unary.getScore();
+                        if (!s.containsKey(interner.intern(unary.getParent()))){
+                            changed = true;
+                            s.put(interner.intern(unary.getParent()), probability);
+                            b.put(interner.intern(unary.getParent()), new Triplet<Integer, String, String>(-1, unary.getChild(), null));
+                        }
+                        else if (probability > s.get(interner.intern(unary.getParent()))){
+                            changed = true;
+                            s.put(interner.intern(unary.getParent()), probability);
+                            b.put(interner.intern(unary.getParent()), new Triplet<Integer, String, String>(-1, unary.getChild(), null));
 
+                        }
                     }
                 }
             }
@@ -157,7 +159,6 @@ public class PCFGParser implements Parser {
     public void addingRules (int start, int end, Tree<String> parsed, String previous) {
         int index = getIndex(start, end);
         Triplet<Integer, String, String> rule = back.get(index).get(interner.intern(previous));
-        System.out.println(rule);
         List<Tree<String>> leaves = new ArrayList<Tree<String>> ();
         if (rule == null){
             return;
@@ -171,9 +172,13 @@ public class PCFGParser implements Parser {
             leaves.add(rightSide);
         }
         else {
-            Tree<String> leaf = new Tree<String> (rule.getSecond());
+            Tree<String> leaf = null;
             //if Terminal
             if (previous.equals(rule.getSecond())){
+                leaf= new Tree<String> (rule.getSecond());
+            }
+            else {
+                leaf = new Tree<String> (rule.getSecond());
                 addingRules(start, end, leaf, rule.getSecond());
             }
             leaves.add(leaf);
