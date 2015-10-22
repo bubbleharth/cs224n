@@ -26,37 +26,37 @@ public class TreeAnnotations {
 		// TODO : mark nodes with the label of their parent nodes, giving a second
 		// order vertical markov process
 
-		return binarizeTree(unAnnotatedTree);
+		return binarizeTree(unAnnotatedTree, null);
 
 	}
 
-	private static Tree<String> binarizeTree(Tree<String> tree) {
+	private static Tree<String> binarizeTree(Tree<String> tree, String parent) {
 		String label = tree.getLabel();
+        String label_with_parent = label;
+        if (parent != null) label_with_parent += '^' + parent;
 		if (tree.isLeaf())
 			return new Tree<String>(label);
 		if (tree.getChildren().size() == 1) {
 			return new Tree<String>
-			(label, 
-					Collections.singletonList(binarizeTree(tree.getChildren().get(0))));
+			(label, Collections.singletonList(binarizeTree(tree.getChildren().get(0), label)));
 		}
 		// otherwise, it's a binary-or-more local tree, 
 		// so decompose it into a sequence of binary and unary trees.
 		String intermediateLabel = "@"+label+"->";
-		Tree<String> intermediateTree =
-				binarizeTreeHelper(tree, 0, intermediateLabel);
-		return new Tree<String>(label, intermediateTree.getChildren());
+		Tree<String> intermediateTree = binarizeTreeHelper(tree, 0, intermediateLabel, label);
+		return new Tree<String>(label_with_parent, intermediateTree.getChildren());
 	}
 
 	private static Tree<String> binarizeTreeHelper(Tree<String> tree,
-			int numChildrenGenerated, 
-			String intermediateLabel) {
+                                                   int numChildrenGenerated,
+                                                   String intermediateLabel,
+                                                   String parent) {
 		Tree<String> leftTree = tree.getChildren().get(numChildrenGenerated);
 		List<Tree<String>> children = new ArrayList<Tree<String>>();
-		children.add(binarizeTree(leftTree));
+		children.add(binarizeTree(leftTree, parent));
 		if (numChildrenGenerated < tree.getChildren().size() - 1) {
-			Tree<String> rightTree = 
-					binarizeTreeHelper(tree, numChildrenGenerated + 1, 
-							intermediateLabel + "_" + leftTree.getLabel());
+			Tree<String> rightTree = binarizeTreeHelper(tree, numChildrenGenerated + 1,
+                                     intermediateLabel + "_" + leftTree.getLabel(), parent);
 			children.add(rightTree);
 		}
 		return new Tree<String>(intermediateLabel, children);
@@ -76,10 +76,8 @@ public class TreeAnnotations {
 						return s.startsWith("@");
 					}
 				});
-		Tree<String> unAnnotatedTree = 
-				(new Trees.FunctionNodeStripper()).transformTree(debinarizedTree);
-    Tree<String> unMarkovizedTree =
-        (new Trees.MarkovizationAnnotationStripper()).transformTree(unAnnotatedTree);
-		return unMarkovizedTree;
+		Tree<String> unAnnotatedTree = (new Trees.FunctionNodeStripper()).transformTree(debinarizedTree);
+        Tree<String> unMarkovizedTree = (new Trees.MarkovizationAnnotationStripper()).transformTree(unAnnotatedTree);
+        return unMarkovizedTree;
 	}
 }
