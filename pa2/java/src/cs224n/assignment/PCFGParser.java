@@ -43,7 +43,7 @@ public class PCFGParser implements Parser {
         //score = new double[#words+1][#words+1][#nonterms]
         score = new ArrayList<IdentityHashMap<Object, Double>>(N*(N+1)/2);
         //back new Triple[#words+1][#words+1][#nonterms]]
-        back = new ArrayList<IdentityHashMap<Object, Triplet<Integer, String, String>>>();
+        back = new ArrayList<IdentityHashMap<Object, Triplet<Integer, String, String>>>(N*(N+1)/2);
         initalizeDataStructures(N);
         firstPass(sentence);
         main_cyk(sentence);
@@ -146,7 +146,7 @@ public class PCFGParser implements Parser {
                         }
                     }
                 }
-                handleUnaries(s,b);
+                handleUnaries(s, b);
                 score.set(index, s);
                 back.set(index, b);
             }
@@ -157,21 +157,22 @@ public class PCFGParser implements Parser {
     public void addingRules (int start, int end, Tree<String> parsed, String previous) {
         int index = getIndex(start, end);
         Triplet<Integer, String, String> rule = back.get(index).get(interner.intern(previous));
+        System.out.println(rule);
         List<Tree<String>> leaves = new ArrayList<Tree<String>> ();
         if (rule == null){
             return;
         }
         else if (rule.getFirst() != -1){
             Tree <String> leftSide = new Tree<String>(rule.getSecond());
+            addingRules(start, rule.getFirst(), leftSide, rule.getSecond());
             Tree <String> rightSide = new Tree<String>(rule.getThird());
+            addingRules(rule.getFirst(), end, rightSide, rule.getThird());
             leaves.add(leftSide);
             leaves.add(rightSide);
-            //recurse on the right side
-            addingRules(rule.getFirst(), end, rightSide, rule.getThird());
         }
         else {
-            Tree<String> leaf= new Tree<String> (rule.getSecond());
-            //if Terminall
+            Tree<String> leaf = new Tree<String> (rule.getSecond());
+            //if Terminal
             if (previous.equals(rule.getSecond())){
                 addingRules(start, end, leaf, rule.getSecond());
             }
