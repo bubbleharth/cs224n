@@ -46,7 +46,10 @@ public class PCFGParser implements Parser {
         back = new ArrayList<IdentityHashMap<Object, Triplet<Integer, String, String>>>();
         initalizeDataStructures(N);
         firstPass(sentence);
-        return null;
+        main_cyk(sentence);
+        Tree<String> parseTree = new Tree<String>("ROOT");
+        addingRules(0, sentence.size(), parseTree, "ROOT");
+        return TreeAnnotations.unAnnotateTree(parseTree);
     }
 
     private void initalizeDataStructures(int length){
@@ -86,7 +89,8 @@ public class PCFGParser implements Parser {
         Boolean changed = true;
         while (changed) {
             changed = false;
-            for (Object binary: s.keySet()){
+            Set <Object> keys = new HashSet<Object> (s.keySet());
+            for (Object binary: keys){
                 List<Grammar.UnaryRule> unaries = grammar.getUnaryRulesByChild(binary.toString());
                 for (Grammar.UnaryRule unary : unaries){
                     double probability = s.get(binary) * unary.getScore();
@@ -107,7 +111,72 @@ public class PCFGParser implements Parser {
 
     }
 
-    private void cyk(List<String>sentence){
+    private void main_cyk(List<String>sentence){
+        IdentityHashMap<Object, Double> s;
+        IdentityHashMap<Object, Triplet<Integer, String, String>> b;
+        //building up the parser from the bottom layers up
+        for (int span = 2; span <= sentence.size(); span++){
+            for (int i = 0; i <= sentence.size() - span; i++) {
+                int j = i + span;
+                int index = getIndex(i, j);
+                s = score.get(index);
+                b = back.get(index);
+                for (int k = i + 1; k < j; k++){
+                    IdentityHashMap<Object, Double> left_scores = score.get(getIndex(i, k));
+                    IdentityHashMap<Object, Double> right_scores = score.get(getIndex(k, j));
+                    //performs check for combining items in a better way
+                    for (Object tags: left_scores.keySet()){
+                        for (Grammar.BinaryRule binary: grammar.getBinaryRulesByLeftChild(tags.toString())){
+                            //if the right side doesn't have the same key, skip
+                            //otherwise we need to choose the better one
+                            if (right_scores.containsKey(interner.intern(binary.getRightChild()))){
+                                double score_left = left_scores.get(interner.intern(binary.getLeftChild()));
+                                double score_right = right_scores.get(interner.intern(binary.getRightChild()));
+                                double probability = score_left* score_right * binary.getScore();
 
+                                if (!s.containsKey(interner.intern(binary.getParent()))){
+                                    s.put(interner.intern(binary.getParent()), probability);
+                                    b.put(interner.intern(binary.getParent()), new Triplet<Integer, String, String>(k, binary.getLeftChild(), binary.getRightChild()));
+                                }
+                                else if (probability > s.get(interner.intern(binary.getParent()))){
+                                    s.put(interner.intern(binary.getParent()), probability);
+                                    b.put(interner.intern(binary.getParent()), new Triplet<Integer, String, String>(k, binary.getLeftChild(), binary.getRightChild()));
+                                }
+                            }
+                        }
+                    }
+                }
+                handleUnaries(s,b);
+                score.set(index, s);
+                back.set(index, b);
+            }
+        }
+    }
+
+    //recurisvely add rules to the tree
+    public void addingRules (int start, int end, Tree<String> parsed, String previous) {
+        int index = getIndex(start, end);
+        Triplet<Integer, String, String> rule = back.get(index).get(interner.intern(previous));
+        List<Tree<String>> leaves = new ArrayList<Tree<String>> ();
+        if (rule == null){
+            return;
+        }
+        else if (rule.getFirst() != -1){
+            Tree <String> leftSide = new Tree<String>(rule.getSecond());
+            Tree <String> rightSide = new Tree<String>(rule.getThird());
+            leaves.add(leftSide);
+            leaves.add(rightSide);
+            //recurse on the right side
+            addingRules(rule.getFirst(), end, rightSide, rule.getThird());
+        }
+        else {
+            Tree<String> leaf= new Tree<String> (rule.getSecond());
+            //if Terminall
+            if (previous.equals(rule.getSecond())){
+                addingRules(start, end, leaf, rule.getSecond());
+            }
+            leaves.add(leaf);
+        }
+       parsed.setChildren(leaves);
     }
 }
