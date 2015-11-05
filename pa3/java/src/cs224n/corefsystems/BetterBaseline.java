@@ -10,8 +10,8 @@ import cs224n.coref.Document;
 import cs224n.coref.*;
 import cs224n.util.Pair;
 
-import cs224n.coref.Mention;
 import cs224n.util.*;
+import java.util.*;
 
 public class BetterBaseline implements CoreferenceSystem {
 
@@ -35,16 +35,32 @@ public class BetterBaseline implements CoreferenceSystem {
 
 	@Override
 	public List<ClusteredMention> runCoreference(Document doc) {
-		// TODO Auto-generated method stub
-        ArrayList<ClusteredMention> clusters = new ArrayList<ClusteredMention>();
-        for (Mention m : doc.getMentions()) {
-            if (m.gloss().equals("God the Protector")) {
-            System.out.println(m.sentence.parse);
-            System.out.println(m.parse);
-            System.out.println(m.beginIndexInclusive + " "+m.endIndexExclusive);
-            System.out.println(m.gloss());
+        ArrayList<ClusteredMention> mentions = new ArrayList<ClusteredMention>();
+        Map <String, Entity> clusters = new HashMap <String, Entity>();
+        for (Mention mention: doc.getMentions()) {
+            String head = mention.getHead();
+            if (clusters.containsKey(head)){
+                mentions.add(mention.markCoreferent(clusters.get(head)));
             }
-            clusters.add(m.markSingleton());
+            else{
+                Set<String> corefs = corefHeads.getCounter(head).keySet();
+                boolean added = false;
+                for (String s : corefs) {
+                    if (corefHeads.getCount(head,s) >= 1.0) {
+                        if (clusters.containsKey(s)){
+                            mentions.add(mention.markCoreferent(clusters.get(s)));
+                            added = true;
+                            break;
+                        }
+                    }
+                }
+                if (!added){
+                    ClusterMention newCluster = mention.markSingleton();
+                    mentions.add(newCluster);
+                    clusters.put(head, newCluster.entity);
+                }
+            }
+
         }
 
 	    return clusters;
