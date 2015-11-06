@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 
 import cs224n.coref.ClusteredMention;
+import cs224n.coref.Mention;
 import cs224n.coref.Document;
 import cs224n.coref.*;
 import cs224n.util.Pair;
@@ -38,7 +39,7 @@ public class BetterBaseline implements CoreferenceSystem {
         ArrayList<ClusteredMention> mentions = new ArrayList<ClusteredMention>();
         Map <String, Entity> clusters = new HashMap <String, Entity>();
         for (Mention mention: doc.getMentions()) {
-            String head = mention.getHead();
+            String head = mention.headWord();
             if (clusters.containsKey(head)){
                 mentions.add(mention.markCoreferent(clusters.get(head)));
             }
@@ -55,14 +56,13 @@ public class BetterBaseline implements CoreferenceSystem {
                     }
                 }
                 if (!added){
-                    ClusterMention newCluster = mention.markSingleton();
+                    ClusteredMention newCluster = mention.markSingleton();
                     mentions.add(newCluster);
                     clusters.put(head, newCluster.entity);
                 }
             }
-
         }
 
-	    return clusters;
+	    return mentions;
 	}
 }
