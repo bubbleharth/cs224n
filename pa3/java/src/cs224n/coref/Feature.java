@@ -98,7 +98,19 @@ public interface Feature {
   }
 
   public static class ExactMatch extends Indicator {
-    public ExactMatch(boolean exactMatch){ super(exactMatch); }
+    public ExactMatch(boolean input){ super(input); }
+  }
+  public static class HeadWordMatch extends Indicator {
+    public HeadWordMatch(boolean input){ super(input); }
+  }
+  public static class LemmaMatch extends Indicator {
+    public LemmaMatch(boolean input){ super(input); }
+  }
+  public static class ArePronouns extends Indicator {
+    public ArePronouns(boolean input){ super(input); }
+  }
+  public static class MentionDist extends IntIndicator {
+    public MentionDist(int input){ super(input); }
   }
   
   /*
