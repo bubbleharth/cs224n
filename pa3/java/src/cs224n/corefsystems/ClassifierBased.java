@@ -34,6 +34,10 @@ public class ClassifierBased implements CoreferenceSystem {
 			 */
 
 			Feature.ExactMatch.class,
+			Feature.HeadWordMatch.class,
+			Feature.LemmaMatch.class,
+			Feature.ArePronouns.class,
+			//Feature.MentionDist.class,
 
 			//skeleton for how to create a pair feature
 			//Pair.make(Feature.IsFeature1.class, Feature.IsFeature2.class),
@@ -60,12 +64,16 @@ public class ClassifierBased implements CoreferenceSystem {
 			if(clazz.equals(Feature.ExactMatch.class)){
 				//(exact string match)
 				return new Feature.ExactMatch(onPrix.gloss().equals(candidate.gloss()));
-//			} else if(clazz.equals(Feature.NewFeature.class) {
-				/*
-				 * TODO: Add features to return for specific classes. Implement calculating values of features here.
-				 */
-			}
-			else {
+            } else if (clazz.equals(Feature.HeadWordMatch.class)) {
+                return new Feature.HeadWordMatch(onPrix.headWord().equals(candidate.headWord()));
+            } else if (clazz.equals(Feature.LemmaMatch.class)) {
+                return new Feature.LemmaMatch(onPrix.sentence.lemmas.get(onPrix.headWordIndex).equals(
+                    candidate.sentence.lemmas.get(candidate.headWordIndex)));
+            } else if (clazz.equals(Feature.ArePronouns.class)) {
+                return new Feature.ArePronouns(Pronoun.isSomePronoun(onPrix.gloss()) && Pronoun.isSomePronoun(candidate.gloss()));
+            } else if (clazz.equals(Feature.MentionDist.class)) {
+                return new Feature.MentionDist(onPrix.doc.indexOfMention(onPrix) - candidate.doc.indexOfMention(candidate));
+			} else {
 				throw new IllegalArgumentException("Unregistered feature: " + clazz);
 			}
 		}
