@@ -10,7 +10,8 @@ import java.text.*;
 
 public class WindowModel {
 
-	protected SimpleMatrix L, Wout;
+	/* Word vectors */
+	protected SimpleMatrix L;
 
 	/* Weights except for the final layer */
 	protected SimpleMatrix [] W;
@@ -18,7 +19,11 @@ public class WindowModel {
 	/* Final layer of MAXENT weights */
 	protected SimpleMatrix U;
 	
-	public int windowSize,wordSize;
+	/* Context window size */
+	protected int windowSize;
+
+	/* Word vector dimensions */
+	protected int wordSize;
 	
 	/* Number of hidden layers */
 	protected int numOfHiddenLayer;
@@ -32,7 +37,7 @@ public class WindowModel {
 	/* Regularization constant */
 	protected double C;
 
-	//Single hidden layer model
+	/*Single hidden layer model */
 	public WindowModel(int windowSize, int hiddenSize, double lr, double reg){
 		this.windowSize = windowSize;
 		this.wordSize = 50;
@@ -44,7 +49,7 @@ public class WindowModel {
 		this.C = reg;
 	}
 	
-	//multilayer model
+	/*multilayer model */
 	public WindowModel(int windowSize, int [] hiddenSize, double lr, double reg) {
 		this.windowSize = windowSize;
 		this.wordSize = 50;
@@ -56,12 +61,34 @@ public class WindowModel {
 	}
 	
 
+	 //Simple math functions that will need to be used
+	private static SimpleMatrix sigmoid(SimpleMatrix M) {
+		SimpleMatrix sig = new SimpleMatrix(M.numRows(), M.numCols());
+		for (int i = 0; i < M.numRows(); ++i) {
+			for (int j = 0; j < M.numCols(); ++j) {
+				sig.set(i, j, 1.0 / (1.0 + Math.exp(-M.get(i, j))));
+			}
+		}
+		return sig;
+	}
+	
+	private static SimpleMatrix tanh(SimpleMatrix M) {
+		SimpleMatrix tanh = new SimpleMatrix(M.numRows(), M.numCols());
+		for (int i = 0; i < M.numRows(); ++i) {
+			for (int j = 0; j < M.numCols(); ++j) {
+				tanh.set(i, j, Math.tanh(M.get(i, j)));
+			}
+		}
+		return tanh;
+	}
+
 	/**
 	 * Initializes the weights randomly. 
 	 */
 	public void initWeights(){
 		Random rand = new Random();
 		L = FeatureFactory.getWordVectors();
+		//First layer size
 		int fanIn = windowSize * wordSize;
 		double epsilon;
 		for (int i = 0; i < numOfHiddenLayer; ++i) {
@@ -73,8 +100,6 @@ public class WindowModel {
 			double [] zeros = new double[hiddenSize[i]];
 			Arrays.fill(zeros, 0.0);
 			W[i].setColumn(0, 0, zeros);
-			
-			// Record next fan-out
 			fanIn = hiddenSize[i];
 		}
 		
