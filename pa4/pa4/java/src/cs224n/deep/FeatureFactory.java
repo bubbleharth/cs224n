@@ -11,7 +11,22 @@ public class FeatureFactory {
 
 
 	private FeatureFactory() {
-
+		
+	}
+	public static List<Datum> getTrainData() {
+		return trainData;
+	}
+	
+	public static List<Datum> getTestData() {
+		return testData;
+	}
+	
+	public static SimpleMatrix getWordVectors() {
+		return allVecs;
+	}
+	
+	public static HashMap<String, Integer> getDictionary() {
+		return wordToNum;
 	}
 
 
@@ -56,7 +71,7 @@ public class FeatureFactory {
 		if (allVecs!=null) return allVecs;
 
         int numOfWords = wordToNum.size();
-        int numOfDim;
+        int numOfDim = 1;
 
         double [][] data = null;
         BufferedReader br = new BufferedReader(new FileReader(vecFilename));
@@ -102,13 +117,4 @@ public class FeatureFactory {
         br.close();
         return wordToNum;
 	}
-
-
-
-
-
-
-
-
-
 }
