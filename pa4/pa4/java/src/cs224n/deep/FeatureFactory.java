@@ -61,7 +61,7 @@ public class FeatureFactory {
 			Datum datum = new Datum(word.toLowerCase(), label);
 			data.add(datum);
 		}
-
+		in.close();
 		return data;
 	}
 
