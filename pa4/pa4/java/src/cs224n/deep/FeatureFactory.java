@@ -49,15 +49,18 @@ public class FeatureFactory {
 	    // TODO: you'd want to handle sentence boundaries
 		List<Datum> data = new ArrayList<Datum>();
 		BufferedReader in = new BufferedReader(new FileReader(filename));
+		data.add(new Datum("<s>", "O"));
 		for (String line = in.readLine(); line != null; line = in.readLine()) {
 			if (line.trim().length() == 0) {
-				continue;
+				data.add(new Datum("</s>", "O"));
+			    data.add(new Datum("<s>", "O"));
+			    continue;
 			}
 			String[] bits = line.split("\\s+");
 			String word = bits[0];
 			String label = bits[1];
 
-			Datum datum = new Datum(word, label);
+			Datum datum = new Datum(word.toLowerCase(), label);
 			data.add(datum);
 		}
 

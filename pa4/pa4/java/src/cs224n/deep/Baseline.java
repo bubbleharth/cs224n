@@ -32,15 +32,12 @@ public class Baseline {
     PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(filename)));
     for (Datum datum : testData) {
       String word = datum.word;
-      String gold = datum.label.equals("O") ? "O" : "I-" + datum.label;
+      String gold = datum.label;
       String predicted;
       if (wordMap.containsKey(word)) {
         predicted = wordMap.get(word);
       } else {
         predicted = "O";
-      }
-      if (!predicted.equals("O")) {
-        predicted = "I-" + predicted;
       }
       out.println(word + "\t" + gold + "\t" + predicted);
     }
