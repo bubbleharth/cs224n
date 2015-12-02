@@ -40,9 +40,9 @@ london	LOC	LOC
 
 <s>	O	O
 
-west	MISC	LOC
+west	MISC	MISC
 
-indian	MISC	MISC
+indian	MISC	LOC
 
 all-rounder	O	O
 
@@ -56,7 +56,7 @@ four	O	O
 
 for	O	O
 
-38	O	ORG
+38	O	O
 
 on	O	O
 
@@ -68,7 +68,7 @@ leicestershire	ORG	ORG
 
 beat	O	O
 
-somerset	ORG	O
+somerset	ORG	ORG
 
 by	O	O
 
@@ -138,7 +138,7 @@ as	O	O
 
 title	O	O
 
-rivals	O	O
+rivals	O	PER
 
 essex	ORG	ORG
 
@@ -162,7 +162,7 @@ victory	O	O
 
 while	O	O
 
-kent	ORG	ORG
+kent	ORG	LOC
 
 made	O	O
 
@@ -196,13 +196,13 @@ after	O	O
 
 bowling	O	O
 
-somerset	ORG	O
+somerset	ORG	ORG
 
 out	O	O
 
 for	O	O
 
-83	O	ORG
+83	O	O
 
 on	O	O
 
@@ -214,7 +214,7 @@ morning	O	O
 
 at	O	O
 
-grace	LOC	O
+grace	LOC	ORG
 
 road	LOC	LOC
 
@@ -232,7 +232,7 @@ innings	O	O
 
 by	O	O
 
-94	O	ORG
+94	O	O
 
 runs	O	O
 
@@ -256,7 +256,7 @@ discard	O	O
 
 andy	PER	PER
 
-caddick	PER	PER
+caddick	PER	O
 
 taking	O	O
 
@@ -264,7 +264,7 @@ three	O	O
 
 for	O	O
 
-83	O	ORG
+83	O	O
 
 .	O	O
 
@@ -276,11 +276,11 @@ trailing	O	O
 
 by	O	O
 
-213	O	PER
+213	O	O
 
 ,	O	O
 
-somerset	ORG	O
+somerset	ORG	ORG
 
 got	O	O
 
@@ -354,7 +354,7 @@ hussain	PER	PER
 
 and	O	O
 
-peter	PER	O
+peter	PER	PER
 
 such	PER	O
 
@@ -388,7 +388,7 @@ headingley	LOC	LOC
 
 <s>	O	O
 
-hussain	PER	LOC
+hussain	PER	PER
 
 ,	O	O
 
@@ -436,7 +436,7 @@ essex	ORG	ORG
 
 reached	O	O
 
-372	O	O
+372	O	PER
 
 and	O	O
 
@@ -504,7 +504,7 @@ four	O	O
 
 for	O	O
 
-24	O	ORG
+24	O	O
 
 in	O	O
 
@@ -594,7 +594,7 @@ four	O	O
 
 for	O	O
 
-45	O	ORG
+45	O	O
 
 on	O	O
 
@@ -682,7 +682,7 @@ of	O	O
 
 <s>	O	O
 
-derbyshire	ORG	ORG
+derbyshire	ORG	LOC
 
 kept	O	O
 
@@ -758,7 +758,7 @@ australian	MISC	MISC
 
 tom	PER	PER
 
-moody	PER	ORG
+moody	PER	PER
 
 took	O	O
 
@@ -776,7 +776,7 @@ adams	PER	PER
 
 ,	O	O
 
-123	O	O
+123	O	PER
 
 ,	O	O
 
@@ -794,7 +794,7 @@ o'gorman	PER	PER
 
 took	O	O
 
-derbyshire	ORG	O
+derbyshire	ORG	ORG
 
 to	O	O
 
@@ -854,7 +854,7 @@ weather	O	O
 
 ,	O	O
 
-kent	ORG	ORG
+kent	ORG	LOC
 
 stepped	O	O
 
@@ -920,7 +920,7 @@ four	O	O
 
 for	O	O
 
-55	O	ORG
+55	O	O
 
 .	O	O
 
@@ -930,7 +930,7 @@ for	O	O
 
 by	O	O
 
-stumps	O	ORG
+stumps	O	PER
 
 kent	ORG	ORG
 
@@ -962,9 +962,9 @@ cricket	O	O
 
 english	MISC	MISC
 
-county	MISC	O
+county	MISC	MISC
 
-championship	MISC	O
+championship	MISC	MISC
 
 scores	O	O
 
@@ -1022,7 +1022,7 @@ leicestershire	ORG	ORG
 
 beat	O	O
 
-somerset	ORG	O
+somerset	ORG	ORG
 
 by	O	O
 
@@ -1100,7 +1100,7 @@ glamorgan	ORG	ORG
 
 and	O	O
 
-207	O	PER
+207	O	O
 
 (	O	O
 
@@ -1108,7 +1108,7 @@ a.	PER	PER
 
 dale	PER	PER
 
-69	O	PER
+69	O	O
 
 ,	O	O
 
@@ -1130,7 +1130,7 @@ blenkiron	PER	PER
 
 ,	O	O
 
-durham	ORG	ORG
+durham	ORG	PER
 
 114	O	O
 
@@ -1278,7 +1278,7 @@ sussex	ORG	ORG
 
 (	O	O
 
-w.	PER	ORG
+w.	PER	PER
 
 athey	PER	PER
 
@@ -1310,7 +1310,7 @@ lancashire	ORG	ORG
 
 (	O	O
 
-w.	PER	ORG
+w.	PER	PER
 
 hegg	PER	PER
 
@@ -1400,11 +1400,11 @@ j.	PER	PER
 
 adams	PER	PER
 
-123	O	PER
+123	O	O
 
 ,	O	O
 
-t.o'gorman	PER	PER
+t.o'gorman	PER	O
 
 109	O	O
 
@@ -1424,9 +1424,9 @@ barnett	PER	PER
 
 t.	PER	PER
 
-moody	PER	ORG
+moody	PER	O
 
-6-82	O	ORG
+6-82	O	O
 
 )	O	O
 
@@ -1444,7 +1444,7 @@ gloucestershire	ORG	ORG
 
 and	O	O
 
-185-6	O	PER
+185-6	O	O
 
 (	O	O
 
@@ -1502,7 +1502,7 @@ cricket	O	O
 
 1997	O	O
 
-ashes	MISC	O
+ashes	MISC	PER
 
 intinerary	O	O
 
@@ -1552,7 +1552,7 @@ a	O	O
 
 four-month	O	O
 
-tour	O	MISC
+tour	O	O
 
 </s>	O	O
 
@@ -1578,7 +1578,7 @@ test	ORG	O
 
 and	ORG	O
 
-county	ORG	O
+county	ORG	ORG
 
 cricket	ORG	ORG
 
@@ -1638,7 +1638,7 @@ of	O	O
 
 the	O	O
 
-tour	O	O
+tour	O	MISC
 
 .	O	O
 
@@ -1720,7 +1720,7 @@ scotland	LOC	LOC
 
 <s>	O	O
 
-tour	O	O
+tour	O	MISC
 
 itinerary	O	O
 
@@ -1774,9 +1774,9 @@ v	O	O
 
 duke	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
-norfolk	ORG	O
+norfolk	ORG	PER
 
 's	ORG	O
 
@@ -1852,7 +1852,7 @@ headingley	LOC	LOC
 
 <s>	O	O
 
-leeds	ORG	ORG
+leeds	ORG	LOC
 
 )	O	O
 
@@ -1906,9 +1906,9 @@ international	O	O
 
 at	O	O
 
-lord	LOC	O
+lord	LOC	PER
 
-'s	LOC	O
+'s	LOC	LOC
 
 ,	O	O
 
@@ -1930,11 +1930,11 @@ gloucestershire	ORG	ORG
 
 or	O	O
 
-sussex	ORG	O
+sussex	ORG	LOC
 
 or	O	O
 
-surrey	ORG	LOC
+surrey	ORG	ORG
 
 (	O	O
 
@@ -2012,7 +2012,7 @@ birmingham	LOC	LOC
 
 june	O	O
 
-11-13	O	ORG
+11-13	O	O
 
 v	O	O
 
@@ -2022,7 +2022,7 @@ first	O	O
 
 class	O	O
 
-county	O	O
+county	O	ORG
 
 (	O	O
 
@@ -2070,7 +2070,7 @@ test	O	O
 
 at	O	O
 
-lord	LOC	O
+lord	LOC	PER
 
 's	LOC	O
 
@@ -2168,7 +2168,7 @@ v	O	O
 
 minor	ORG	ORG
 
-counties	ORG	O
+counties	ORG	ORG
 
 xi	ORG	O
 
@@ -2358,7 +2358,7 @@ soccer	O	O
 
 -	O	O
 
-shearer	PER	O
+shearer	PER	PER
 
 named	O	O
 
@@ -2430,7 +2430,7 @@ who	O	O
 
 joined	O	O
 
-newcastle	ORG	O
+newcastle	ORG	ORG
 
 for	O	O
 
@@ -2480,7 +2480,7 @@ the	O	O
 
 european	MISC	MISC
 
-championship	O	O
+championship	O	MISC
 
 in	O	O
 
@@ -2508,7 +2508,7 @@ adams	PER	PER
 
 and	O	O
 
-platt	PER	O
+platt	PER	PER
 
 are	O	O
 
@@ -2710,7 +2710,7 @@ spoke	O	O
 
 to	O	O
 
-alan	PER	O
+alan	PER	PER
 
 he	O	O
 
@@ -2840,7 +2840,7 @@ front	O	O
 
 <s>	O	O
 
-shearer	PER	O
+shearer	PER	PER
 
 's	O	O
 
@@ -2854,7 +2854,7 @@ partner	O	O
 
 teddy	PER	O
 
-sheringham	PER	O
+sheringham	PER	PER
 
 withdrew	O	O
 
@@ -2892,7 +2892,7 @@ replaced	O	O
 
 by	O	O
 
-shearer	PER	O
+shearer	PER	PER
 
 's	O	O
 
@@ -2980,7 +2980,7 @@ yugoslavia	LOC	LOC
 
 beat	O	O
 
-dinamo	ORG	ORG
+dinamo	ORG	PER
 
 (	O	O
 
@@ -3046,7 +3046,7 @@ romania	LOC	LOC
 
 beat	O	O
 
-lithuania	LOC	LOC
+lithuania	LOC	PER
 
 2-1	O	O
 
@@ -3092,7 +3092,7 @@ romania	LOC	LOC
 
 -	O	O
 
-cosmin	PER	O
+cosmin	PER	PER
 
 contra	PER	PER
 
@@ -3122,9 +3122,9 @@ lithuania	LOC	LOC
 
 -	O	O
 
-danius	PER	O
+danius	PER	PER
 
-gleveckas	PER	O
+gleveckas	PER	PER
 
 (	O	O
 
@@ -3156,7 +3156,7 @@ soccer	O	O
 
 -	O	O
 
-rotor	ORG	O
+rotor	ORG	MISC
 
 fans	O	O
 
@@ -3186,7 +3186,7 @@ moscow	LOC	LOC
 
 rotor	ORG	ORG
 
-volgograd	ORG	ORG
+volgograd	ORG	PER
 
 must	O	O
 
@@ -3244,7 +3244,7 @@ that	O	O
 
 ended	O	O
 
-rotor	ORG	O
+rotor	ORG	PER
 
 's	O	O
 
@@ -3286,7 +3286,7 @@ committee	O	O
 
 anatoly	PER	PER
 
-gorokhovsky	PER	O
+gorokhovsky	PER	PER
 
 ,	O	O
 
@@ -3298,7 +3298,7 @@ friday	O	O
 
 that	O	O
 
-rotor	ORG	O
+rotor	ORG	PER
 
 would	O	O
 
@@ -3336,7 +3336,7 @@ who	O	O
 
 put	O	O
 
-manchester	ORG	ORG
+manchester	ORG	LOC
 
 united	ORG	ORG
 
@@ -3378,7 +3378,7 @@ defeat	O	O
 
 ,	O	O
 
-rotor	ORG	O
+rotor	ORG	LOC
 
 are	O	O
 
@@ -3416,7 +3416,7 @@ points	O	O
 
 behind	O	O
 
-alania	ORG	O
+alania	ORG	PER
 
 and	O	O
 
@@ -3424,7 +3424,7 @@ two	O	O
 
 behind	O	O
 
-dynamo	ORG	ORG
+dynamo	ORG	PER
 
 moscow	ORG	LOC
 
@@ -3432,7 +3432,7 @@ moscow	ORG	LOC
 
 the	O	O
 
-volgograd	LOC	ORG
+volgograd	LOC	O
 
 side	O	O
 
@@ -3480,19 +3480,19 @@ boxing	O	O
 
 -	O	O
 
-panama	LOC	PER
+panama	LOC	LOC
 
 's	O	O
 
 roberto	PER	PER
 
-duran	PER	PER
+duran	PER	O
 
 fights	O	O
 
 the	O	O
 
-sands	O	O
+sands	O	LOC
 
 of	O	O
 
@@ -3570,11 +3570,11 @@ career	O	O
 
 <s>	O	O
 
-duran	PER	O
+duran	PER	PER
 
 ,	O	O
 
-45	O	PER
+45	O	O
 
 ,	O	O
 
@@ -3586,13 +3586,13 @@ little-known	O	O
 
 mexican	MISC	MISC
 
-ariel	PER	O
+ariel	PER	PER
 
-cruz	PER	O
+cruz	PER	PER
 
 ,	O	O
 
-30	O	PER
+30	O	O
 
 ,	O	O
 
@@ -3602,9 +3602,9 @@ a	O	O
 
 super	O	O
 
-middleweight	O	O
+middleweight	O	MISC
 
-non-title	O	O
+non-title	O	PER
 
 bout	O	O
 
@@ -3626,7 +3626,7 @@ fight	O	O
 
 ,	O	O
 
-duran	PER	O
+duran	PER	PER
 
 's	O	O
 
@@ -3780,7 +3780,7 @@ to	O	O
 
 the	O	O
 
-boxer	O	O
+boxer	O	MISC
 
 acknowledge	O	O
 
@@ -3814,7 +3814,7 @@ lightweight	O	O
 
 ,	O	O
 
-welterweight	O	O
+welterweight	O	PER
 
 ,	O	O
 
@@ -3948,13 +3948,13 @@ said	O	O
 
 <s>	O	O
 
-duran	PER	O
+duran	PER	PER
 
 ,	O	O
 
 whose	O	O
 
-97-12	O	ORG
+97-12	O	O
 
 record	O	O
 
@@ -3992,13 +3992,13 @@ rematch	O	O
 
 against	O	O
 
-puerto	LOC	LOC
+puerto	LOC	ORG
 
 rico	LOC	LOC
 
 's	O	O
 
-hector	PER	O
+hector	PER	PER
 
 "	PER	O
 
@@ -4014,7 +4014,7 @@ camacho	PER	O
 
 <s>	O	O
 
-camacho	PER	O
+camacho	PER	PER
 
 took	O	O
 
@@ -4036,7 +4036,7 @@ in	O	O
 
 atlantic	LOC	LOC
 
-city	LOC	LOC
+city	LOC	O
 
 in	O	O
 
@@ -4066,7 +4066,7 @@ squash	O	O
 
 -	O	O
 
-hong	MISC	LOC
+hong	MISC	MISC
 
 kong	MISC	MISC
 
@@ -4360,7 +4360,7 @@ halftime	O	O
 
 <s>	O	O
 
-puchon	ORG	ORG
+puchon	ORG	O
 
 2	O	O
 
@@ -4462,7 +4462,7 @@ p	O	O
 
 <s>	O	O
 
-puchon	ORG	ORG
+puchon	ORG	O
 
 3	O	O
 
@@ -4480,7 +4480,7 @@ puchon	ORG	ORG
 
 <s>	O	O
 
-chonan	ORG	ORG
+chonan	ORG	O
 
 3	O	O
 
@@ -4516,7 +4516,7 @@ pohang	ORG	ORG
 
 <s>	O	O
 
-suwan	ORG	ORG
+suwan	ORG	O
 
 1	O	O
 
@@ -4570,7 +4570,7 @@ anyang	ORG	ORG
 
 <s>	O	O
 
-chonnam	ORG	ORG
+chonnam	ORG	O
 
 0	O	O
 
@@ -4606,7 +4606,7 @@ pusan	ORG	ORG
 
 <s>	O	O
 
-chonbuk	ORG	ORG
+chonbuk	ORG	O
 
 0	O	O
 
@@ -4718,7 +4718,7 @@ hyundai	ORG	ORG
 
 6	O	O
 
-lotte	ORG	ORG
+lotte	ORG	PER
 
 5	O	O
 
@@ -4726,7 +4726,7 @@ lotte	ORG	ORG
 
 <s>	O	O
 
-haitai	ORG	ORG
+haitai	ORG	O
 
 2	O	O
 
@@ -4750,7 +4750,7 @@ haitai	ORG	O
 
 <s>	O	O
 
-hanwha	ORG	ORG
+hanwha	ORG	O
 
 6	O	O
 
@@ -4766,11 +4766,11 @@ note	O	O
 
 -	O	O
 
-lotte	ORG	ORG
+lotte	ORG	PER
 
 and	O	O
 
-hyundai	ORG	ORG
+hyundai	ORG	PER
 
 ,	O	O
 
@@ -4860,7 +4860,7 @@ gb	O	O
 
 <s>	O	O
 
-haitai	ORG	ORG
+haitai	ORG	O
 
 64	O	O
 
@@ -4876,7 +4876,7 @@ haitai	ORG	ORG
 
 <s>	O	O
 
-ssangbangwool	ORG	ORG
+ssangbangwool	ORG	O
 
 59	O	O
 
@@ -4894,7 +4894,7 @@ ssangbangwool	ORG	ORG
 
 <s>	O	O
 
-hanwha	ORG	ORG
+hanwha	ORG	O
 
 58	O	O
 
@@ -5046,19 +5046,19 @@ u.s.	MISC	MISC
 
 open	MISC	MISC
 
-tennis	MISC	O
+tennis	MISC	MISC
 
-championships	MISC	O
+championships	MISC	MISC
 
 at	O	O
 
 the	O	O
 
-national	LOC	O
+national	LOC	LOC
 
 tennis	LOC	LOC
 
-centre	LOC	LOC
+centre	LOC	O
 
 on	O	O
 
@@ -5098,9 +5098,9 @@ round	O	O
 
 <s>	O	O
 
-sandrine	PER	ORG
+sandrine	PER	PER
 
-testud	PER	O
+testud	PER	PER
 
 (	O	O
 
@@ -5248,7 +5248,7 @@ russia	LOC	LOC
 
 -	O	O
 
-3	O	PER
+3	O	O
 
 6-4	O	O
 
@@ -5258,9 +5258,9 @@ russia	LOC	LOC
 
 <s>	O	O
 
-sjeng	PER	ORG
+sjeng	PER	PER
 
-schalken	PER	O
+schalken	PER	PER
 
 (	O	O
 
@@ -5286,7 +5286,7 @@ republic	LOC	LOC
 
 -	O	O
 
-2	O	PER
+2	O	O
 
 6-4	O	O
 
@@ -5462,7 +5462,7 @@ beat	O	O
 
 anne-gaelle	PER	PER
 
-sidot	PER	O
+sidot	PER	PER
 
 (	O	O
 
@@ -5598,7 +5598,7 @@ spain	LOC	LOC
 
 -	O	O
 
-2	O	PER
+2	O	O
 
 6-2	O	O
 
@@ -6286,7 +6286,7 @@ gb	O	O
 
 new	ORG	LOC
 
-york	ORG	LOC
+york	ORG	ORG
 
 74	O	O
 
@@ -6330,7 +6330,7 @@ boston	ORG	ORG
 
 <s>	O	O
 
-toronto	ORG	LOC
+toronto	ORG	ORG
 
 63	O	O
 
@@ -6526,7 +6526,7 @@ schedule	O	O
 
 <s>	O	O
 
-kansas	ORG	ORG
+kansas	ORG	LOC
 
 city	ORG	ORG
 
@@ -6570,7 +6570,7 @@ texas	LOC	LOC
 
 new	ORG	LOC
 
-york	ORG	LOC
+york	ORG	ORG
 
 at	O	O
 
@@ -6584,7 +6584,7 @@ boston	ORG	ORG
 
 at	O	O
 
-oakland	LOC	ORG
+oakland	LOC	LOC
 
 </s>	O	O
 
@@ -6628,7 +6628,7 @@ gb	O	O
 
 <s>	O	O
 
-atlanta	ORG	LOC
+atlanta	ORG	ORG
 
 83	O	O
 
@@ -6672,7 +6672,7 @@ florida	ORG	ORG
 
 new	ORG	LOC
 
-york	ORG	LOC
+york	ORG	ORG
 
 59	O	O
 
@@ -6754,7 +6754,7 @@ cincinnati	ORG	ORG
 
 <s>	O	O
 
-chicago	ORG	LOC
+chicago	ORG	ORG
 
 65	O	O
 
@@ -6806,9 +6806,9 @@ diego	ORG	ORG
 
 <s>	O	O
 
-los	ORG	LOC
+los	ORG	ORG
 
-angeles	ORG	LOC
+angeles	ORG	ORG
 
 72	O	O
 
@@ -6898,7 +6898,7 @@ montreal	LOC	LOC
 
 <s>	O	O
 
-los	ORG	LOC
+los	ORG	ORG
 
 angeles	ORG	ORG
 
@@ -6938,7 +6938,7 @@ colorado	ORG	ORG
 
 at	O	O
 
-st	LOC	ORG
+st	LOC	LOC
 
 louis	LOC	LOC
 
@@ -7058,7 +7058,7 @@ california	ORG	ORG
 
 14	O	O
 
-new	ORG	LOC
+new	ORG	ORG
 
 york	ORG	LOC
 
@@ -7094,7 +7094,7 @@ diego	ORG	ORG
 
 3	O	O
 
-new	ORG	LOC
+new	ORG	ORG
 
 york	ORG	LOC
 
@@ -7104,7 +7104,7 @@ york	ORG	LOC
 
 <s>	O	O
 
-chicago	ORG	LOC
+chicago	ORG	ORG
 
 4	O	O
 
@@ -7128,7 +7128,7 @@ colorado	ORG	ORG
 
 <s>	O	O
 
-atlanta	ORG	LOC
+atlanta	ORG	ORG
 
 5	O	O
 
@@ -7140,9 +7140,9 @@ pittsburgh	ORG	ORG
 
 <s>	O	O
 
-los	ORG	LOC
+los	ORG	ORG
 
-angeles	ORG	LOC
+angeles	ORG	ORG
 
 2	O	O
 
@@ -7178,11 +7178,11 @@ tennis	O	O
 
 -	O	O
 
-tarango	PER	PER
+tarango	PER	O
 
 ,	O	O
 
-o'brien	PER	PER
+o'brien	PER	O
 
 spring	O	O
 
@@ -7204,7 +7204,7 @@ lights	O	O
 
 larry	PER	PER
 
-fine	PER	PER
+fine	PER	O
 
 </s>	O	O
 
@@ -7234,11 +7234,11 @@ thursday	O	O
 
 but	O	O
 
-wimbledon	MISC	MISC
+wimbledon	MISC	LOC
 
 finalist	O	O
 
-malivai	PER	PER
+malivai	PER	O
 
 washington	PER	LOC
 
@@ -7270,7 +7270,7 @@ at	O	O
 
 the	O	O
 
-u.s.	MISC	MISC
+u.s.	MISC	LOC
 
 open	MISC	MISC
 
@@ -7296,7 +7296,7 @@ reprising	O	O
 
 his	O	O
 
-wimbledon	MISC	ORG
+wimbledon	MISC	MISC
 
 miracle	O	O
 
@@ -7346,7 +7346,7 @@ on	O	O
 
 the	O	O
 
-stadium	O	O
+stadium	O	LOC
 
 court	O	O
 
@@ -7364,7 +7364,7 @@ on	O	O
 
 the	O	O
 
-grandstand	O	O
+grandstand	O	MISC
 
 ,	O	O
 
@@ -7386,7 +7386,7 @@ with	O	O
 
 a	O	O
 
-wimbledon	MISC	O
+wimbledon	MISC	MISC
 
 connection	O	O
 
@@ -7494,7 +7494,7 @@ india	LOC	LOC
 
 's	O	O
 
-leander	PER	PER
+leander	PER	O
 
 paes	PER	O
 
@@ -7696,9 +7696,9 @@ win	O	O
 
 ,	O	O
 
-keep	O	O
+keep	O	PER
 
-battling	O	O
+battling	O	PER
 
 ,	O	O
 
@@ -7798,7 +7798,7 @@ the	O	O
 
 hard-serving	O	O
 
-o'brien	PER	PER
+o'brien	PER	O
 
 ,	O	O
 
@@ -7810,7 +7810,7 @@ u.s.	LOC	LOC
 
 collegiate	O	O
 
-national	O	O
+national	O	MISC
 
 champion	O	O
 
@@ -7822,7 +7822,7 @@ up	O	O
 
 17	O	O
 
-aces	O	O
+aces	O	ORG
 
 to	O	O
 
@@ -7866,7 +7866,7 @@ game	O	O
 
 when	O	O
 
-washington	PER	LOC
+washington	PER	PER
 
 ,	O	O
 
@@ -7930,7 +7930,7 @@ in	O	O
 
 two	O	O
 
-aces	O	O
+aces	O	ORG
 
 to	O	O
 
@@ -7962,7 +7962,7 @@ victory	O	O
 
 when	O	O
 
-washington	PER	LOC
+washington	PER	PER
 
 found	O	O
 
@@ -8098,13 +8098,13 @@ to	O	O
 
 <s>	O	O
 
-tarango	PER	ORG
+tarango	PER	PER
 
 ,	O	O
 
 whose	O	O
 
-wimbledon	MISC	ORG
+wimbledon	MISC	MISC
 
 tantrum	O	O
 
@@ -8144,7 +8144,7 @@ at	O	O
 
 the	O	O
 
-all-england	ORG	O
+all-england	ORG	ORG
 
 club	ORG	O
 
@@ -8186,7 +8186,7 @@ on	O	O
 
 the	O	O
 
-grandstand	O	O
+grandstand	O	MISC
 
 .	O	O
 
@@ -8502,7 +8502,7 @@ not	O	O
 
 appreciate	O	O
 
-tarango	PER	ORG
+tarango	PER	PER
 
 's	O	O
 
@@ -8762,7 +8762,7 @@ match	O	O
 
 ,	O	O
 
-tarango	PER	PER
+tarango	PER	O
 
 blew	O	O
 
@@ -8910,7 +8910,7 @@ razzle-dazzle	O	O
 
 nfl	ORG	O
 
-american	MISC	ORG
+american	MISC	MISC
 
 football-randall	MISC	O
 
@@ -8924,7 +8924,7 @@ retires	O	O
 
 <s>	O	O
 
-philadelphia	LOC	ORG
+philadelphia	LOC	LOC
 
 1996-08-29	O	O
 
@@ -8934,17 +8934,17 @@ philadelphia	LOC	ORG
 
 randall	PER	PER
 
-cunningham	PER	O
+cunningham	PER	PER
 
 ,	O	O
 
 the	O	O
 
-national	ORG	O
+national	ORG	ORG
 
 football	ORG	MISC
 
-league	ORG	O
+league	ORG	MISC
 
 's	O	O
 
@@ -9032,7 +9032,7 @@ pro	MISC	O
 
 bowl	MISC	ORG
 
-selection	O	ORG
+selection	O	O
 
 ,	O	O
 
@@ -9188,7 +9188,7 @@ sometime	O	O
 
 "	O	O
 
-randall	PER	O
+randall	PER	PER
 
 was	O	O
 
@@ -9216,7 +9216,7 @@ history	O	O
 
 said	O	O
 
-eagles	ORG	O
+eagles	ORG	PER
 
 owner	O	O
 
@@ -9246,7 +9246,7 @@ philadelphia	LOC	LOC
 
 ,	O	O
 
-randall	PER	O
+randall	PER	PER
 
 was	O	O
 
@@ -9388,7 +9388,7 @@ at	O	O
 
 greater	MISC	O
 
-milwaukee	MISC	MISC
+milwaukee	MISC	LOC
 
 open	MISC	MISC
 
@@ -9398,7 +9398,7 @@ open	MISC	MISC
 
 <s>	O	O
 
-milwaukee	LOC	ORG
+milwaukee	LOC	LOC
 
 ,	O	O
 
@@ -9446,11 +9446,11 @@ par-71	O	O
 
 <s>	O	O
 
-6,739-yard	O	ORG
+6,739-yard	O	O
 
 brown	LOC	PER
 
-deer	LOC	PER
+deer	LOC	ORG
 
 park	LOC	LOC
 
@@ -9494,7 +9494,7 @@ stated	O	O
 
 62	O	O
 
-nolan	PER	O
+nolan	PER	PER
 
 henke	PER	O
 
@@ -9506,7 +9506,7 @@ henke	PER	O
 
 bob	PER	PER
 
-estes	PER	PER
+estes	PER	O
 
 </s>	O	O
 
@@ -9572,7 +9572,7 @@ willie	PER	PER
 
 <s>	O	O
 
-wood	PER	LOC
+wood	PER	PER
 
 ,	O	O
 
@@ -9612,7 +9612,7 @@ calcavecchia	PER	PER
 
 payne	PER	PER
 
-stewart	PER	PER
+stewart	PER	O
 
 ,	O	O
 
@@ -9628,7 +9628,7 @@ ken	PER	PER
 
 <s>	O	O
 
-green	PER	O
+green	PER	PER
 
 ,	O	O
 
@@ -9644,7 +9644,7 @@ simpson	PER	PER
 
 ,	O	O
 
-olin	PER	O
+olin	PER	PER
 
 browne	PER	O
 
@@ -9652,7 +9652,7 @@ browne	PER	O
 
 shane	PER	PER
 
-bortsch	PER	PER
+bortsch	PER	O
 
 ,	O	O
 
@@ -9714,7 +9714,7 @@ lead	O	O
 
 in	O	O
 
-milwaukee	LOC	LOC
+milwaukee	LOC	ORG
 
 ,	O	O
 
@@ -9732,7 +9732,7 @@ debut	O	O
 
 <s>	O	O
 
-milwaukee	LOC	ORG
+milwaukee	LOC	LOC
 
 ,	O	O
 
@@ -9744,7 +9744,7 @@ wisconsin	LOC	LOC
 
 <s>	O	O
 
-nolan	PER	O
+nolan	PER	PER
 
 henke	PER	PER
 
@@ -9788,7 +9788,7 @@ greater	MISC	O
 
 milwaukee	MISC	MISC
 
-open	MISC	MISC
+open	MISC	O
 
 thursday	O	O
 
@@ -9832,7 +9832,7 @@ of	O	O
 
 bob	PER	PER
 
-estes	PER	PER
+estes	PER	O
 
 and	O	O
 
@@ -9854,7 +9854,7 @@ waldorf	PER	PER
 
 and	O	O
 
-jesper	PER	O
+jesper	PER	PER
 
 parnevik	PER	O
 
@@ -9864,7 +9864,7 @@ parnevik	PER	O
 
 <s>	O	O
 
-woods	PER	LOC
+woods	PER	ORG
 
 ,	O	O
 
@@ -9888,7 +9888,7 @@ third	O	O
 
 successive	O	O
 
-u.s.	MISC	LOC
+u.s.	MISC	MISC
 
 amateur	MISC	MISC
 
@@ -9902,7 +9902,7 @@ eagled	O	O
 
 the	O	O
 
-18th	O	MISC
+18th	O	O
 
 hole	O	O
 
@@ -10104,7 +10104,7 @@ a	O	O
 
 "	O	O
 
-pleasant	O	O
+pleasant	O	PER
 
 surprise	O	O
 
@@ -10362,7 +10362,7 @@ classic	MISC	MISC
 
 <s>	O	O
 
-estes	PER	O
+estes	PER	PER
 
 ,	O	O
 
@@ -10380,7 +10380,7 @@ the	O	O
 
 1994	O	O
 
-texas	MISC	MISC
+texas	MISC	LOC
 
 open	MISC	MISC
 
@@ -10408,7 +10408,7 @@ at	O	O
 
 the	O	O
 
-nortel	MISC	O
+nortel	MISC	MISC
 
 open	MISC	MISC
 
@@ -10506,7 +10506,7 @@ that	O	O
 
 <s>	O	O
 
-woods	PER	PER
+woods	PER	ORG
 
 was	O	O
 
@@ -10560,9 +10560,9 @@ week	O	O
 
 world	MISC	O
 
-series	MISC	O
+series	MISC	MISC
 
-of	MISC	O
+of	MISC	MISC
 
 golf	MISC	MISC
 
@@ -10580,7 +10580,7 @@ champ	O	O
 
 payne	PER	O
 
-stewart	PER	PER
+stewart	PER	O
 
 .	O	O
 
@@ -10640,7 +10640,7 @@ the	O	O
 
 pga	MISC	MISC
 
-tour	MISC	O
+tour	MISC	MISC
 
 ,	O	O
 
@@ -10656,11 +10656,11 @@ winning	O	O
 
 the	O	O
 
-world	MISC	O
+world	MISC	MISC
 
-series	MISC	O
+series	MISC	MISC
 
-of	MISC	O
+of	MISC	MISC
 
 golf	MISC	MISC
 
@@ -10788,9 +10788,9 @@ division	O	O
 
 team	O	O
 
-deportivo	ORG	ORG
+deportivo	ORG	PER
 
-coruna	ORG	ORG
+coruna	ORG	PER
 
 will	O	O
 
@@ -10816,13 +10816,13 @@ game	O	O
 
 with	O	O
 
-real	ORG	ORG
+real	ORG	O
 
 madrid	ORG	LOC
 
 after	O	O
 
-fifa	ORG	O
+fifa	ORG	PER
 
 ,	O	O
 
@@ -11104,9 +11104,9 @@ the	O	O
 
 berlin	LOC	LOC
 
-grand	O	O
+grand	O	MISC
 
-prix	O	O
+prix	O	MISC
 
 meeting	O	O
 
@@ -11288,7 +11288,7 @@ at	O	O
 
 the	O	O
 
-atlanta	MISC	ORG
+atlanta	MISC	MISC
 
 games	MISC	MISC
 
@@ -11308,7 +11308,7 @@ champions	O	O
 
 including	O	O
 
-bailey	PER	O
+bailey	PER	PER
 
 to	O	O
 
@@ -11364,7 +11364,7 @@ brussels	LOC	LOC
 
 and	O	O
 
-zurich	LOC	ORG
+zurich	LOC	LOC
 
 all	O	O
 
@@ -11390,7 +11390,7 @@ sport	O	O
 
 the	O	O
 
-golden	MISC	O
+golden	MISC	MISC
 
 four	MISC	O
 
@@ -11588,13 +11588,13 @@ to	O	O
 
 defeat	O	O
 
-jamaican	MISC	O
+jamaican	MISC	MISC
 
 rival	O	O
 
-merlene	PER	ORG
+merlene	PER	PER
 
-ottey	PER	O
+ottey	PER	PER
 
 ,	O	O
 
@@ -11624,9 +11624,9 @@ athletics	O	O
 
 -	O	O
 
-berlin	MISC	LOC
+berlin	MISC	MISC
 
-grand	MISC	O
+grand	MISC	MISC
 
 prix	MISC	MISC
 
@@ -11730,9 +11730,9 @@ sweden	LOC	LOC
 
 <s>	O	O
 
-3.	O	ORG
+3.	O	O
 
-aliuska	PER	O
+aliuska	PER	PER
 
 lopez	PER	PER
 
@@ -11748,11 +11748,11 @@ cuba	LOC	LOC
 
 <s>	O	O
 
-4.	O	ORG
+4.	O	O
 
-brigita	PER	O
+brigita	PER	PER
 
-bokovec	PER	O
+bokovec	PER	PER
 
 (	O	O
 
@@ -11892,11 +11892,11 @@ portugal	LOC	LOC
 
 <s>	O	O
 
-4.	O	ORG
+4.	O	O
 
-yekaterina	PER	O
+yekaterina	PER	PER
 
-podkopayeva	PER	O
+podkopayeva	PER	PER
 
 (	O	O
 
@@ -11930,7 +11930,7 @@ canada	LOC	LOC
 
 6.	O	O
 
-carmen	PER	O
+carmen	PER	PER
 
 wuestenhagen	PER	PER
 
@@ -11948,7 +11948,7 @@ germany	LOC	LOC
 
 7.	O	O
 
-margarita	PER	O
+margarita	PER	PER
 
 maruseva	PER	PER
 
@@ -11966,7 +11966,7 @@ russia	LOC	LOC
 
 8.	O	O
 
-sara	PER	O
+sara	PER	PER
 
 thorsett	PER	PER
 
@@ -12072,7 +12072,7 @@ cuba	LOC	LOC
 
 5.	O	O
 
-falk	PER	O
+falk	PER	PER
 
 balzer	PER	PER
 
@@ -12210,9 +12210,9 @@ trinidad	LOC	LOC
 
 <s>	O	O
 
-4.	O	ORG
+4.	O	O
 
-geir	PER	O
+geir	PER	PER
 
 moen	PER	PER
 
@@ -12314,7 +12314,7 @@ put	O	O
 
 1.	O	O
 
-astrid	PER	O
+astrid	PER	PER
 
 kumbernuss	PER	PER
 
@@ -12334,7 +12334,7 @@ metres	O	O
 
 2.	O	O
 
-claudia	PER	O
+claudia	PER	PER
 
 mues	PER	PER
 
@@ -12370,7 +12370,7 @@ russia	LOC	LOC
 
 4.	O	O
 
-valentina	PER	O
+valentina	PER	PER
 
 fedyushina	PER	PER
 
@@ -12414,11 +12414,11 @@ mile	O	O
 
 <s>	O	O
 
-1.	O	ORG
+1.	O	O
 
-noureddine	PER	O
+noureddine	PER	PER
 
-morceli	PER	O
+morceli	PER	PER
 
 (	O	O
 
@@ -12438,11 +12438,11 @@ seconds	O	O
 
 <s>	O	O
 
-2.	O	ORG
+2.	O	O
 
-venuste	PER	O
+venuste	PER	PER
 
-niyongabo	PER	O
+niyongabo	PER	PER
 
 (	O	O
 
@@ -12494,7 +12494,7 @@ kenya	LOC	LOC
 
 5.	O	O
 
-marko	PER	O
+marko	PER	PER
 
 koers	PER	PER
 
@@ -12614,7 +12614,7 @@ u.s.	LOC	LOC
 
 3.	O	O
 
-vasily	PER	O
+vasily	PER	PER
 
 kaptyukh	PER	PER
 
@@ -12648,11 +12648,11 @@ belarus	LOC	LOC
 
 <s>	O	O
 
-5.	O	ORG
+5.	O	O
 
-virgilijus	PER	O
+virgilijus	PER	PER
 
-alekna	PER	O
+alekna	PER	PER
 
 (	O	O
 
@@ -12666,11 +12666,11 @@ lithuania	LOC	LOC
 
 <s>	O	O
 
-6.	O	ORG
+6.	O	O
 
-juergen	PER	O
+juergen	PER	PER
 
-schult	PER	O
+schult	PER	PER
 
 (	O	O
 
@@ -12752,11 +12752,11 @@ seconds	O	O
 
 <s>	O	O
 
-2.	O	ORG
+2.	O	O
 
-merlene	PER	O
+merlene	PER	PER
 
-ottey	PER	O
+ottey	PER	PER
 
 (	O	O
 
@@ -12806,9 +12806,9 @@ nigeria	LOC	LOC
 
 <s>	O	O
 
-5.	O	ORG
+5.	O	O
 
-chryste	PER	O
+chryste	PER	PER
 
 gaines	PER	PER
 
@@ -12914,9 +12914,9 @@ seconds	O	O
 
 <s>	O	O
 
-2.	O	ORG
+2.	O	O
 
-gete	PER	O
+gete	PER	PER
 
 wami	PER	PER
 
@@ -12932,9 +12932,9 @@ ethiopia	LOC	LOC
 
 <s>	O	O
 
-3.	O	ORG
+3.	O	O
 
-rose	PER	O
+rose	PER	PER
 
 cheruiyot	PER	O
 
@@ -12950,11 +12950,11 @@ kenya	LOC	LOC
 
 <s>	O	O
 
-4.	O	ORG
+4.	O	O
 
-annemari	PER	O
+annemari	PER	PER
 
-sandell	PER	O
+sandell	PER	PER
 
 (	O	O
 
@@ -12968,11 +12968,11 @@ finland	LOC	LOC
 
 <s>	O	O
 
-5.	O	ORG
+5.	O	O
 
-tegla	PER	O
+tegla	PER	PER
 
-loroupe	PER	O
+loroupe	PER	PER
 
 (	O	O
 
@@ -12986,9 +12986,9 @@ kenya	LOC	LOC
 
 <s>	O	O
 
-6.	O	ORG
+6.	O	O
 
-gunhild	PER	O
+gunhild	PER	PER
 
 halle	PER	PER
 
@@ -13112,7 +13112,7 @@ u.s.	LOC	LOC
 
 4.	O	O
 
-fabrizio	PER	O
+fabrizio	PER	PER
 
 mori	PER	PER
 
@@ -13182,9 +13182,9 @@ australia	LOC	LOC
 
 <s>	O	O
 
-8.	O	ORG
+8.	O	O
 
-dusan	PER	O
+dusan	PER	PER
 
 kovacs	PER	PER
 
@@ -13212,11 +13212,11 @@ metres	O	O
 
 <s>	O	O
 
-1.	O	ORG
+1.	O	O
 
-falilat	PER	O
+falilat	PER	PER
 
-ogunkoya	PER	O
+ogunkoya	PER	PER
 
 (	O	O
 
@@ -13232,11 +13232,11 @@ seconds	O	O
 
 <s>	O	O
 
-2.	O	ORG
+2.	O	O
 
 jearl	PER	O
 
-miles	PER	O
+miles	PER	PER
 
 (	O	O
 
@@ -13286,11 +13286,11 @@ germany	LOC	LOC
 
 <s>	O	O
 
-5.	O	ORG
+5.	O	O
 
-olabisi	PER	O
+olabisi	PER	PER
 
-afolabi	PER	O
+afolabi	PER	PER
 
 (	O	O
 
@@ -13304,9 +13304,9 @@ nigeria	LOC	LOC
 
 <s>	O	O
 
-6.	O	ORG
+6.	O	O
 
-phylis	PER	O
+phylis	PER	PER
 
 smith	PER	PER
 
@@ -13460,9 +13460,9 @@ nigeria	LOC	LOC
 
 <s>	O	O
 
-6.	O	ORG
+6.	O	O
 
-geir	PER	O
+geir	PER	PER
 
 moen	PER	PER
 
@@ -13528,7 +13528,7 @@ denmark	LOC	LOC
 
 2.	O	O
 
-norberto	PER	O
+norberto	PER	PER
 
 tellez	PER	PER
 
@@ -13564,7 +13564,7 @@ kenya	LOC	LOC
 
 4.	O	O
 
-nico	PER	O
+nico	PER	PER
 
 motchebon	PER	PER
 
@@ -13616,11 +13616,11 @@ algeria	LOC	LOC
 
 <s>	O	O
 
-7.	O	ORG
+7.	O	O
 
-vebjoen	PER	O
+vebjoen	PER	PER
 
-rodal	PER	O
+rodal	PER	PER
 
 (	O	O
 
@@ -13684,7 +13684,7 @@ germany	LOC	LOC
 
 1=	O	O
 
-igor	PER	O
+igor	PER	PER
 
 trandenkov	PER	PER
 
@@ -13702,7 +13702,7 @@ russia	LOC	LOC
 
 3.	O	O
 
-maksim	PER	O
+maksim	PER	PER
 
 tarasov	PER	PER
 
@@ -13738,9 +13738,9 @@ germany	LOC	LOC
 
 5.	O	O
 
-igor	PER	O
+igor	PER	PER
 
-potapovich	PER	PER
+potapovich	PER	O
 
 (	O	O
 
@@ -13774,7 +13774,7 @@ france	LOC	LOC
 
 7.	O	O
 
-pyotr	PER	O
+pyotr	PER	PER
 
 bochkary	PER	PER
 
@@ -13792,7 +13792,7 @@ russia	LOC	LOC
 
 8.	O	O
 
-dmitri	PER	O
+dmitri	PER	PER
 
 markov	PER	PER
 
@@ -13820,11 +13820,11 @@ jump	O	O
 
 <s>	O	O
 
-1.	O	ORG
+1.	O	O
 
-stefka	PER	O
+stefka	PER	PER
 
-kostadinova	PER	O
+kostadinova	PER	PER
 
 (	O	O
 
@@ -13894,11 +13894,11 @@ russia	LOC	LOC
 
 <s>	O	O
 
-5.	O	ORG
+5.	O	O
 
-hanne	PER	O
+hanne	PER	PER
 
-haugland	PER	O
+haugland	PER	PER
 
 (	O	O
 
@@ -13912,11 +13912,11 @@ norway	LOC	LOC
 
 <s>	O	O
 
-6=	O	ORG
+6=	O	O
 
-nele	PER	O
+nele	PER	PER
 
-zilinskiene	PER	O
+zilinskiene	PER	PER
 
 (	O	O
 
@@ -14038,13 +14038,13 @@ kenya	LOC	LOC
 
 <s>	O	O
 
-4.	O	PER
+4.	O	O
 
-el	PER	PER
+el	PER	ORG
 
-hassane	PER	ORG
+hassane	PER	PER
 
-lahssini	PER	O
+lahssini	PER	PER
 
 (	O	O
 
@@ -14060,7 +14060,7 @@ morocco	LOC	LOC
 
 5.	O	O
 
-shem	PER	O
+shem	PER	PER
 
 kororia	PER	PER
 
@@ -14076,11 +14076,11 @@ kenya	LOC	LOC
 
 <s>	O	O
 
-6.	O	ORG
+6.	O	O
 
-brahim	PER	O
+brahim	PER	PER
 
-lahlafi	PER	O
+lahlafi	PER	PER
 
 (	O	O
 
@@ -14112,11 +14112,11 @@ kenya	LOC	LOC
 
 <s>	O	O
 
-8.	O	ORG
+8.	O	O
 
-fita	PER	O
+fita	PER	PER
 
-bayissa	PER	O
+bayissa	PER	PER
 
 (	O	O
 
@@ -14162,9 +14162,9 @@ metres	O	O
 
 <s>	O	O
 
-2.	O	ORG
+2.	O	O
 
-yoelvis	PER	O
+yoelvis	PER	PER
 
 quesada	PER	PER
 
@@ -14218,7 +14218,7 @@ u.s.	LOC	LOC
 
 5.	O	O
 
-armen	PER	O
+armen	PER	PER
 
 martirosyan	PER	PER
 
@@ -14270,11 +14270,11 @@ portugal	LOC	LOC
 
 <s>	O	O
 
-8.	O	ORG
+8.	O	O
 
-charles-michael	PER	O
+charles-michael	PER	PER
 
-friedek	PER	O
+friedek	PER	PER
 
 (	O	O
 
@@ -14300,7 +14300,7 @@ javelin	O	O
 
 1.	O	O
 
-tanja	PER	O
+tanja	PER	PER
 
 damaske	PER	PER
 
@@ -14320,7 +14320,7 @@ metres	O	O
 
 2.	O	O
 
-trine	PER	O
+trine	PER	PER
 
 hattesta	PER	PER
 
@@ -14336,9 +14336,9 @@ norway	LOC	LOC
 
 <s>	O	O
 
-3.	O	ORG
+3.	O	O
 
-isel	PER	O
+isel	PER	PER
 
 lopez	PER	PER
 
@@ -14356,7 +14356,7 @@ cuba	LOC	LOC
 
 4.	O	O
 
-heli	PER	O
+heli	PER	PER
 
 rantanen	PER	PER
 
@@ -14390,9 +14390,9 @@ australia	LOC	LOC
 
 <s>	O	O
 
-6.	O	ORG
+6.	O	O
 
-xiomara	PER	O
+xiomara	PER	PER
 
 rivero	PER	PER
 
@@ -14550,7 +14550,7 @@ nigeria	LOC	LOC
 
 ,	O	O
 
-oeji	PER	PER
+oeji	PER	O
 
 aliu	PER	O
 
@@ -14654,7 +14654,7 @@ three	O	O
 
 standard	ORG	O
 
-liege	ORG	ORG
+liege	ORG	MISC
 
 players	O	O
 
@@ -14694,7 +14694,7 @@ belgian	MISC	MISC
 
 club	O	O
 
-standard	ORG	ORG
+standard	ORG	O
 
 liege	ORG	ORG
 
@@ -14726,7 +14726,7 @@ against	O	O
 
 karlsruhe	ORG	ORG
 
-of	O	O
+of	O	ORG
 
 germany	LOC	LOC
 
@@ -14762,7 +14762,7 @@ $	O	O
 
 for	O	O
 
-unsporting	O	ORG
+unsporting	O	O
 
 conduct	O	O
 
@@ -15010,7 +15010,7 @@ sarajevo	LOC	LOC
 
 monte	LOC	LOC
 
-carlo	LOC	PER
+carlo	LOC	LOC
 
 1996-08-30	O	O
 
@@ -15084,7 +15084,7 @@ the	O	O
 
 international	ORG	O
 
-amateur	ORG	MISC
+amateur	ORG	ORG
 
 athletic	ORG	ORG
 
@@ -15170,7 +15170,7 @@ stadium	O	O
 
 <s>	O	O
 
-atlanta	MISC	LOC
+atlanta	MISC	MISC
 
 games	MISC	MISC
 
@@ -15248,7 +15248,7 @@ after	O	O
 
 the	O	O
 
-grand	O	O
+grand	O	MISC
 
 prix	O	MISC
 
@@ -15264,7 +15264,7 @@ milan	LOC	LOC
 
 <s>	O	O
 
-edwards	PER	O
+edwards	PER	PER
 
 was	O	O
 
@@ -15300,7 +15300,7 @@ to	O	O
 
 the	O	O
 
-iaaf	MISC	O
+iaaf	MISC	MISC
 
 grand	MISC	MISC
 
@@ -15378,7 +15378,7 @@ to	O	O
 
 coach	O	O
 
-nice	ORG	ORG
+nice	ORG	LOC
 
 .	O	O
 
@@ -15386,7 +15386,7 @@ nice	ORG	ORG
 
 <s>	O	O
 
-nice	LOC	ORG
+nice	LOC	LOC
 
 ,	O	O
 
@@ -15444,7 +15444,7 @@ friday	O	O
 
 <s>	O	O
 
-baratelli	PER	ORG
+baratelli	PER	PER
 
 ,	O	O
 
@@ -15458,7 +15458,7 @@ nice	ORG	ORG
 
 and	O	O
 
-paris	ORG	LOC
+paris	ORG	ORG
 
 st	ORG	ORG
 
@@ -15578,7 +15578,7 @@ soccer	O	O
 
 -	O	O
 
-milan	ORG	ORG
+milan	ORG	LOC
 
 's	O	O
 
@@ -15588,7 +15588,7 @@ moves	O	O
 
 to	O	O
 
-atalanta	ORG	O
+atalanta	ORG	LOC
 
 .	O	O
 
@@ -15596,7 +15596,7 @@ atalanta	ORG	O
 
 <s>	O	O
 
-milan	LOC	ORG
+milan	LOC	LOC
 
 1996-08-30	O	O
 
@@ -15622,7 +15622,7 @@ transferred	O	O
 
 to	O	O
 
-milan	ORG	LOC
+milan	ORG	ORG
 
 in	O	O
 
@@ -15664,7 +15664,7 @@ a	MISC	O
 
 club	O	O
 
-atalanta	ORG	O
+atalanta	ORG	ORG
 
 for	O	O
 
@@ -15692,9 +15692,9 @@ the	O	O
 
 gazzetta	ORG	O
 
-dello	ORG	O
+dello	ORG	ORG
 
-sport	ORG	O
+sport	ORG	ORG
 
 said	O	O
 
@@ -15720,21 +15720,21 @@ $	O	O
 
 <s>	O	O
 
-lentini	PER	ORG
+lentini	PER	O
 
 ,	O	O
 
-27	O	PER
+27	O	O
 
 ,	O	O
 
 joined	O	O
 
-milan	ORG	LOC
+milan	ORG	ORG
 
 from	O	O
 
-torino	ORG	O
+torino	ORG	PER
 
 in	O	O
 
@@ -16094,7 +16094,7 @@ the	O	O
 
 third	O	O
 
-singer	MISC	O
+singer	MISC	MISC
 
 </s>	O	O
 
@@ -16170,13 +16170,13 @@ out	O	O
 
 <s>	O	O
 
-s.	PER	MISC
+s.	PER	PER
 
 law	PER	PER
 
 c	O	O
 
-tillekeratne	PER	O
+tillekeratne	PER	PER
 
 b	O	O
 
@@ -16240,7 +16240,7 @@ lehmann	PER	PER
 
 st	O	ORG
 
-kaluwitharana	PER	ORG
+kaluwitharana	PER	PER
 
 b	O	O
 
@@ -16258,7 +16258,7 @@ healy	PER	PER
 
 c	O	O
 
-ranatunga	PER	O
+ranatunga	PER	PER
 
 b	O	O
 
@@ -16276,7 +16276,7 @@ gillespie	PER	PER
 
 st	O	ORG
 
-kaluwitharana	PER	ORG
+kaluwitharana	PER	PER
 
 b	O	O
 
@@ -16294,7 +16294,7 @@ fleming	PER	PER
 
 c	O	O
 
-chandana	PER	O
+chandana	PER	PER
 
 b	O	O
 
@@ -16366,7 +16366,7 @@ wickets	O	O
 
 :	O	O
 
-1-21	O	ORG
+1-21	O	O
 
 2-52	O	O
 
@@ -16384,7 +16384,7 @@ wickets	O	O
 
 <s>	O	O
 
-8-198	O	ORG
+8-198	O	O
 
 9-203	O	O
 
@@ -16398,7 +16398,7 @@ bowling	O	O
 
 :	O	O
 
-vass	PER	ORG
+vass	PER	PER
 
 7-0-29-0	O	O
 
@@ -16408,7 +16408,7 @@ de	PER	PER
 
 silva	PER	PER
 
-4-0-25-0	O	PER
+4-0-25-0	O	O
 
 ,	O	O
 
@@ -16418,7 +16418,7 @@ dharmasena	PER	O
 
 <s>	O	O
 
-9-0-49-1	O	ORG
+9-0-49-1	O	O
 
 ,	O	O
 
@@ -16564,7 +16564,7 @@ mcgrath	PER	PER
 
 <s>	O	O
 
-u.	PER	ORG
+u.	PER	PER
 
 chandana	PER	O
 
@@ -16626,7 +16626,7 @@ wickets	O	O
 
 :	O	O
 
-1-22	O	ORG
+1-22	O	O
 
 2-78	O	O
 
@@ -16652,7 +16652,7 @@ bat	O	O
 
 :	O	O
 
-dharmasena	PER	PER
+dharmasena	PER	O
 
 ,	O	O
 
@@ -16680,9 +16680,9 @@ waugh	PER	PER
 
 ,	O	O
 
-law	PER	ORG
+law	PER	O
 
-2-0-23-0	O	PER
+2-0-23-0	O	O
 
 ,	O	O
 
@@ -16722,7 +16722,7 @@ lehmann	PER	O
 
 <s>	O	O
 
-6-0-26-0	O	ORG
+6-0-26-0	O	O
 
 ,	O	O
 
@@ -16746,7 +16746,7 @@ match	O	O
 
 :	O	O
 
-aravinda	PER	ORG
+aravinda	PER	PER
 
 de	PER	PER
 
@@ -16870,7 +16870,7 @@ singer	MISC	MISC
 
 world	MISC	MISC
 
-series	MISC	MISC
+series	MISC	O
 
 tournament	O	O
 
@@ -16976,7 +16976,7 @@ singer	MISC	MISC
 
 world	O	MISC
 
-series	O	MISC
+series	O	O
 
 tournament	O	O
 
@@ -17024,13 +17024,13 @@ bevan	PER	PER
 
 ,	O	O
 
-damien	PER	PER
+damien	PER	O
 
 </s>	O	O
 
 <s>	O	O
 
-flemming	PER	LOC
+flemming	PER	PER
 
 ,	O	O
 
@@ -17052,13 +17052,13 @@ mcgrath	PER	PER
 
 ,	O	O
 
-ricky	PER	PER
+ricky	PER	O
 
 </s>	O	O
 
 <s>	O	O
 
-ponting	PER	LOC
+ponting	PER	PER
 
 ,	O	O
 
@@ -17070,7 +17070,7 @@ slater	PER	PER
 
 darren	PER	PER
 
-lehmann	PER	O
+lehmann	PER	PER
 
 ,	O	O
 
@@ -17122,7 +17122,7 @@ jayasuriya	PER	PER
 
 <s>	O	O
 
-romesh	PER	ORG
+romesh	PER	O
 
 kaluwitharana	PER	O
 
@@ -17146,7 +17146,7 @@ silva	PER	PER
 
 <s>	O	O
 
-hashan	PER	ORG
+hashan	PER	O
 
 tillekeratne	PER	O
 
@@ -17154,13 +17154,13 @@ tillekeratne	PER	O
 
 roshan	PER	PER
 
-mahanama	PER	PER
+mahanama	PER	O
 
 ,	O	O
 
 kumara	PER	PER
 
-dharmasena	PER	PER
+dharmasena	PER	O
 
 ,	O	O
 
@@ -17168,7 +17168,7 @@ dharmasena	PER	PER
 
 <s>	O	O
 
-chaminda	PER	O
+chaminda	PER	PER
 
 vaas	PER	PER
 
@@ -17228,11 +17228,11 @@ romanian	MISC	ORG
 
 listed	O	O
 
-state	O	O
+state	O	ORG
 
 engineer	O	O
 
-comelf	ORG	PER
+comelf	ORG	ORG
 
 said	O	O
 
@@ -17340,7 +17340,7 @@ lei	O	O
 
 <s>	O	O
 
-comelf	ORG	ORG
+comelf	ORG	PER
 
 's	O	O
 
@@ -17404,7 +17404,7 @@ showed	O	O
 
 <s>	O	O
 
-comelf	ORG	ORG
+comelf	ORG	O
 
 ,	O	O
 
@@ -17416,13 +17416,13 @@ the	O	O
 
 central	O	O
 
-transylvanian	MISC	O
+transylvanian	MISC	LOC
 
 town	O	O
 
 of	O	O
 
-bistrita	LOC	O
+bistrita	LOC	LOC
 
 ,	O	O
 
@@ -17664,7 +17664,7 @@ a	O	O
 
 revised	O	O
 
-end-year	O	ORG
+end-year	O	O
 
 forecast	O	O
 
@@ -17788,11 +17788,11 @@ realistic	O	O
 
 luli	PER	PER
 
-popescu	PER	O
+popescu	PER	PER
 
 ,	O	O
 
-bucharest	ORG	ORG
+bucharest	ORG	LOC
 
 newsroom	ORG	ORG
 
@@ -17842,9 +17842,9 @@ the	O	O
 
 national	ORG	ORG
 
-bank	ORG	O
+bank	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
 poland	ORG	LOC
 
@@ -17878,7 +17878,7 @@ the	O	O
 
 <s>	O	O
 
-bank	O	ORG
+bank	O	O
 
 said	O	O
 
@@ -17890,7 +17890,7 @@ said	O	O
 
 --	O	O
 
-warsaw	ORG	ORG
+warsaw	ORG	LOC
 
 newsroom	ORG	ORG
 
@@ -17944,7 +17944,7 @@ the	O	O
 
 government	O	O
 
-of	O	O
+of	O	ORG
 
 canada	LOC	LOC
 
@@ -17974,11 +17974,11 @@ august	O	O
 
 the	O	O
 
-bank	ORG	O
+bank	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
-canada	ORG	LOC
+canada	ORG	ORG
 
 said	O	O
 
@@ -18050,7 +18050,7 @@ balances	O	O
 
 <s>	O	O
 
-govt	O	ORG
+govt	O	O
 
 securities	O	O
 
@@ -18118,11 +18118,11 @@ dollars	O	O
 
 <s>	O	O
 
-chartered	O	LOC
+chartered	O	ORG
 
 bank	O	O
 
-assets	O	O
+assets	O	ORG
 
 july	O	O
 
@@ -18218,7 +18218,7 @@ m2	O	ORG
 
 <s>	O	O
 
-m3	O	LOC
+m3	O	ORG
 
 482.13	O	O
 
@@ -18262,7 +18262,7 @@ reuters	ORG	ORG
 
 ottawa	ORG	ORG
 
-bureau	ORG	O
+bureau	ORG	ORG
 
 (	O	O
 
@@ -18296,7 +18296,7 @@ acquisition	O	O
 
 <s>	O	O
 
-st.	LOC	LOC
+st.	LOC	ORG
 
 louis	LOC	LOC
 
@@ -18328,13 +18328,13 @@ acquisition	O	O
 
 of	O	O
 
-daniels	ORG	O
+daniels	ORG	ORG
 
 pharmaceuticals	ORG	ORG
 
 inc	ORG	ORG
 
-of	O	O
+of	O	ORG
 
 st.	LOC	LOC
 
@@ -18356,7 +18356,7 @@ shares	O	O
 
 of	O	O
 
-jones	ORG	PER
+jones	ORG	ORG
 
 common	O	O
 
@@ -18390,7 +18390,7 @@ friday	O	O
 
 <s>	O	O
 
-daniels	ORG	O
+daniels	ORG	PER
 
 pharmaceuticals	ORG	O
 
@@ -18460,7 +18460,7 @@ newsdesk	O	O
 
 <s>	O	O
 
-nymex	O	ORG
+nymex	O	LOC
 
 heating	O	O
 
@@ -18536,11 +18536,11 @@ of	O	O
 
 the	O	O
 
-u.s.	LOC	LOC
+u.s.	LOC	ORG
 
 labor	MISC	MISC
 
-day	MISC	O
+day	MISC	MISC
 
 weekend	O	O
 
@@ -18924,9 +18924,9 @@ start	O	O
 
 the	O	O
 
-labor	MISC	MISC
+labor	MISC	O
 
-day	MISC	O
+day	MISC	MISC
 
 holiday	O	O
 
@@ -18944,7 +18944,7 @@ said	O	O
 
 <s>	O	O
 
-nymex	O	ORG
+nymex	O	PER
 
 will	O	O
 
@@ -18958,9 +18958,9 @@ due	O	O
 
 to	O	O
 
-labor	MISC	MISC
+labor	MISC	O
 
-day	MISC	O
+day	MISC	MISC
 
 .	O	O
 
@@ -19016,7 +19016,7 @@ shaken	O	O
 
 by	O	O
 
-chicago	LOC	ORG
+chicago	LOC	LOC
 
 napm	ORG	O
 
@@ -19088,11 +19088,11 @@ national	ORG	ORG
 
 association	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
-purchasing	ORG	O
+purchasing	ORG	ORG
 
-management	ORG	O
+management	ORG	ORG
 
 (	O	O
 
@@ -19108,7 +19108,7 @@ the	O	O
 
 chicago	LOC	LOC
 
-area	O	O
+area	O	LOC
 
 ,	O	O
 
@@ -19130,11 +19130,11 @@ the	O	O
 
 august	O	O
 
-chicago	LOC	ORG
+chicago	LOC	MISC
 
 napm	ORG	O
 
-rose	O	O
+rose	O	PER
 
 8.8	O	O
 
@@ -19250,7 +19250,7 @@ also	O	O
 
 said	O	O
 
-japanese	MISC	ORG
+japanese	MISC	MISC
 
 investors	O	O
 
@@ -19320,7 +19320,7 @@ september	O	O
 
 97	O	O
 
-mid-curve	O	PER
+mid-curve	O	O
 
 put	O	O
 
@@ -19454,7 +19454,7 @@ notes	O	O
 
 <s>	O	O
 
-rumors	O	O
+rumors	O	PER
 
 circulated	O	O
 
@@ -19462,9 +19462,9 @@ that	O	O
 
 the	O	O
 
-federal	ORG	O
+federal	ORG	ORG
 
-reserve	ORG	O
+reserve	ORG	ORG
 
 was	O	O
 
@@ -19778,7 +19778,7 @@ television	O	O
 
 network	O	O
 
-cnbc	ORG	O
+cnbc	ORG	ORG
 
 ,	O	O
 
@@ -19866,9 +19866,9 @@ the	O	O
 
 annual	O	O
 
-jackson	MISC	PER
+jackson	MISC	ORG
 
-hole	MISC	PER
+hole	MISC	O
 
 symposium	MISC	O
 
@@ -19892,9 +19892,9 @@ reach	O	O
 
 for	O	O
 
-major	O	MISC
+major	O	O
 
-nations	O	O
+nations	O	MISC
 
 .	O	O
 
@@ -19908,7 +19908,7 @@ said	O	O
 
 the	O	O
 
-fed	ORG	O
+fed	ORG	PER
 
 's	O	O
 
@@ -19966,7 +19966,7 @@ news	O	O
 
 the	O	O
 
-fed	ORG	O
+fed	ORG	PER
 
 's	O	O
 
@@ -20170,7 +20170,7 @@ douglas	ORG	ORG
 
 &	ORG	ORG
 
-lomason	ORG	ORG
+lomason	ORG	O
 
 shares	O	O
 
@@ -20312,7 +20312,7 @@ the	O	O
 
 new	ORG	LOC
 
-york	ORG	LOC
+york	ORG	ORG
 
 stock	ORG	ORG
 
@@ -20404,11 +20404,11 @@ markham	ORG	O
 
 ontario-based	MISC	PER
 
-magna	ORG	O
+magna	ORG	PER
 
 's	O	O
 
-north	MISC	O
+north	MISC	MISC
 
 american	MISC	MISC
 
@@ -20436,7 +20436,7 @@ compete	O	O
 
 with	O	O
 
-johnson	ORG	PER
+johnson	ORG	ORG
 
 controls	ORG	O
 
@@ -20578,7 +20578,7 @@ anymore	O	O
 
 "	O	O
 
-hoey	PER	O
+hoey	PER	PER
 
 said	O	O
 
@@ -20834,7 +20834,7 @@ roster	O	O
 
 of	O	O
 
-2,300	O	ORG
+2,300	O	O
 
 tier-one	O	O
 
@@ -20904,7 +20904,7 @@ casesa	PER	PER
 
 of	O	O
 
-schroder	ORG	O
+schroder	ORG	ORG
 
 wertheim	ORG	ORG
 
@@ -20958,7 +20958,7 @@ market	O	O
 
 <s>	O	O
 
-magna	ORG	O
+magna	ORG	PER
 
 's	O	O
 
@@ -20994,7 +20994,7 @@ components	O	O
 
 <s>	O	O
 
-magna	ORG	O
+magna	ORG	PER
 
 ,	O	O
 
@@ -21110,7 +21110,7 @@ meals	O	O
 
 and	O	O
 
-feeds	O	O
+feeds	O	PER
 
 sellers	O	O
 
@@ -21146,7 +21146,7 @@ gains	O	O
 
 in	O	O
 
-chicago	LOC	ORG
+chicago	LOC	LOC
 
 at	O	O
 
@@ -21208,7 +21208,7 @@ the	O	O
 
 south	O	LOC
 
-coast	O	O
+coast	O	LOC
 
 .	O	O
 
@@ -21316,7 +21316,7 @@ ballantyne	PER	PER
 
 ,	O	O
 
-london	ORG	LOC
+london	ORG	ORG
 
 newsroom	ORG	ORG
 
@@ -21546,7 +21546,7 @@ saddam	PER	PER
 
 (	O	O
 
-hussein	PER	PER
+hussein	PER	O
 
 )	O	O
 
@@ -21554,7 +21554,7 @@ hussein	PER	PER
 
 but	O	O
 
-interior	ORG	ORG
+interior	ORG	O
 
 ministry	ORG	O
 
@@ -21870,7 +21870,7 @@ in	O	O
 
 late	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 business	O	O
 
@@ -21888,7 +21888,7 @@ germany	LOC	LOC
 
 -	O	O
 
-bunds	O	PER
+bunds	O	O
 
 extended	O	O
 
@@ -21920,7 +21920,7 @@ u.s.	LOC	LOC
 
 economic	O	O
 
-data	O	O
+data	O	ORG
 
 which	O	O
 
@@ -21960,11 +21960,11 @@ on	O	O
 
 the	O	O
 
-london	ORG	LOC
+london	ORG	ORG
 
 international	ORG	ORG
 
-financial	ORG	O
+financial	ORG	ORG
 
 futures	ORG	O
 
@@ -22058,7 +22058,7 @@ in	O	O
 
 u.s.	ORG	LOC
 
-treasuries	ORG	O
+treasuries	ORG	LOC
 
 after	O	O
 
@@ -22072,7 +22072,7 @@ in	O	O
 
 the	O	O
 
-chicago	MISC	ORG
+chicago	MISC	LOC
 
 pmi	MISC	O
 
@@ -22142,7 +22142,7 @@ future	O	O
 
 on	O	O
 
-liffe	ORG	PER
+liffe	ORG	O
 
 was	O	O
 
@@ -22294,7 +22294,7 @@ drop	O	O
 
 in	O	O
 
-treasuries	ORG	LOC
+treasuries	ORG	ORG
 
 ,	O	O
 
@@ -22330,7 +22330,7 @@ future	O	O
 
 on	O	O
 
-liffe	ORG	PER
+liffe	ORG	O
 
 was	O	O
 
@@ -22372,7 +22372,7 @@ prices	O	O
 
 of	O	O
 
-u.s.	ORG	LOC
+u.s.	ORG	ORG
 
 treasury	ORG	ORG
 
@@ -22422,9 +22422,9 @@ the	O	O
 
 long	O	O
 
-labour	MISC	O
+labour	MISC	MISC
 
-day	MISC	O
+day	MISC	MISC
 
 weekend	O	O
 
@@ -22450,9 +22450,9 @@ the	O	O
 
 chicago	ORG	ORG
 
-board	ORG	O
+board	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
 trade	ORG	O
 
@@ -22552,7 +22552,7 @@ traders	O	O
 
 the	O	O
 
-boj	ORG	ORG
+boj	ORG	O
 
 would	O	O
 
@@ -22640,7 +22640,7 @@ future	O	O
 
 on	O	O
 
-liffe	ORG	PER
+liffe	ORG	O
 
 was	O	O
 
@@ -22712,15 +22712,15 @@ ahead	O	O
 
 of	O	O
 
-monday	O	O
+monday	O	PER
 
 's	O	O
 
-u.s.	LOC	LOC
+u.s.	LOC	ORG
 
 labour	MISC	MISC
 
-day	MISC	O
+day	MISC	MISC
 
 holiday	O	O
 
@@ -22732,7 +22732,7 @@ week	O	O
 
 's	O	O
 
-u.s.	LOC	LOC
+u.s.	LOC	ORG
 
 employment	O	ORG
 
@@ -22744,7 +22744,7 @@ data	O	O
 
 <s>	O	O
 
-nsw	ORG	ORG
+nsw	ORG	PER
 
 treasury	ORG	ORG
 
@@ -22816,7 +22816,7 @@ institution	O	O
 
 <s>	O	O
 
-dnib	ORG	ORG
+dnib	ORG	PER
 
 also	O	O
 
@@ -22886,7 +22886,7 @@ deals	O	O
 
 boxing-bruno	MISC	O
 
-quits	O	O
+quits	O	PER
 
 on	O	O
 
@@ -22970,7 +22970,7 @@ the	O	O
 
 35-year-old	O	O
 
-bruno	PER	PER
+bruno	PER	O
 
 that	O	O
 
@@ -23026,11 +23026,11 @@ world	ORG	O
 
 boxing	ORG	ORG
 
-council	ORG	O
+council	ORG	ORG
 
 (	O	O
 
-wbc	ORG	O
+wbc	ORG	ORG
 
 )	O	O
 
@@ -23040,7 +23040,7 @@ to	O	O
 
 mike	PER	PER
 
-tyson	PER	PER
+tyson	PER	O
 
 in	O	O
 
@@ -23258,7 +23258,7 @@ told	O	O
 
 the	O	O
 
-sun	ORG	ORG
+sun	ORG	O
 
 :	O	O
 
@@ -23396,7 +23396,7 @@ decision	O	O
 
 at	O	O
 
-wembley	LOC	LOC
+wembley	LOC	O
 
 in	O	O
 
@@ -23420,7 +23420,7 @@ the	O	O
 
 third	O	O
 
-briton	MISC	O
+briton	MISC	MISC
 
 ever	O	O
 
@@ -23468,7 +23468,7 @@ fought	O	O
 
 american	MISC	MISC
 
-tyson	PER	O
+tyson	PER	PER
 
 in	O	O
 
@@ -23554,7 +23554,7 @@ soccer	O	O
 
 mccarthy	PER	PER
 
-names	O	MISC
+names	O	O
 
 team	O	O
 
@@ -23680,13 +23680,13 @@ o'neill	PER	PER
 
 of	O	O
 
-norwich	ORG	ORG
+norwich	ORG	LOC
 
 city	ORG	LOC
 
 joins	O	O
 
-niall	PER	PER
+niall	PER	LOC
 
 quinn	PER	O
 
@@ -23736,7 +23736,7 @@ mcateer	PER	O
 
 ,	O	O
 
-harte	PER	O
+harte	PER	PER
 
 ,	O	O
 
@@ -23752,7 +23752,7 @@ townsend	PER	O
 
 ,	O	O
 
-quinn	PER	PER
+quinn	PER	O
 
 ,	O	O
 
@@ -23910,11 +23910,11 @@ the	O	O
 
 news	ORG	O
 
-agency	ORG	O
+agency	ORG	ORG
 
 of	ORG	O
 
-nigeria	ORG	LOC
+nigeria	ORG	ORG
 
 quoted	O	O
 
@@ -23948,7 +23948,7 @@ paid	O	O
 
 3,000	O	O
 
-naira	O	PER
+naira	O	O
 
 (	O	O
 
@@ -23976,9 +23976,9 @@ valued	O	O
 
 at	O	O
 
-300,000	O	O
+300,000	O	PER
 
-naira	O	PER
+naira	O	O
 
 (	O	O
 
@@ -24096,7 +24096,7 @@ naira	O	O
 
 east	ORG	LOC
 
-dries	ORG	O
+dries	ORG	LOC
 
 miners	O	O
 
@@ -24128,7 +24128,7 @@ workers	O	O
 
 at	O	O
 
-driefontein	ORG	O
+driefontein	ORG	ORG
 
 consolidated	ORG	ORG
 
@@ -24138,7 +24138,7 @@ ltd	ORG	ORG
 
 east	O	O
 
-gold	O	O
+gold	O	LOC
 
 mine	O	O
 
@@ -24174,7 +24174,7 @@ of	ORG	O
 
 south	ORG	LOC
 
-africa	ORG	LOC
+africa	ORG	ORG
 
 ltd	ORG	ORG
 
@@ -24198,7 +24198,7 @@ with	O	O
 
 employee	O	O
 
-and	O	ORG
+and	O	O
 
 union	O	ORG
 
@@ -24282,7 +24282,7 @@ at	O	O
 
 driefontein	ORG	O
 
-consolidated	ORG	O
+consolidated	ORG	ORG
 
 and	ORG	O
 
@@ -24318,7 +24318,7 @@ newsroom	O	O
 
 ,	O	O
 
-+27-11	O	PER
++27-11	O	O
 
 482	O	O
 
@@ -24336,7 +24336,7 @@ newsroom	O	O
 
 chad	LOC	LOC
 
-government	O	O
+government	O	ORG
 
 closes	O	O
 
@@ -24372,7 +24372,7 @@ has	O	O
 
 closed	O	O
 
-n'djamena	ORG	ORG
+n'djamena	ORG	O
 
 university	ORG	O
 
@@ -24456,7 +24456,7 @@ in	O	O
 
 the	O	O
 
-rector	O	O
+rector	O	ORG
 
 's	O	O
 
@@ -24514,11 +24514,11 @@ and	O	O
 
 electricity	O	O
 
-of	O	O
+of	O	ORG
 
 the	O	O
 
-university	O	O
+university	O	ORG
 
 offices	O	O
 
@@ -24580,7 +24580,7 @@ students	O	O
 
 '	O	O
 
-union	O	O
+union	O	ORG
 
 said	O	O
 
@@ -24612,7 +24612,7 @@ grants	O	O
 
 <s>	O	O
 
-end-of-year	O	O
+end-of-year	O	PER
 
 examinations	O	O
 
@@ -24748,7 +24748,7 @@ chechnya	LOC	LOC
 
 interfax	ORG	ORG
 
-news	O	ORG
+news	O	O
 
 agency	O	O
 
@@ -24782,11 +24782,11 @@ problems	O	O
 
 "	O	O
 
-interfax	ORG	ORG
+interfax	ORG	PER
 
 quoted	O	O
 
-chernomyrdin	PER	PER
+chernomyrdin	PER	O
 
 as	O	O
 
@@ -24846,7 +24846,7 @@ yesterday	O	O
 
 <s>	O	O
 
-lebed	PER	ORG
+lebed	PER	O
 
 ,	O	O
 
@@ -24956,7 +24956,7 @@ of	O	O
 
 the	O	O
 
-20-month	O	O
+20-month	O	MISC
 
 war	O	O
 
@@ -24980,7 +24980,7 @@ chechnya	LOC	LOC
 
 <s>	O	O
 
-lebed	PER	ORG
+lebed	PER	PER
 
 said	O	O
 
@@ -25064,9 +25064,9 @@ of	O	O
 
 the	O	O
 
-russian	LOC	LOC
+russian	LOC	ORG
 
-federation	LOC	O
+federation	LOC	LOC
 
 ,	O	O
 
@@ -25132,7 +25132,7 @@ integrity	O	O
 
 itar-tass	ORG	ORG
 
-news	O	ORG
+news	O	O
 
 agency	O	O
 
@@ -25196,7 +25196,7 @@ years	O	O
 
 <s>	O	O
 
-lebed	PER	ORG
+lebed	PER	PER
 
 said	O	O
 
@@ -25258,7 +25258,7 @@ call	O	O
 
 <s>	O	O
 
-chernomyrdin	PER	ORG
+chernomyrdin	PER	PER
 
 said	O	O
 
@@ -25328,7 +25328,7 @@ work	O	O
 
 <s>	O	O
 
-lebed	PER	ORG
+lebed	PER	O
 
 ,	O	O
 
@@ -25348,7 +25348,7 @@ deal	O	O
 
 <s>	O	O
 
-khasavyurt	LOC	ORG
+khasavyurt	LOC	LOC
 
 ,	O	O
 
@@ -25462,13 +25462,13 @@ the	O	O
 
 russian	LOC	LOC
 
-federation	LOC	O
+federation	LOC	LOC
 
 and	O	O
 
 the	O	O
 
-chechen	LOC	LOC
+chechen	LOC	MISC
 
 republic	LOC	LOC
 
@@ -25564,7 +25564,7 @@ signing	O	O
 
 <s>	O	O
 
-lebed	PER	ORG
+lebed	PER	PER
 
 said	O	O
 
@@ -25626,7 +25626,7 @@ heads	O	O
 
 ,	O	O
 
-calmly	O	O
+calmly	O	PER
 
 and	O	O
 
@@ -25724,7 +25724,7 @@ troops	O	O
 
 to	O	O
 
-quell	O	O
+quell	O	PER
 
 chechnya	LOC	LOC
 
@@ -25912,9 +25912,9 @@ bosnia	LOC	LOC
 
 ruling	O	O
 
-moslem	MISC	MISC
+moslem	MISC	ORG
 
-nationalist	O	ORG
+nationalist	O	O
 
 party	O	O
 
@@ -25954,7 +25954,7 @@ elections	O	O
 
 ,	O	O
 
-citing	O	O
+citing	O	PER
 
 assurances	O	O
 
@@ -26002,7 +26002,7 @@ secretary	O	O
 
 of	O	O
 
-state	O	O
+state	O	ORG
 
 john	PER	PER
 
@@ -26034,7 +26034,7 @@ president	O	O
 
 alija	PER	PER
 
-izetbegovic	PER	O
+izetbegovic	PER	PER
 
 ,	O	O
 
@@ -26166,11 +26166,11 @@ september	O	O
 
 the	O	O
 
-party	ORG	O
+party	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
-democratic	ORG	MISC
+democratic	ORG	ORG
 
 action	ORG	ORG
 
@@ -26238,15 +26238,15 @@ organisation	ORG	ORG
 
 for	ORG	ORG
 
-security	ORG	O
+security	ORG	ORG
 
 and	ORG	ORG
 
 cooperation	ORG	ORG
 
-in	ORG	O
+in	ORG	ORG
 
-europe	ORG	LOC
+europe	ORG	ORG
 
 (	O	O
 
@@ -26298,7 +26298,7 @@ offices	O	O
 
 the	O	O
 
-sda	ORG	O
+sda	ORG	ORG
 
 ,	O	O
 
@@ -26324,7 +26324,7 @@ that	O	O
 
 osce	ORG	ORG
 
-prohibit	O	O
+prohibit	O	ORG
 
 refugees	O	O
 
@@ -26424,7 +26424,7 @@ main	O	O
 
 airport	O	O
 
-aerodrom	LOC	ORG
+aerodrom	LOC	O
 
 beograd	LOC	ORG
 
@@ -26546,7 +26546,7 @@ director	O	O
 
 ljubomir	PER	PER
 
-acimovic	PER	O
+acimovic	PER	PER
 
 as	O	O
 
@@ -26564,7 +26564,7 @@ airport	O	O
 
 in	O	O
 
-surcin	LOC	O
+surcin	LOC	LOC
 
 will	O	O
 
@@ -26664,7 +26664,7 @@ by	O	O
 
 belgrade	LOC	LOC
 
-airport	O	O
+airport	O	ORG
 
 ,	O	O
 
@@ -26680,7 +26680,7 @@ said	O	O
 
 the	O	O
 
-batajnica	LOC	ORG
+batajnica	LOC	LOC
 
 airport	O	O
 
@@ -26708,11 +26708,11 @@ period	O	O
 
 federal	ORG	O
 
-air	ORG	O
+air	ORG	ORG
 
 traffic	ORG	O
 
-control	ORG	O
+control	ORG	ORG
 
 administration	ORG	O
 
@@ -26734,7 +26734,7 @@ said	O	O
 
 amra	PER	PER
 
-kevic	PER	O
+kevic	PER	PER
 
 ,	O	O
 
@@ -26760,7 +26760,7 @@ newsroom	O	ORG
 
 top	O	O
 
-belarus	LOC	O
+belarus	LOC	LOC
 
 politician	O	O
 
@@ -26774,7 +26774,7 @@ president	O	O
 
 <s>	O	O
 
-larisa	PER	PER
+larisa	PER	LOC
 
 sayenko	PER	O
 
@@ -26782,7 +26782,7 @@ sayenko	PER	O
 
 <s>	O	O
 
-minsk	LOC	ORG
+minsk	LOC	LOC
 
 1996-08-30	O	O
 
@@ -26830,9 +26830,9 @@ the	O	O
 
 former	O	O
 
-soviet	MISC	LOC
+soviet	MISC	MISC
 
-republic	O	O
+republic	O	LOC
 
 .	O	O
 
@@ -26856,7 +26856,7 @@ parliament	O	O
 
 semyon	PER	PER
 
-sharetsky	PER	O
+sharetsky	PER	PER
 
 ,	O	O
 
@@ -26946,7 +26946,7 @@ that	O	O
 
 president	O	O
 
-lukashenko	PER	O
+lukashenko	PER	PER
 
 ,	O	O
 
@@ -27026,13 +27026,13 @@ a	O	O
 
 110-seat	O	O
 
-majority-elected	O	ORG
+majority-elected	O	O
 
-house	O	O
+house	O	ORG
 
-of	O	O
+of	O	ORG
 
-representatives	O	O
+representatives	O	ORG
 
 and	O	O
 
@@ -27068,7 +27068,7 @@ president	O	O
 
 <s>	O	O
 
-lukashenko	PER	O
+lukashenko	PER	PER
 
 's	O	O
 
@@ -27078,7 +27078,7 @@ shrugged	O	O
 
 off	O	O
 
-sharetsky	PER	O
+sharetsky	PER	PER
 
 's	O	O
 
@@ -27130,11 +27130,11 @@ this	O	O
 
 sergei	PER	PER
 
-posukhov	PER	PER
+posukhov	PER	O
 
 ,	O	O
 
-lukashenko	PER	O
+lukashenko	PER	PER
 
 's	O	O
 
@@ -27192,11 +27192,11 @@ aim	O	O
 
 <s>	O	O
 
-lukashenko	PER	O
+lukashenko	PER	PER
 
 ,	O	O
 
-41	O	PER
+41	O	O
 
 ,	O	O
 
@@ -27258,7 +27258,7 @@ the	O	O
 
 soviet	LOC	LOC
 
-union	LOC	O
+union	LOC	LOC
 
 .	O	O
 
@@ -27430,7 +27430,7 @@ referendum	O	O
 
 <s>	O	O
 
-lukashenko	PER	O
+lukashenko	PER	PER
 
 signed	O	O
 
@@ -27518,7 +27518,7 @@ backing	O	O
 
 for	O	O
 
-lukashenko	PER	O
+lukashenko	PER	PER
 
 ,	O	O
 
@@ -27542,7 +27542,7 @@ responded	O	O
 
 by	O	O
 
-cracking	O	O
+cracking	O	PER
 
 down	O	O
 
@@ -27652,7 +27652,7 @@ town	O	O
 
 <s>	O	O
 
-yuri	PER	PER
+yuri	PER	LOC
 
 kushko	PER	O
 
@@ -27660,11 +27660,11 @@ kushko	PER	O
 
 <s>	O	O
 
-tavildara	LOC	ORG
+tavildara	LOC	O
 
 ,	O	O
 
-tajikistan	LOC	PER
+tajikistan	LOC	LOC
 
 1996-08-30	O	O
 
@@ -27694,7 +27694,7 @@ town	O	O
 
 of	O	O
 
-tavildara	LOC	O
+tavildara	LOC	LOC
 
 after	O	O
 
@@ -27726,7 +27726,7 @@ nearby	O	O
 
 pamir	LOC	LOC
 
-mountains	O	O
+mountains	O	LOC
 
 on	O	O
 
@@ -27744,7 +27744,7 @@ commander-in-chief	O	O
 
 of	O	O
 
-tajikistan	LOC	LOC
+tajikistan	LOC	PER
 
 's	O	O
 
@@ -27756,7 +27756,7 @@ forces	O	O
 
 major-general	O	O
 
-nikolai	PER	O
+nikolai	PER	PER
 
 sherbatov	PER	O
 
@@ -27880,7 +27880,7 @@ mountains	O	LOC
 
 <s>	O	O
 
-sherbatov	PER	ORG
+sherbatov	PER	PER
 
 said	O	O
 
@@ -27920,7 +27920,7 @@ village	O	O
 
 of	O	O
 
-layron	LOC	O
+layron	LOC	LOC
 
 .	O	O
 
@@ -27928,7 +27928,7 @@ layron	LOC	O
 
 <s>	O	O
 
-tavildara	LOC	ORG
+tavildara	LOC	O
 
 ,	O	O
 
@@ -27968,7 +27968,7 @@ ruins	O	O
 
 <s>	O	O
 
-shells	O	O
+shells	O	PER
 
 had	O	O
 
@@ -28020,7 +28020,7 @@ government	O	O
 
 and	O	O
 
-rebel-held	O	ORG
+rebel-held	O	LOC
 
 territory	O	O
 
@@ -28112,9 +28112,9 @@ frail	O	O
 
 coalition	O	O
 
-of	O	O
+of	O	ORG
 
-islamic	MISC	ORG
+islamic	MISC	MISC
 
 and	O	O
 
@@ -28324,7 +28324,7 @@ warehouse	O	O
 
 for	O	O
 
-humanitarian	O	ORG
+humanitarian	O	O
 
 aid	O	O
 
@@ -28378,7 +28378,7 @@ said	O	O
 
 rajab	PER	PER
 
-adinayev	PER	O
+adinayev	PER	PER
 
 ,	O	O
 
@@ -28824,7 +28824,7 @@ the	O	O
 
 federal	LOC	O
 
-republic	LOC	O
+republic	LOC	LOC
 
 of	LOC	O
 
@@ -28898,7 +28898,7 @@ ministries	O	O
 
 <s>	O	O
 
-rosati	PER	ORG
+rosati	PER	PER
 
 will	O	O
 
@@ -29026,7 +29026,7 @@ pacts	O	O
 
 on	O	O
 
-avoiding	O	O
+avoiding	O	PER
 
 double	O	O
 
@@ -29066,7 +29066,7 @@ naina	PER	PER
 
 in	O	O
 
-hospital	O	O
+hospital	O	LOC
 
 -	O	O
 
@@ -29100,7 +29100,7 @@ his	O	O
 
 wife	O	O
 
-naina	PER	PER
+naina	PER	O
 
 in	O	O
 
@@ -29116,7 +29116,7 @@ evening	O	O
 
 interfax	ORG	ORG
 
-news	O	ORG
+news	O	O
 
 agency	O	O
 
@@ -29126,7 +29126,7 @@ spokesman	O	O
 
 sergei	PER	PER
 
-yastrzhembsky	PER	O
+yastrzhembsky	PER	PER
 
 as	O	O
 
@@ -29180,7 +29180,7 @@ children	O	O
 
 and	O	O
 
-grandchildren	O	O
+grandchildren	O	PER
 
 had	O	O
 
@@ -29270,7 +29270,7 @@ better	O	O
 
 "	O	O
 
-yastrzhembsky	PER	ORG
+yastrzhembsky	PER	PER
 
 quoted	O	O
 
@@ -29300,9 +29300,9 @@ moscow	LOC	LOC
 
 's	O	O
 
-central	LOC	O
+central	LOC	ORG
 
-clinical	LOC	ORG
+clinical	LOC	LOC
 
 hospital	LOC	LOC
 
@@ -29328,7 +29328,7 @@ year	O	O
 
 for	O	O
 
-heart	O	LOC
+heart	O	O
 
 attacks	O	O
 
@@ -29342,7 +29342,7 @@ yeltsin	PER	PER
 
 ,	O	O
 
-65	O	PER
+65	O	O
 
 ,	O	O
 
@@ -29422,7 +29422,7 @@ again	O	O
 
 <s>	O	O
 
-yastrzhembsky	PER	ORG
+yastrzhembsky	PER	PER
 
 said	O	O
 
@@ -29524,13 +29524,13 @@ moscow	LOC	LOC
 
 <s>	O	O
 
-lebed	PER	ORG
+lebed	PER	O
 
 ,	O	O
 
 chechens	MISC	MISC
 
-start	O	MISC
+start	O	O
 
 peace	O	O
 
@@ -29542,7 +29542,7 @@ talks	O	O
 
 <s>	O	O
 
-khasavyurt	LOC	ORG
+khasavyurt	LOC	LOC
 
 ,	O	O
 
@@ -29616,7 +29616,7 @@ region	O	O
 
 <s>	O	O
 
-lebed	PER	ORG
+lebed	PER	PER
 
 ,	O	O
 
@@ -29762,7 +29762,7 @@ a	O	O
 
 moscow	LOC	LOC
 
-street	O	O
+street	O	LOC
 
 vendor	O	O
 
@@ -29818,7 +29818,7 @@ illegally	O	O
 
 interfax	ORG	ORG
 
-news	O	ORG
+news	O	O
 
 agency	O	O
 
@@ -29830,7 +29830,7 @@ said	O	O
 
 <s>	O	O
 
-interfax	ORG	ORG
+interfax	ORG	PER
 
 said	O	O
 
@@ -29842,7 +29842,7 @@ lavrentyeva	PER	PER
 
 ,	O	O
 
-28	O	PER
+28	O	O
 
 ,	O	O
 
@@ -29880,7 +29880,7 @@ ivankov	PER	O
 
 ,	O	O
 
-41	O	PER
+41	O	O
 
 ,	O	O
 
@@ -29940,7 +29940,7 @@ courtroom	O	O
 
 and	O	O
 
-stabbed	O	O
+stabbed	O	PER
 
 lavrentyeva	PER	O
 
@@ -30026,7 +30026,7 @@ results	O	O
 
 <s>	O	O
 
-emese	PER	ORG
+emese	PER	O
 
 bartha	PER	O
 
@@ -30054,7 +30054,7 @@ packaging	O	O
 
 company	O	O
 
-cofinec	ORG	ORG
+cofinec	ORG	O
 
 s.a.	ORG	ORG
 
@@ -30066,7 +30066,7 @@ on	O	O
 
 the	O	O
 
-budapest	ORG	LOC
+budapest	ORG	ORG
 
 stock	ORG	ORG
 
@@ -30106,7 +30106,7 @@ group	O	O
 
 <s>	O	O
 
-cofinec	ORG	ORG
+cofinec	ORG	PER
 
 's	O	O
 
@@ -30302,7 +30302,7 @@ forecast	O	O
 
 "	O	O
 
-frater	PER	O
+frater	PER	PER
 
 said	O	O
 
@@ -30362,7 +30362,7 @@ year	O	O
 
 <s>	O	O
 
-frater	PER	O
+frater	PER	PER
 
 declined	O	O
 
@@ -30406,7 +30406,7 @@ week	O	O
 
 <s>	O	O
 
-cofinec	ORG	ORG
+cofinec	ORG	O
 
 ,	O	O
 
@@ -30478,9 +30478,9 @@ he	O	O
 
 regarded	O	O
 
-cofinec	ORG	O
+cofinec	ORG	PER
 
-gdrs	O	O
+gdrs	O	PER
 
 --	O	O
 
@@ -30500,7 +30500,7 @@ price	O	O
 
 of	O	O
 
-6,425	O	ORG
+6,425	O	O
 
 forints	O	O
 
@@ -30546,7 +30546,7 @@ opportunity	O	O
 
 "	O	O
 
-frater	PER	O
+frater	PER	PER
 
 said	O	O
 
@@ -30564,7 +30564,7 @@ think	O	O
 
 the	O	O
 
-reality	O	ORG
+reality	O	O
 
 is	O	O
 
@@ -30576,13 +30576,13 @@ operate	O	O
 
 in	O	O
 
-emerging	O	O
+emerging	O	LOC
 
 markets	O	O
 
 ,	O	O
 
-emerging	O	ORG
+emerging	O	O
 
 markets	O	O
 
@@ -30736,7 +30736,7 @@ for	O	O
 
 the	O	O
 
-january-june	O	O
+january-june	O	MISC
 
 1996	O	O
 
@@ -30820,11 +30820,11 @@ units	O	O
 
 <s>	O	O
 
-cofinec	ORG	ORG
+cofinec	ORG	PER
 
 said	O	O
 
-petofi	ORG	ORG
+petofi	ORG	O
 
 general	O	O
 
@@ -30860,13 +30860,13 @@ remain	O	O
 
 on	O	O
 
-petofi	ORG	ORG
+petofi	ORG	PER
 
 's	O	O
 
-board	O	O
+board	O	ORG
 
-of	O	O
+of	O	ORG
 
 directors	O	O
 
@@ -30890,7 +30890,7 @@ manager	O	O
 
 of	O	O
 
-petofi	ORG	ORG
+petofi	ORG	PER
 
 is	O	O
 
@@ -30926,7 +30926,7 @@ petofi	ORG	ORG
 
 printing	O	ORG
 
-house	O	O
+house	O	ORG
 
 )	O	O
 
@@ -30960,7 +30960,7 @@ petofi	ORG	O
 
 "	O	O
 
-frater	PER	O
+frater	PER	PER
 
 said	O	O
 
@@ -31034,15 +31034,15 @@ the	O	O
 
 national	ORG	ORG
 
-bank	ORG	O
+bank	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
-romania	ORG	LOC
+romania	ORG	ORG
 
 (	O	O
 
-bnr	ORG	O
+bnr	ORG	ORG
 
 )	O	O
 
@@ -31296,7 +31296,7 @@ newsroom	ORG	ORG
 
 <s>	O	O
 
-potent	O	O
+potent	O	PER
 
 landmines	O	O
 
@@ -31456,11 +31456,11 @@ on	O	O
 
 the	O	O
 
-ornate	O	O
+ornate	O	MISC
 
-casa	LOC	LOC
+casa	LOC	ORG
 
-de	LOC	ORG
+de	LOC	O
 
 narino	LOC	ORG
 
@@ -31478,7 +31478,7 @@ historic	O	O
 
 downtown	O	LOC
 
-area	O	O
+area	O	LOC
 
 .	O	O
 
@@ -31602,7 +31602,7 @@ explosive	O	O
 
 like	O	O
 
-c-4	O	O
+c-4	O	PER
 
 is	O	O
 
@@ -31650,7 +31650,7 @@ been	O	O
 
 "	O	O
 
-specially	O	PER
+specially	O	O
 
 adapted	O	O
 
@@ -31736,7 +31736,7 @@ dropped	O	O
 
 against	O	O
 
-surinam	LOC	LOC
+surinam	LOC	PER
 
 ex-rebel	O	O
 
@@ -31770,7 +31770,7 @@ leader	O	O
 
 ronny	PER	PER
 
-brunswijk	PER	O
+brunswijk	PER	PER
 
 walked	O	O
 
@@ -31828,7 +31828,7 @@ after	O	O
 
 freddy	PER	PER
 
-pinas	PER	O
+pinas	PER	PER
 
 ,	O	O
 
@@ -31878,7 +31878,7 @@ town	O	O
 
 of	O	O
 
-moengo	LOC	ORG
+moengo	LOC	LOC
 
 56	O	O
 
@@ -31904,11 +31904,11 @@ paramaribo	LOC	LOC
 
 <s>	O	O
 
-brunswijk	PER	ORG
+brunswijk	PER	O
 
 ,	O	O
 
-35	O	PER
+35	O	O
 
 ,	O	O
 
@@ -31936,7 +31936,7 @@ replacing	O	O
 
 a	O	O
 
-golden	O	ORG
+golden	O	O
 
 necklace	O	PER
 
@@ -32026,7 +32026,7 @@ backside	O	O
 
 <s>	O	O
 
-brunswijk	PER	ORG
+brunswijk	PER	PER
 
 ,	O	O
 
@@ -32050,7 +32050,7 @@ regime	O	O
 
 of	O	O
 
-desi	PER	ORG
+desi	PER	PER
 
 bouterse	PER	O
 
@@ -32096,7 +32096,7 @@ interests	O	O
 
 <s>	O	O
 
-cambodian	MISC	O
+cambodian	MISC	MISC
 
 opposition	O	O
 
@@ -32104,7 +32104,7 @@ newspaper	O	O
 
 editor	O	O
 
-pardoned	O	PER
+pardoned	O	O
 
 .	O	O
 
@@ -32184,17 +32184,17 @@ of	O	O
 
 the	O	O
 
-sereipheap	ORG	O
+sereipheap	ORG	ORG
 
 thmei	ORG	O
 
 (	O	O
 
-new	ORG	O
+new	ORG	LOC
 
 liberty	ORG	ORG
 
-)	O	ORG
+)	O	O
 
 newspaper	O	O
 
@@ -32244,7 +32244,7 @@ by	O	O
 
 king	O	O
 
-sihanouk	PER	O
+sihanouk	PER	PER
 
 .	O	O
 
@@ -32256,7 +32256,7 @@ the	O	O
 
 supreme	ORG	ORG
 
-court	ORG	O
+court	ORG	ORG
 
 had	O	O
 
@@ -32280,7 +32280,7 @@ party	ORG	ORG
 
 steering	O	O
 
-committee	O	O
+committee	O	ORG
 
 member	O	O
 
@@ -32300,7 +32300,7 @@ the	O	O
 
 municipal	O	O
 
-and	O	O
+and	O	ORG
 
 appeal	O	O
 
@@ -32362,7 +32362,7 @@ shut	O	O
 
 down	O	O
 
-hen	PER	PER
+hen	PER	ORG
 
 vipheak	PER	PER
 
@@ -32416,7 +32416,7 @@ amnesty	O	O
 
 to	O	O
 
-hen	PER	PER
+hen	PER	O
 
 vipheak	PER	O
 
@@ -32428,7 +32428,7 @@ with	O	O
 
 fellow	O	O
 
-knp	ORG	O
+knp	ORG	ORG
 
 member	O	O
 
@@ -32438,7 +32438,7 @@ journalist	O	O
 
 chan	PER	PER
 
-rattana	PER	O
+rattana	PER	PER
 
 ,	O	O
 
@@ -32486,9 +32486,9 @@ ranariddh	PER	O
 
 and	O	O
 
-hun	PER	O
+hun	PER	PER
 
-sen	PER	O
+sen	PER	LOC
 
 agreed	O	O
 
@@ -32630,7 +32630,7 @@ the	O	O
 
 southeast	MISC	O
 
-asian	MISC	ORG
+asian	MISC	MISC
 
 gold	O	O
 
@@ -32746,7 +32746,7 @@ ounce	O	O
 
 over	O	O
 
-spot	O	O
+spot	O	PER
 
 loco	O	O
 
@@ -32764,7 +32764,7 @@ korean	MISC	MISC
 
 and	O	O
 
-indonesian-origin	MISC	O
+indonesian-origin	MISC	PER
 
 premiums	O	O
 
@@ -33108,11 +33108,11 @@ that	O	O
 
 the	O	O
 
-international	ORG	O
+international	ORG	ORG
 
 monetary	ORG	ORG
 
-fund	ORG	O
+fund	ORG	ORG
 
 might	O	O
 
@@ -33236,7 +33236,7 @@ $	O	O
 
 by	O	O
 
-end-october	O	ORG
+end-october	O	PER
 
 .	O	O
 
@@ -33476,7 +33476,7 @@ celebrations	O	O
 
 <s>	O	O
 
-mona	PER	ORG
+mona	PER	LOC
 
 eltahawy	PER	O
 
@@ -33492,7 +33492,7 @@ tripoli	LOC	LOC
 
 <s>	O	O
 
-libyans	MISC	O
+libyans	MISC	PER
 
 are	O	O
 
@@ -33546,7 +33546,7 @@ power	O	O
 
 <s>	O	O
 
-green	O	O
+green	O	PER
 
 flags	O	O
 
@@ -33614,7 +33614,7 @@ with	O	O
 
 the	O	O
 
-1988	O	ORG
+1988	O	O
 
 bombing	O	O
 
@@ -33622,15 +33622,15 @@ of	O	O
 
 a	O	O
 
-pan	ORG	O
+pan	ORG	LOC
 
-am	ORG	LOC
+am	ORG	O
 
 flight	O	O
 
 over	O	O
 
-lockerbie	LOC	O
+lockerbie	LOC	LOC
 
 ,	O	O
 
@@ -33726,7 +33726,7 @@ at	O	O
 
 the	O	O
 
-city	O	O
+city	O	LOC
 
 's	O	O
 
@@ -33764,7 +33764,7 @@ leaders	O	O
 
 from	O	O
 
-niger	LOC	O
+niger	LOC	PER
 
 ,	O	O
 
@@ -33806,7 +33806,7 @@ group	O	O
 
 of	O	O
 
-young	O	ORG
+young	O	O
 
 army	O	O
 
@@ -33894,7 +33894,7 @@ and	O	O
 
 given	O	O
 
-us	O	O
+us	O	LOC
 
 capabilites	O	O
 
@@ -33904,13 +33904,13 @@ capabilites	O	O
 
 samer	PER	O
 
-ammar	PER	O
+ammar	PER	PER
 
 soliman	PER	O
 
 ,	O	O
 
-42	O	PER
+42	O	O
 
 ,	O	O
 
@@ -34002,7 +34002,7 @@ opponents	O	O
 
 said	O	O
 
-gaddafi	PER	O
+gaddafi	PER	PER
 
 's	O	O
 
@@ -34036,7 +34036,7 @@ region	O	O
 
 <s>	O	O
 
-travellers	O	O
+travellers	O	PER
 
 arriving	O	O
 
@@ -34100,7 +34100,7 @@ loyal	O	O
 
 to	O	O
 
-gaddafi	PER	O
+gaddafi	PER	PER
 
 's	O	O
 
@@ -34136,7 +34136,7 @@ slogans	O	O
 
 <s>	O	O
 
-gaddafi	PER	O
+gaddafi	PER	PER
 
 has	O	O
 
@@ -34192,13 +34192,13 @@ workers	O	O
 
 twilight	O	LOC
 
-zone	O	O
+zone	O	ORG
 
 for	O	O
 
 wall	LOC	LOC
 
-street	LOC	O
+street	LOC	LOC
 
 as	O	O
 
@@ -34216,7 +34216,7 @@ up	O	O
 
 <s>	O	O
 
-pierre	PER	PER
+pierre	PER	LOC
 
 belec	PER	O
 
@@ -34570,7 +34570,7 @@ officer	O	O
 
 at	O	O
 
-first	ORG	O
+first	ORG	ORG
 
 albany	ORG	O
 
@@ -34732,7 +34732,7 @@ by	O	O
 
 portfolio	O	O
 
-managers	O	LOC
+managers	O	PER
 
 ,	O	O
 
@@ -34766,7 +34766,7 @@ the	O	O
 
 portfolio	O	O
 
-managers	O	O
+managers	O	ORG
 
 to	O	O
 
@@ -34796,7 +34796,7 @@ the	O	O
 
 market	O	O
 
-weighed	O	O
+weighed	O	ORG
 
 dole	PER	PER
 
@@ -34946,7 +34946,7 @@ the	O	O
 
 white	LOC	LOC
 
-house	LOC	O
+house	LOC	LOC
 
 said	O	O
 
@@ -35124,13 +35124,13 @@ at	O	O
 
 the	O	O
 
-consulting	O	O
+consulting	O	ORG
 
 firm	O	O
 
-north	ORG	ORG
+north	ORG	O
 
-american	ORG	MISC
+american	ORG	ORG
 
 equity	ORG	O
 
@@ -35208,7 +35208,7 @@ the	O	O
 
 white	LOC	LOC
 
-house	LOC	O
+house	LOC	LOC
 
 in	O	O
 
@@ -35254,7 +35254,7 @@ president	O	O
 
 in	O	O
 
-1988	O	O
+1988	O	PER
 
 on	O	O
 
@@ -35328,7 +35328,7 @@ convince	O	O
 
 wall	LOC	LOC
 
-street	LOC	O
+street	LOC	LOC
 
 that	O	O
 
@@ -35608,7 +35608,7 @@ back	O	O
 
 and	O	O
 
-forth	O	LOC
+forth	O	PER
 
 in	O	O
 
@@ -35696,7 +35696,7 @@ polls	O	O
 
 <s>	O	O
 
-geraghty	PER	ORG
+geraghty	PER	PER
 
 said	O	O
 
@@ -35828,7 +35828,7 @@ chaos	O	O
 
 "	O	O
 
-geraghty	PER	O
+geraghty	PER	PER
 
 said	O	O
 
@@ -35980,7 +35980,7 @@ market	O	O
 
 "	O	O
 
-geraghty	PER	O
+geraghty	PER	PER
 
 said	O	O
 
@@ -36104,7 +36104,7 @@ standard	ORG	ORG
 
 &	ORG	ORG
 
-poor	ORG	ORG
+poor	ORG	O
 
 's	O	O
 
@@ -36156,7 +36156,7 @@ stock	ORG	ORG
 
 exchange	ORG	ORG
 
-index	O	O
+index	O	MISC
 
 was	O	O
 
@@ -36442,7 +36442,7 @@ from	O	O
 
 chicago	LOC	LOC
 
-area	O	O
+area	O	ORG
 
 purchasing	O	O
 
@@ -36508,7 +36508,7 @@ reading	O	O
 
 above	O	O
 
-50	O	PER
+50	O	O
 
 indicates	O	O
 
@@ -36538,7 +36538,7 @@ at	O	O
 
 midwest	LOC	LOC
 
-area	O	O
+area	O	LOC
 
 businesses	O	O
 
@@ -36654,7 +36654,7 @@ federal	ORG	O
 
 reserve	ORG	O
 
-policy-makers	O	O
+policy-makers	O	ORG
 
 had	O	O
 
@@ -36720,9 +36720,9 @@ point	O	O
 
 said	O	O
 
-economist	O	O
+economist	O	PER
 
-lynn	PER	O
+lynn	PER	PER
 
 reaser	PER	O
 
@@ -36730,7 +36730,7 @@ of	O	O
 
 barnett	ORG	LOC
 
-banks	ORG	O
+banks	ORG	ORG
 
 inc.	ORG	ORG
 
@@ -36760,7 +36760,7 @@ on	O	O
 
 wall	LOC	LOC
 
-street	LOC	O
+street	LOC	LOC
 
 that	O	O
 
@@ -36840,7 +36840,7 @@ running	O	O
 
 the	O	O
 
-30-year	O	O
+30-year	O	ORG
 
 treasury	ORG	ORG
 
@@ -37178,11 +37178,11 @@ flat	O	O
 
 <s>	O	O
 
-economist	O	O
+economist	O	PER
 
 joel	PER	PER
 
-naroff	PER	O
+naroff	PER	PER
 
 of	O	O
 
@@ -37352,7 +37352,7 @@ the	O	O
 
 policy-making	O	O
 
-fomc	ORG	PER
+fomc	ORG	O
 
 is	O	O
 
@@ -37376,7 +37376,7 @@ to	O	O
 
 plot	O	O
 
-interest-rate	O	ORG
+interest-rate	O	O
 
 strategy	O	O
 
@@ -37468,9 +37468,9 @@ friday	O	O
 
 ,	O	O
 
-federal	ORG	ORG
+federal	ORG	O
 
-reserve	ORG	O
+reserve	ORG	ORG
 
 governor	O	O
 
@@ -37550,7 +37550,7 @@ side	O	O
 
 "	O	O
 
-lindsey	PER	O
+lindsey	PER	PER
 
 said	O	O
 
@@ -37662,9 +37662,9 @@ confident	O	O
 
 the	O	O
 
-university	ORG	O
+university	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
 michigan	ORG	LOC
 
@@ -37718,7 +37718,7 @@ july	O	O
 
 <s>	O	O
 
-reaser	PER	ORG
+reaser	PER	PER
 
 said	O	O
 
@@ -37824,7 +37824,7 @@ to	O	O
 
 keep	O	O
 
-expanding	O	O
+expanding	O	LOC
 
 in	O	O
 
@@ -37988,7 +37988,7 @@ orders	O	O
 
 for	O	O
 
-nondurables	O	ORG
+nondurables	O	O
 
 jumped	O	O
 
@@ -38024,7 +38024,7 @@ june	O	O
 
 mexican	MISC	MISC
 
-avocados	O	O
+avocados	O	PER
 
 not	O	O
 
@@ -38040,7 +38040,7 @@ u.s	LOC	LOC
 
 <s>	O	O
 
-maggie	PER	PER
+maggie	PER	O
 
 mcneil	PER	O
 
@@ -38056,11 +38056,11 @@ washington	LOC	LOC
 
 <s>	O	O
 
-u.s.	ORG	LOC
+u.s.	ORG	ORG
 
 agriculture	ORG	ORG
 
-department	ORG	O
+department	ORG	ORG
 
 officials	O	O
 
@@ -38070,7 +38070,7 @@ friday	O	O
 
 that	O	O
 
-mexican	MISC	ORG
+mexican	MISC	MISC
 
 avocados	O	O
 
@@ -38148,11 +38148,11 @@ opportunity	O	O
 
 to	O	O
 
-import	O	O
+import	O	PER
 
 (	O	O
 
-mexican	MISC	MISC
+mexican	MISC	LOC
 
 avocados	O	O
 
@@ -38244,7 +38244,7 @@ immediately	O	O
 
 said	O	O
 
-drazek	PER	O
+drazek	PER	PER
 
 .	O	O
 
@@ -38364,7 +38364,7 @@ opened	O	O
 
 into	O	O
 
-19	O	ORG
+19	O	O
 
 northern	O	O
 
@@ -38410,7 +38410,7 @@ u.s.	LOC	LOC
 
 avocado	O	O
 
-growers	O	O
+growers	O	PER
 
 ,	O	O
 
@@ -38432,7 +38432,7 @@ california	LOC	LOC
 
 <s>	O	O
 
-california	LOC	ORG
+california	LOC	LOC
 
 growers	O	O
 
@@ -38554,7 +38554,7 @@ international	O	O
 
 trading	O	O
 
-rules	O	O
+rules	O	MISC
 
 of	O	O
 
@@ -38562,7 +38562,7 @@ the	O	O
 
 world	ORG	O
 
-trade	ORG	O
+trade	ORG	ORG
 
 organisation	ORG	ORG
 
@@ -38680,7 +38680,7 @@ country	O	O
 
 main	O	O
 
-avocado	O	O
+avocado	O	MISC
 
 area	O	O
 
@@ -38700,7 +38700,7 @@ allowed	O	O
 
 mexican	MISC	MISC
 
-growers	O	O
+growers	O	PER
 
 and	O	O
 
@@ -38732,7 +38732,7 @@ and	O	O
 
 u.s.	LOC	LOC
 
-agriculture	O	O
+agriculture	O	ORG
 
 agencies	O	O
 
@@ -38748,7 +38748,7 @@ california	ORG	ORG
 
 avocado	ORG	ORG
 
-commission	ORG	O
+commission	ORG	ORG
 
 --	O	O
 
@@ -38774,7 +38774,7 @@ ban	O	O
 
 said	O	O
 
-new	O	O
+new	O	ORG
 
 data	O	O
 
@@ -38912,7 +38912,7 @@ u.s.	LOC	LOC
 
 avocado	O	O
 
-industry	O	O
+industry	O	ORG
 
 sources	O	O
 
@@ -39238,7 +39238,7 @@ roman	MISC	MISC
 
 catholic	MISC	MISC
 
-archdiocese	O	O
+archdiocese	O	LOC
 
 ,	O	O
 
@@ -39290,11 +39290,11 @@ live	O	O
 
 <s>	O	O
 
-bernardin	PER	O
+bernardin	PER	PER
 
 ,	O	O
 
-68	O	PER
+68	O	O
 
 ,	O	O
 
@@ -39794,7 +39794,7 @@ disease	O	O
 
 although	O	O
 
-bernardin	PER	O
+bernardin	PER	PER
 
 's	O	O
 
@@ -39812,7 +39812,7 @@ early	O	O
 
 <s>	O	O
 
-surgeons	O	O
+surgeons	O	PER
 
 removed	O	O
 
@@ -39844,7 +39844,7 @@ intestine	O	O
 
 ,	O	O
 
-bile	O	O
+bile	O	PER
 
 duct	O	O
 
@@ -40016,7 +40016,7 @@ an	O	O
 
 italian	MISC	MISC
 
-stonecutter	O	PER
+stonecutter	O	O
 
 took	O	O
 
@@ -40024,7 +40024,7 @@ over	O	O
 
 the	O	O
 
-chicago	LOC	ORG
+chicago	LOC	LOC
 
 archdiocese	O	O
 
@@ -40070,7 +40070,7 @@ ironically	O	O
 
 ,	O	O
 
-bernardin	PER	O
+bernardin	PER	PER
 
 ,	O	O
 
@@ -40154,7 +40154,7 @@ abused	O	O
 
 by	O	O
 
-bernardin	PER	O
+bernardin	PER	PER
 
 during	O	O
 
@@ -40220,7 +40220,7 @@ died	O	O
 
 from	O	O
 
-aids	MISC	LOC
+aids	MISC	PER
 
 last	O	O
 
@@ -40232,7 +40232,7 @@ year	O	O
 
 <s>	O	O
 
-bernardin	PER	O
+bernardin	PER	PER
 
 ,	O	O
 
@@ -40300,7 +40300,7 @@ of	O	O
 
 the	O	O
 
-bishops	O	O
+bishops	O	ORG
 
 .	O	O
 
@@ -40426,7 +40426,7 @@ policy	O	O
 
 describing	O	O
 
-human	O	ORG
+human	O	O
 
 life	O	O
 
@@ -40454,7 +40454,7 @@ garment	O	O
 
 <s>	O	O
 
-boatmen	ORG	O
+boatmen	ORG	PER
 
 's	ORG	O
 
@@ -40504,7 +40504,7 @@ acquisition	O	O
 
 of	O	O
 
-boatmen	ORG	O
+boatmen	ORG	ORG
 
 's	ORG	O
 
@@ -40616,7 +40616,7 @@ ancell	PER	PER
 
 banking	O	O
 
-industry	O	O
+industry	O	ORG
 
 analyst	O	O
 
@@ -40626,7 +40626,7 @@ edward	ORG	PER
 
 d.	ORG	PER
 
-jones	ORG	PER
+jones	ORG	ORG
 
 &	ORG	ORG
 
@@ -40688,9 +40688,9 @@ st.	MISC	LOC
 
 louis-based	MISC	O
 
-mercantile	ORG	O
+mercantile	ORG	ORG
 
-bancorp	ORG	ORG
+bancorp	ORG	PER
 
 inc.	ORG	ORG
 
@@ -40698,7 +40698,7 @@ inc.	ORG	ORG
 
 a	O	O
 
-bank	O	O
+bank	O	ORG
 
 holding	O	ORG
 
@@ -40738,7 +40738,7 @@ attractive	O	O
 
 missouri	LOC	LOC
 
-franchise	O	ORG
+franchise	O	O
 
 in	O	O
 
@@ -40746,7 +40746,7 @@ size	O	O
 
 after	O	O
 
-boatmen	ORG	O
+boatmen	ORG	PER
 
 's	ORG	O
 
@@ -40756,7 +40756,7 @@ boatmen	ORG	O
 
 <s>	O	O
 
-kansas	LOC	ORG
+kansas	LOC	LOC
 
 city	LOC	LOC
 
@@ -40838,7 +40838,7 @@ attention	O	O
 
 on	O	O
 
-mercantile	ORG	O
+mercantile	ORG	ORG
 
 ,	O	O
 
@@ -40904,7 +40904,7 @@ asset-st	MISC	O
 
 <s>	O	O
 
-louis	MISC	LOC
+louis	MISC	ORG
 
 based	O	O
 
@@ -40942,7 +40942,7 @@ mercantile	ORG	O
 
 "	O	O
 
-weber	PER	O
+weber	PER	PER
 
 said	O	O
 
@@ -40952,7 +40952,7 @@ said	O	O
 
 <s>	O	O
 
-mercantile	ORG	O
+mercantile	ORG	LOC
 
 and	O	O
 
@@ -41004,9 +41004,9 @@ are	O	O
 
 minneapolis-based	MISC	O
 
-first	ORG	ORG
+first	ORG	O
 
-bank	ORG	O
+bank	ORG	ORG
 
 system	ORG	ORG
 
@@ -41026,7 +41026,7 @@ keycorp	ORG	O
 
 and	O	O
 
-banc	ORG	O
+banc	ORG	ORG
 
 one	ORG	O
 
@@ -41040,7 +41040,7 @@ first	ORG	O
 
 chicago	ORG	ORG
 
-nbd	ORG	O
+nbd	ORG	ORG
 
 corp.	ORG	ORG
 
@@ -41058,17 +41058,17 @@ representatives	O	O
 
 of	O	O
 
-first	ORG	O
+first	ORG	ORG
 
 bank	ORG	O
 
 ,	O	O
 
-norwest	ORG	O
+norwest	ORG	ORG
 
 ,	O	O
 
-banc	ORG	O
+banc	ORG	PER
 
 one	ORG	O
 
@@ -41076,7 +41076,7 @@ and	O	O
 
 first	ORG	O
 
-chicago	ORG	ORG
+chicago	ORG	LOC
 
 said	O	O
 
@@ -41110,7 +41110,7 @@ acquisitions	O	O
 
 <s>	O	O
 
-keycorp	ORG	ORG
+keycorp	ORG	O
 
 ,	O	O
 
@@ -41164,7 +41164,7 @@ assets	O	O
 
 <s>	O	O
 
-boatmen	ORG	O
+boatmen	ORG	PER
 
 's	ORG	O
 
@@ -41188,7 +41188,7 @@ to	O	O
 
 outside	O	O
 
-acquirers	O	PER
+acquirers	O	O
 
 were	O	O
 
@@ -41218,7 +41218,7 @@ statute	O	O
 
 "	O	O
 
-boatmen	ORG	O
+boatmen	ORG	PER
 
 's	ORG	O
 
@@ -41228,7 +41228,7 @@ the	O	O
 
 plum	O	ORG
 
-of	O	O
+of	O	ORG
 
 missouri	LOC	LOC
 
@@ -41238,7 +41238,7 @@ was	O	O
 
 the	O	O
 
-plum	O	ORG
+plum	O	O
 
 of	O	O
 
@@ -41252,7 +41252,7 @@ midwest	LOC	LOC
 
 "	O	O
 
-weber	PER	O
+weber	PER	PER
 
 said	O	O
 
@@ -41372,7 +41372,7 @@ i	O	O
 
 think	O	O
 
-boatmen	ORG	O
+boatmen	ORG	PER
 
 's	ORG	O
 
@@ -41506,7 +41506,7 @@ bid	O	O
 
 for	O	O
 
-boatmen	ORG	ORG
+boatmen	ORG	PER
 
 's	ORG	O
 
@@ -41548,7 +41548,7 @@ wild	O	O
 
 premium	O	O
 
-nationsbank	ORG	PER
+nationsbank	ORG	O
 
 put	O	O
 
@@ -41630,7 +41630,7 @@ tight-lipped	O	O
 
 on	O	O
 
-libya	LOC	LOC
+libya	LOC	ORG
 
 's	O	O
 
@@ -41656,9 +41656,9 @@ washington	LOC	LOC
 
 the	O	O
 
-state	ORG	O
+state	ORG	ORG
 
-department	ORG	O
+department	ORG	ORG
 
 refused	O	O
 
@@ -41688,7 +41688,7 @@ of	O	O
 
 louis	PER	LOC
 
-farrakhan	PER	O
+farrakhan	PER	PER
 
 ,	O	O
 
@@ -41696,7 +41696,7 @@ the	O	O
 
 u.s.	LOC	LOC
 
-black	O	O
+black	O	MISC
 
 leader	O	O
 
@@ -41766,7 +41766,7 @@ case	O	O
 
 "	O	O
 
-state	ORG	O
+state	ORG	ORG
 
 department	ORG	ORG
 
@@ -41804,7 +41804,7 @@ on	O	O
 
 (	O	O
 
-farrakhan	PER	O
+farrakhan	PER	LOC
 
 's	O	O
 
@@ -41886,7 +41886,7 @@ elaborate	O	O
 
 the	O	O
 
-u.s.	ORG	LOC
+u.s.	ORG	ORG
 
 treasury	ORG	ORG
 
@@ -41898,7 +41898,7 @@ wednesday	O	O
 
 denied	O	O
 
-farrakhan	PER	O
+farrakhan	PER	PER
 
 's	O	O
 
@@ -41934,7 +41934,7 @@ leader	O	O
 
 muammar	PER	PER
 
-gaddafi	PER	O
+gaddafi	PER	PER
 
 had	O	O
 
@@ -41942,13 +41942,13 @@ pledged	O	O
 
 to	O	O
 
-farrakhan	PER	O
+farrakhan	PER	PER
 
 's	O	O
 
 nation	ORG	O
 
-of	ORG	O
+of	ORG	MISC
 
 islam	ORG	MISC
 
@@ -42054,7 +42054,7 @@ noted	O	O
 
 that	O	O
 
-tripoli	LOC	LOC
+tripoli	LOC	PER
 
 has	O	O
 
@@ -42076,7 +42076,7 @@ in	O	O
 
 the	O	O
 
-1988	O	ORG
+1988	O	O
 
 bombing	O	O
 
@@ -42084,7 +42084,7 @@ of	O	O
 
 pan	MISC	ORG
 
-am	MISC	LOC
+am	MISC	ORG
 
 flight	MISC	O
 
@@ -42092,7 +42092,7 @@ flight	MISC	O
 
 over	O	O
 
-lockerbie	LOC	O
+lockerbie	LOC	LOC
 
 ,	O	O
 
@@ -42142,7 +42142,7 @@ u.s.	LOC	LOC
 
 gulf	LOC	LOC
 
-rig	O	LOC
+rig	O	O
 
 down	O	O
 
@@ -42220,7 +42220,7 @@ week	O	O
 
 offshore	ORG	O
 
-data	ORG	O
+data	ORG	ORG
 
 services	ORG	O
 
@@ -42296,7 +42296,7 @@ european	MISC	MISC
 
 /	O	O
 
-mediterranean	MISC	LOC
+mediterranean	MISC	MISC
 
 remained	O	O
 
@@ -42356,7 +42356,7 @@ the	O	O
 
 worldwide	O	O
 
-rig	O	O
+rig	O	MISC
 
 count	O	O
 
@@ -42412,7 +42412,7 @@ york	ORG	LOC
 
 energy	ORG	ORG
 
-desk	ORG	ORG
+desk	ORG	O
 
 212-859-1620	O	O
 
@@ -42452,7 +42452,7 @@ irvine	LOC	LOC
 
 ,	O	O
 
-calif	LOC	PER
+calif	LOC	O
 
 1996-08-30	O	O
 
@@ -42542,7 +42542,7 @@ debates	O	O
 
 the	O	O
 
-dole	PER	ORG
+dole	PER	PER
 
 campaign	O	O
 
@@ -42710,11 +42710,11 @@ sept	O	O
 
 <s>	O	O
 
-25	O	ORG
+25	O	O
 
 ,	O	O
 
-oct.	O	O
+oct.	O	PER
 
 9	O	O
 
@@ -42768,7 +42768,7 @@ gov	O	O
 
 <s>	O	O
 
-carroll	PER	O
+carroll	PER	PER
 
 campbell	PER	PER
 
@@ -42850,7 +42850,7 @@ perot	PER	PER
 
 the	O	O
 
-reform	ORG	O
+reform	ORG	ORG
 
 party	ORG	O
 
@@ -42886,7 +42886,7 @@ by	O	O
 
 the	O	O
 
-commission	ORG	O
+commission	ORG	ORG
 
 on	ORG	O
 
@@ -43050,11 +43050,11 @@ of	O	O
 
 the	O	O
 
-titanic	MISC	O
+titanic	MISC	ORG
 
 's	O	O
 
-steel	O	O
+steel	O	ORG
 
 hull	O	ORG
 
@@ -43070,7 +43070,7 @@ attached	O	O
 
 by	O	O
 
-cables	O	O
+cables	O	PER
 
 to	O	O
 
@@ -43088,7 +43088,7 @@ coast	O	O
 
 of	O	O
 
-newfoundland	LOC	O
+newfoundland	LOC	LOC
 
 ,	O	O
 
@@ -43116,13 +43116,13 @@ sea	O	O
 
 said	O	O
 
-erin	PER	O
+erin	PER	PER
 
 purcell	PER	O
 
 of	O	O
 
-boston-based	MISC	MISC
+boston-based	MISC	ORG
 
 reagan	ORG	ORG
 
@@ -43146,7 +43146,7 @@ in	O	O
 
 the	O	O
 
-expedition	O	O
+expedition	O	ORG
 
 .	O	O
 
@@ -43160,7 +43160,7 @@ piece	O	O
 
 of	O	O
 
-hull	O	LOC
+hull	O	ORG
 
 ,	O	O
 
@@ -43170,7 +43170,7 @@ from	O	O
 
 the	O	O
 
-ocean	O	LOC
+ocean	O	O
 
 floor	O	O
 
@@ -43282,7 +43282,7 @@ burst	O	O
 
 and	O	O
 
-cables	O	O
+cables	O	PER
 
 snapped	O	O
 
@@ -43330,7 +43330,7 @@ april	O	O
 
 ,	O	O
 
-1912	O	PER
+1912	O	O
 
 ,	O	O
 
@@ -43408,7 +43408,7 @@ the	O	O
 
 recovery	O	O
 
-expedition	O	O
+expedition	O	MISC
 
 on	O	O
 
@@ -43452,7 +43452,7 @@ said	O	O
 
 bonn	LOC	LOC
 
-appeals	O	ORG
+appeals	O	O
 
 for	O	O
 
@@ -43568,7 +43568,7 @@ of	O	O
 
 an	O	O
 
-arab	MISC	LOC
+arab	MISC	MISC
 
 community	O	O
 
@@ -43726,7 +43726,7 @@ german	MISC	MISC
 
 foreign	ORG	O
 
-ministry	ORG	O
+ministry	ORG	ORG
 
 spokesman	O	O
 
@@ -43850,7 +43850,7 @@ supported	O	O
 
 european	ORG	ORG
 
-union	ORG	ORG
+union	ORG	O
 
 efforts	O	O
 
@@ -43938,7 +43938,7 @@ month	O	O
 
 the	O	O
 
-ministry	O	O
+ministry	O	ORG
 
 said	O	O
 
@@ -43946,7 +43946,7 @@ levy	PER	PER
 
 and	O	O
 
-kinkel	PER	ORG
+kinkel	PER	O
 
 would	O	O
 
@@ -43962,7 +43962,7 @@ process	O	O
 
 and	O	O
 
-german-israeli	MISC	ORG
+german-israeli	MISC	O
 
 relations	O	O
 
@@ -44088,9 +44088,9 @@ to	O	O
 
 the	O	O
 
-defence	O	O
+defence	O	ORG
 
-ministry	O	O
+ministry	O	ORG
 
 said	O	O
 
@@ -44100,7 +44100,7 @@ said	O	O
 
 <s>	O	O
 
-ruehe	PER	ORG
+ruehe	PER	LOC
 
 planned	O	O
 
@@ -44126,7 +44126,7 @@ president	O	O
 
 ezer	PER	PER
 
-weizman	PER	O
+weizman	PER	PER
 
 ,	O	O
 
@@ -44194,9 +44194,9 @@ african	MISC	MISC
 
 ,	O	O
 
-air	ORG	O
+air	ORG	ORG
 
-france	ORG	LOC
+france	ORG	MISC
 
 unions	O	O
 
@@ -44254,11 +44254,11 @@ about	O	O
 
 100	O	O
 
-air	ORG	O
+air	ORG	ORG
 
 france	ORG	LOC
 
-workers	O	O
+workers	O	ORG
 
 denounced	O	O
 
@@ -44310,9 +44310,9 @@ in	O	O
 
 the	O	O
 
-saint-bernard	LOC	ORG
+saint-bernard	LOC	LOC
 
-church	O	O
+church	O	LOC
 
 a	O	O
 
@@ -44340,7 +44340,7 @@ flight	O	O
 
 to	O	O
 
-conakry	LOC	O
+conakry	LOC	LOC
 
 after	O	O
 
@@ -44358,13 +44358,13 @@ spokesman	O	O
 
 for	O	O
 
-air	ORG	O
+air	ORG	ORG
 
 france	ORG	LOC
 
 's	O	O
 
-pro-socialist	O	O
+pro-socialist	O	ORG
 
 cfdt	ORG	ORG
 
@@ -44496,7 +44496,7 @@ marched	O	O
 
 outside	O	O
 
-air	ORG	O
+air	ORG	ORG
 
 france	ORG	LOC
 
@@ -44504,9 +44504,9 @@ headquarters	O	O
 
 at	O	O
 
-charles	LOC	LOC
+charles	LOC	PER
 
-de	LOC	PER
+de	LOC	LOC
 
 gaulle	LOC	LOC
 
@@ -44566,7 +44566,7 @@ from	O	O
 
 (	O	O
 
-air	ORG	O
+air	ORG	ORG
 
 france	ORG	LOC
 
@@ -44574,7 +44574,7 @@ chairman	O	O
 
 )	O	O
 
-christian	PER	ORG
+christian	PER	MISC
 
 blanc	PER	O
 
@@ -44610,13 +44610,13 @@ charters	O	O
 
 of	O	O
 
-shame	O	LOC
+shame	O	O
 
 ,	O	O
 
 "	O	O
 
-cfdt	ORG	O
+cfdt	ORG	PER
 
 spokesman	O	O
 
@@ -44654,7 +44654,7 @@ accomplices	O	O
 
 <s>	O	O
 
-twenty-three	O	O
+twenty-three	O	PER
 
 out	O	O
 
@@ -44944,7 +44944,7 @@ nichterwitz	PER	PER
 
 's	O	O
 
-aunt	O	PER
+aunt	O	O
 
 and	O	O
 
@@ -44952,7 +44952,7 @@ a	O	O
 
 male	O	O
 
-companion	O	O
+companion	O	PER
 
 abducted	O	O
 
@@ -45002,7 +45002,7 @@ school	O	O
 
 in	O	O
 
-velten	LOC	O
+velten	LOC	LOC
 
 near	O	O
 
@@ -45138,7 +45138,7 @@ campsite	O	O
 
 <s>	O	O
 
-groningen	LOC	ORG
+groningen	LOC	LOC
 
 ,	O	O
 
@@ -45194,7 +45194,7 @@ city	O	O
 
 of	O	O
 
-groningen	LOC	ORG
+groningen	LOC	LOC
 
 and	O	O
 
@@ -45242,13 +45242,13 @@ campsite	O	O
 
 in	O	O
 
-groningen	LOC	O
+groningen	LOC	ORG
 
 thanks	O	O
 
 to	O	O
 
-tipoffs	O	O
+tipoffs	O	PER
 
 from	O	O
 
@@ -45282,7 +45282,7 @@ aunt	O	PER
 
 and	O	O
 
-companion	O	ORG
+companion	O	PER
 
 ,	O	O
 
@@ -45300,9 +45300,9 @@ the	O	O
 
 dutch	MISC	MISC
 
-criminal	O	O
+criminal	O	ORG
 
-investigation	O	ORG
+investigation	O	O
 
 service	O	ORG
 
@@ -45406,7 +45406,7 @@ school	O	O
 
 in	O	O
 
-velten	LOC	O
+velten	LOC	LOC
 
 near	O	O
 
@@ -45434,7 +45434,7 @@ aunt	O	PER
 
 ,	O	O
 
-47	O	PER
+47	O	O
 
 ,	O	O
 
@@ -45444,7 +45444,7 @@ companion	O	ORG
 
 ,	O	O
 
-28	O	PER
+28	O	O
 
 ,	O	O
 
@@ -45782,7 +45782,7 @@ fell	O	O
 
 by	O	O
 
-150	O	ORG
+150	O	O
 
 rupees	O	O
 
@@ -45828,7 +45828,7 @@ prices	O	O
 
 <s>	O	O
 
-nickel	O	ORG
+nickel	O	O
 
 rose	O	O
 
@@ -45910,7 +45910,7 @@ rupees	O	O
 
 <s>	O	O
 
-aluminium	O	O
+aluminium	O	LOC
 
 was	O	O
 
@@ -45948,7 +45948,7 @@ commodities	ORG	ORG
 
 <s>	O	O
 
-martela	ORG	ORG
+martela	ORG	O
 
 h1	O	O
 
@@ -46016,7 +46016,7 @@ profit	O	O
 
 before	O	O
 
-extraordinaries	O	PER
+extraordinaries	O	O
 
 ,	O	O
 
@@ -46116,7 +46116,7 @@ toronto	LOC	LOC
 
 canadian	MISC	MISC
 
-bonds	O	O
+bonds	O	PER
 
 opened	O	O
 
@@ -46198,7 +46198,7 @@ supportive	O	O
 
 of	O	O
 
-narrower	O	O
+narrower	O	PER
 
 spreads	O	O
 
@@ -46230,7 +46230,7 @@ director	O	O
 
 of	O	O
 
-fixed-income	O	ORG
+fixed-income	O	O
 
 research	O	O
 
@@ -46324,7 +46324,7 @@ benchmark	O	O
 
 bonds	O	O
 
-narrowed	O	PER
+narrowed	O	O
 
 77	O	O
 
@@ -46524,7 +46524,7 @@ for	O	O
 
 canadian	MISC	MISC
 
-bonds	O	O
+bonds	O	PER
 
 ,	O	O
 
@@ -46550,7 +46550,7 @@ of	O	O
 
 strong	O	O
 
-u.s.	LOC	LOC
+u.s.	LOC	ORG
 
 economic	O	O
 
@@ -46568,11 +46568,11 @@ showing	O	O
 
 the	O	O
 
-chicago	ORG	ORG
+chicago	ORG	MISC
 
 purchasing	ORG	O
 
-managers	ORG	O
+managers	ORG	MISC
 
 august	O	O
 
@@ -46604,7 +46604,7 @@ the	O	O
 
 purchasing	O	O
 
-managers	O	ORG
+managers	O	MISC
 
 '	O	O
 
@@ -46644,7 +46644,7 @@ news	O	O
 
 the	O	O
 
-toronto	ORG	ORG
+toronto	ORG	LOC
 
 bond	ORG	O
 
@@ -46742,7 +46742,7 @@ for	O	O
 
 labour	MISC	MISC
 
-day	MISC	O
+day	MISC	MISC
 
 .	O	O
 
@@ -46766,7 +46766,7 @@ percent	O	O
 
 of	O	O
 
-2006	O	ORG
+2006	O	O
 
 fell	O	O
 
@@ -46940,9 +46940,9 @@ jeffrey.hodgson@reuters.com	O	O
 
 <s>	O	O
 
-aw	O	O
+aw	O	ORG
 
-computer	ORG	O
+computer	ORG	ORG
 
 systems	ORG	ORG
 
@@ -46970,7 +46970,7 @@ york	LOC	LOC
 
 <s>	O	O
 
-1996	O	ORG
+1996	O	O
 
 1995	O	O
 
@@ -47146,7 +47146,7 @@ filing	O	O
 
 --	O	O
 
-homegate	ORG	PER
+homegate	ORG	ORG
 
 hospitality	ORG	ORG
 
@@ -47170,7 +47170,7 @@ company	O	O
 
 name	MISC	O
 
-homegate	ORG	O
+homegate	ORG	ORG
 
 hospitality	ORG	ORG
 
@@ -47228,7 +47228,7 @@ a	O	O
 
 <s>	O	O
 
-shrs	O	ORG
+shrs	O	O
 
 offered	O	O
 
@@ -47254,7 +47254,7 @@ after	O	O
 
 ipo	O	O
 
-n	O	O
+n	O	ORG
 
 /	O	O
 
@@ -47402,7 +47402,7 @@ in	O	O
 
 :	O	O
 
-1995	O	ORG
+1995	O	O
 
 1994	O	O
 
@@ -47580,9 +47580,9 @@ on	O	O
 
 the	O	O
 
-arab	MISC	LOC
+arab	MISC	MISC
 
-cause	O	ORG
+cause	O	O
 
 ,	O	O
 
@@ -47590,7 +47590,7 @@ cause	O	ORG
 
 state-run	O	O
 
-damascus	ORG	ORG
+damascus	ORG	LOC
 
 radio	ORG	ORG
 
@@ -47766,7 +47766,7 @@ radio	O	O
 
 urged	O	O
 
-arabs	MISC	MISC
+arabs	MISC	O
 
 to	O	O
 
@@ -47830,7 +47830,7 @@ because	O	O
 
 the	O	O
 
-arab	MISC	ORG
+arab	MISC	MISC
 
 rights	O	O
 
@@ -47846,7 +47846,7 @@ they	O	O
 
 achieve	O	O
 
-unity	O	ORG
+unity	O	O
 
 and	O	O
 
@@ -47856,9 +47856,9 @@ solidarity	O	O
 
 "	O	O
 
-damascus	LOC	ORG
+damascus	LOC	LOC
 
-radio	O	ORG
+radio	O	O
 
 said	O	O
 
@@ -48022,7 +48022,7 @@ the	O	O
 
 occupied	O	O
 
-arab	MISC	LOC
+arab	MISC	MISC
 
 lands	O	O
 
@@ -48168,13 +48168,13 @@ group	O	O
 
 al-gama'a	ORG	ORG
 
-al-islamiya	ORG	O
+al-islamiya	ORG	PER
 
 (	O	O
 
 islamic	ORG	ORG
 
-group	ORG	O
+group	ORG	ORG
 
 )	O	O
 
@@ -48228,7 +48228,7 @@ leader	O	O
 
 rami	PER	PER
 
-al-saadani	PER	O
+al-saadani	PER	PER
 
 in	O	O
 
@@ -48434,7 +48434,7 @@ progress	O	O
 
 <s>	O	O
 
-sami	PER	ORG
+sami	PER	LOC
 
 aboudi	PER	O
 
@@ -48442,7 +48442,7 @@ aboudi	PER	O
 
 <s>	O	O
 
-al-ram	LOC	ORG
+al-ram	LOC	O
 
 ,	O	O
 
@@ -48456,7 +48456,7 @@ bank	LOC	LOC
 
 <s>	O	O
 
-kamil	PER	O
+kamil	PER	PER
 
 jamil	PER	O
 
@@ -48492,7 +48492,7 @@ palestinian	MISC	MISC
 
 from	O	O
 
-answering	O	O
+answering	O	PER
 
 yasser	PER	PER
 
@@ -48562,7 +48562,7 @@ yelled	O	O
 
 at	O	O
 
-jamil	PER	O
+jamil	PER	LOC
 
 in	O	O
 
@@ -48666,7 +48666,7 @@ city	O	O
 
 <s>	O	O
 
-pilgrims	O	O
+pilgrims	O	PER
 
 stood	O	O
 
@@ -48952,7 +48952,7 @@ pray	O	O
 
 "	O	O
 
-jamil	PER	O
+jamil	PER	PER
 
 said	O	O
 
@@ -49064,7 +49064,7 @@ tourist	O	O
 
 khaled	PER	PER
 
-hijazi	PER	O
+hijazi	PER	PER
 
 ,	O	O
 
@@ -49224,7 +49224,7 @@ asked	O	O
 
 mustafa	PER	PER
 
-hoshiyeh	PER	O
+hoshiyeh	PER	PER
 
 ,	O	O
 
@@ -49234,7 +49234,7 @@ a	O	O
 
 west	LOC	LOC
 
-bank	LOC	LOC
+bank	LOC	ORG
 
 labourer	O	O
 
@@ -49372,7 +49372,7 @@ auth	ORG	O
 
 ,	O	O
 
-mich	LOC	PER
+mich	LOC	LOC
 
 ..	O	O
 
@@ -49384,21 +49384,21 @@ amt	O	O
 
 :	O	O
 
-1,200,000	O	PER
+1,200,000	O	O
 
 date	O	O
 
 :	O	O
 
-09/05/96	O	PER
+09/05/96	O	O
 
-nyc	MISC	MISC
+nyc	MISC	O
 
 time	O	O
 
 :	O	O
 
-1600	O	PER
+1600	O	O
 
 cusip	O	O
 
@@ -49426,7 +49426,7 @@ st	O	ORG
 
 :	O	O
 
-mi	LOC	PER
+mi	LOC	O
 
 </s>	O	O
 
@@ -49436,15 +49436,15 @@ issue	O	O
 
 :	O	O
 
-bldg	O	ORG
+bldg	O	O
 
-auth	O	O
+auth	O	PER
 
 (	O	O
 
 law	O	O
 
-enforcement	O	O
+enforcement	O	ORG
 
 ctr	O	O
 
@@ -49452,7 +49452,7 @@ ctr	O	O
 
 series	O	O
 
-1996-a	O	MISC
+1996-a	O	O
 
 tax	O	O
 
@@ -49508,7 +49508,7 @@ none	O	O
 
 bank	O	O
 
-qual	O	ORG
+qual	O	O
 
 :	O	O
 
@@ -49540,7 +49540,7 @@ due	O	O
 
 :	O	O
 
-11/1/96-11	O	ORG
+11/1/96-11	O	O
 
 sr	O	O
 
@@ -49568,7 +49568,7 @@ call	O	O
 
 :	O	O
 
-11/1/05	O	ORG
+11/1/05	O	O
 
 @	O	O
 
@@ -49610,15 +49610,15 @@ agent	O	O
 
 :	O	O
 
-michigan	ORG	LOC
+michigan	ORG	ORG
 
 national	ORG	ORG
 
-bank	ORG	LOC
+bank	ORG	ORG
 
 ,	O	O
 
-detroit	LOC	LOC
+detroit	LOC	ORG
 
 </s>	O	O
 
@@ -49628,7 +49628,7 @@ l.o.	O	O
 
 :	O	O
 
-bodman	ORG	PER
+bodman	ORG	O
 
 ,	ORG	O
 
@@ -49650,11 +49650,11 @@ f.a.	O	O
 
 :	O	O
 
-first	ORG	O
+first	ORG	ORG
 
 of	ORG	O
 
-michigan	ORG	LOC
+michigan	ORG	ORG
 
 corp.	ORG	ORG
 
@@ -50054,7 +50054,7 @@ june	O	O
 
 <s>	O	O
 
-department	O	O
+department	O	ORG
 
 officials	O	O
 
@@ -50152,7 +50152,7 @@ paychecks	O	O
 
 the	O	O
 
-department	O	O
+department	O	ORG
 
 said	O	O
 
@@ -50404,7 +50404,7 @@ time	O	O
 
 the	O	O
 
-department	O	O
+department	O	ORG
 
 said	O	O
 
@@ -50766,9 +50766,9 @@ two-thirds	O	O
 
 of	O	O
 
-national	O	O
+national	O	MISC
 
-economic	O	O
+economic	O	MISC
 
 activity	O	O
 
@@ -51040,7 +51040,7 @@ close	O	O
 
 <s>	O	O
 
-5647.65	O	PER
+5647.65	O	O
 
 (	O	O
 
@@ -51080,7 +51080,7 @@ $	O	O
 
 <s>	O	O
 
-20202.87	O	PER
+20202.87	O	O
 
 (	O	O
 
@@ -51104,7 +51104,7 @@ tonne	O	O
 
 <s>	O	O
 
-ftse	MISC	LOC
+ftse	MISC	MISC
 
 close	O	O
 
@@ -51120,7 +51120,7 @@ $	O	O
 
 <s>	O	O
 
-3885.0	O	PER
+3885.0	O	O
 
 (	O	O
 
@@ -51134,7 +51134,7 @@ $	O	O
 
 <s>	O	O
 
------	O	ORG
+-----	O	LOC
 
 ooo-----	O	O
 
@@ -51144,7 +51144,7 @@ ooo-----	O	O
 
 stocks	O	O
 
-sink	O	O
+sink	O	LOC
 
 as	O	O
 
@@ -51338,7 +51338,7 @@ issues	O	O
 
 beat	O	O
 
-advances	O	PER
+advances	O	O
 
 1,627	O	O
 
@@ -51366,7 +51366,7 @@ the	O	O
 
 new	ORG	LOC
 
-york	ORG	LOC
+york	ORG	ORG
 
 stock	ORG	ORG
 
@@ -51390,7 +51390,7 @@ market	O	O
 
 the	O	O
 
-30-year	O	O
+30-year	O	ORG
 
 treasury	ORG	ORG
 
@@ -51506,7 +51506,7 @@ equities	O	O
 
 said	O	O
 
-ralph	PER	O
+ralph	PER	PER
 
 bloch	PER	O
 
@@ -51520,7 +51520,7 @@ analyst	O	O
 
 at	O	O
 
-raymond	PER	O
+raymond	PER	PER
 
 james	PER	PER
 
@@ -51636,7 +51636,7 @@ sept	O	O
 
 <s>	O	O
 
-6	O	PER
+6	O	O
 
 faces	O	O
 
@@ -51710,7 +51710,7 @@ shulman	PER	PER
 
 salomon	ORG	ORG
 
-bros	ORG	O
+bros	ORG	PER
 
 .	ORG	O
 
@@ -52210,7 +52210,7 @@ clinton	PER	PER
 
 <s>	O	O
 
-morris	PER	ORG
+morris	PER	PER
 
 '	O	O
 
@@ -52468,7 +52468,7 @@ new	ORG	LOC
 
 york	ORG	LOC
 
-cotton	ORG	ORG
+cotton	ORG	O
 
 exchange	ORG	O
 
@@ -52532,7 +52532,7 @@ london	LOC	LOC
 
 's	O	O
 
-ftse	MISC	O
+ftse	MISC	MISC
 
 100	MISC	MISC
 
@@ -52658,9 +52658,9 @@ at	O	O
 
 <s>	O	O
 
-pirelli	ORG	O
+pirelli	ORG	PER
 
-cables	O	O
+cables	O	PER
 
 look	O	O
 
@@ -52686,7 +52686,7 @@ jones	PER	PER
 
 <s>	O	O
 
-milan	LOC	ORG
+milan	LOC	LOC
 
 1996-08-30	O	O
 
@@ -52700,7 +52700,7 @@ tyre	O	O
 
 and	O	O
 
-cables	O	ORG
+cables	O	LOC
 
 giant	O	O
 
@@ -52726,7 +52726,7 @@ with	O	O
 
 a	O	O
 
-cables	O	O
+cables	O	ORG
 
 joint	O	O
 
@@ -52756,7 +52756,7 @@ market	O	O
 
 <s>	O	O
 
-pirelli	ORG	O
+pirelli	ORG	PER
 
 is	O	O
 
@@ -52766,7 +52766,7 @@ with	O	O
 
 hong	MISC	LOC
 
-kong-based	MISC	O
+kong-based	MISC	ORG
 
 group	O	O
 
@@ -52790,11 +52790,11 @@ the	O	O
 
 wuxi	ORG	O
 
-tong	ORG	O
+tong	ORG	ORG
 
 ling	ORG	O
 
-company	ORG	O
+company	ORG	ORG
 
 ltd	ORG	ORG
 
@@ -52836,7 +52836,7 @@ wuxi	LOC	O
 
 jiangsu	LOC	LOC
 
-province	O	O
+province	O	ORG
 
 ,	O	O
 
@@ -52946,7 +52946,7 @@ move	O	O
 
 by	O	O
 
-pirelli	ORG	O
+pirelli	ORG	PER
 
 's	O	O
 
@@ -53014,7 +53014,7 @@ news	O	O
 
 for	O	O
 
-pirelli	ORG	O
+pirelli	ORG	PER
 
 ,	O	O
 
@@ -53156,7 +53156,7 @@ markets	O	O
 
 <s>	O	O
 
-pirelli	ORG	O
+pirelli	ORG	ORG
 
 shares	O	O
 
@@ -53276,7 +53276,7 @@ demand	O	O
 
 for	O	O
 
-telecommunication	O	ORG
+telecommunication	O	O
 
 networks	O	O
 
@@ -53314,9 +53314,9 @@ demand	O	O
 
 for	O	O
 
-optical	O	ORG
+optical	O	O
 
-cables	O	O
+cables	O	ORG
 
 .	O	O
 
@@ -53466,7 +53466,7 @@ asia	LOC	LOC
 
 said	O	O
 
-pirelli	ORG	O
+pirelli	ORG	PER
 
 spa	ORG	O
 
@@ -53482,7 +53482,7 @@ officer	O	O
 
 marco	PER	PER
 
-tonchetti	PER	O
+tonchetti	PER	PER
 
 provera	PER	O
 
@@ -53492,9 +53492,9 @@ provera	PER	O
 
 <s>	O	O
 
-pirelli	ORG	O
+pirelli	ORG	PER
 
-cables	ORG	PER
+cables	ORG	ORG
 
 has	O	O
 
@@ -53530,7 +53530,7 @@ of	O	O
 
 optic	O	O
 
-cables	O	O
+cables	O	ORG
 
 and	O	O
 
@@ -53558,9 +53558,9 @@ and	O	O
 
 the	O	O
 
-far	LOC	O
+far	LOC	LOC
 
-east	LOC	LOC
+east	LOC	O
 
 .	O	O
 
@@ -53578,9 +53578,9 @@ a	O	O
 
 major	O	O
 
-hong	MISC	LOC
+hong	MISC	MISC
 
-kong-listed	MISC	ORG
+kong-listed	MISC	MISC
 
 company	O	O
 
@@ -53752,7 +53752,7 @@ exchange	ORG	ORG
 
 (	O	O
 
-eoe	ORG	O
+eoe	ORG	ORG
 
 )	O	O
 
@@ -53768,7 +53768,7 @@ friday	O	O
 
 <s>	O	O
 
-market-making	O	ORG
+market-making	O	O
 
 in	O	O
 
@@ -53796,7 +53796,7 @@ but	O	O
 
 an	O	O
 
-eoe	ORG	O
+eoe	ORG	PER
 
 spokesman	O	O
 
@@ -53906,7 +53906,7 @@ start	O	O
 
 "	O	O
 
-eoe	ORG	O
+eoe	ORG	PER
 
 spokesman	O	O
 
@@ -53968,7 +53968,7 @@ but	O	O
 
 the	O	O
 
-eoe	ORG	O
+eoe	ORG	ORG
 
 had	O	O
 
@@ -53976,7 +53976,7 @@ agreed	O	O
 
 to	O	O
 
-speak	O	O
+speak	O	PER
 
 again	O	O
 
@@ -54080,7 +54080,7 @@ failed	O	O
 
 amsterdam	LOC	LOC
 
-newsroom	O	O
+newsroom	O	ORG
 
 +31	O	O
 
@@ -54150,7 +54150,7 @@ an	O	O
 
 international	O	O
 
-mediating	O	ORG
+mediating	O	O
 
 mission	O	O
 
@@ -54176,7 +54176,7 @@ criticism	O	O
 
 by	O	O
 
-pro-moscow	O	ORG
+pro-moscow	O	O
 
 leaders	O	O
 
@@ -54218,7 +54218,7 @@ region	O	O
 
 <s>	O	O
 
-flavio	PER	ORG
+flavio	PER	PER
 
 cotti	PER	O
 
@@ -54236,15 +54236,15 @@ organisation	ORG	ORG
 
 for	ORG	ORG
 
-security	ORG	O
+security	ORG	ORG
 
 and	ORG	ORG
 
 cooperation	ORG	ORG
 
-in	ORG	O
+in	ORG	ORG
 
-europe	ORG	LOC
+europe	ORG	ORG
 
 (	O	O
 
@@ -54452,7 +54452,7 @@ toward	O	O
 
 zelimkhan	PER	PER
 
-yandarbiyev	PER	O
+yandarbiyev	PER	PER
 
 ,	O	O
 
@@ -54530,7 +54530,7 @@ region	O	O
 
 <s>	O	O
 
-cotti	PER	ORG
+cotti	PER	PER
 
 said	O	O
 
@@ -54664,9 +54664,9 @@ not	O	O
 
 the	O	O
 
-organisation	O	ORG
+organisation	O	O
 
-'s	O	ORG
+'s	O	O
 
 policy	O	O
 
@@ -54852,7 +54852,7 @@ integrity	O	O
 
 said	O	O
 
-cotti	PER	O
+cotti	PER	PER
 
 .	O	O
 
@@ -54876,13 +54876,13 @@ reason	O	O
 
 to	O	O
 
-reopen	O	PER
+reopen	O	O
 
-el	ORG	PER
+el	ORG	ORG
 
-al	ORG	ORG
+al	ORG	MISC
 
-carqo	O	O
+carqo	O	MISC
 
 enquiry	O	O
 
@@ -54894,7 +54894,7 @@ enquiry	O	O
 
 the	LOC	O
 
-hague	LOC	O
+hague	LOC	ORG
 
 1996-08-30	O	O
 
@@ -54944,7 +54944,7 @@ investigate	O	O
 
 the	O	O
 
-1992	O	ORG
+1992	O	MISC
 
 crash	O	O
 
@@ -54952,11 +54952,11 @@ of	O	O
 
 an	O	O
 
-el	ORG	O
+el	ORG	MISC
 
 al	ORG	MISC
 
-freighter	O	O
+freighter	O	MISC
 
 which	O	O
 
@@ -55036,9 +55036,9 @@ with	O	O
 
 by	O	O
 
-el	ORG	PER
+el	ORG	ORG
 
-al	ORG	ORG
+al	ORG	PER
 
 's	O	O
 
@@ -55062,9 +55062,9 @@ the	O	O
 
 dutch	MISC	ORG
 
-transport	O	O
+transport	O	ORG
 
-ministry	O	O
+ministry	O	ORG
 
 had	O	O
 
@@ -55164,7 +55164,7 @@ airfreight	O	O
 
 <s>	O	O
 
-jorritsma	PER	ORG
+jorritsma	PER	PER
 
 said	O	O
 
@@ -55176,7 +55176,7 @@ evidence	O	O
 
 from	O	O
 
-el	ORG	LOC
+el	ORG	MISC
 
 al	ORG	MISC
 
@@ -55230,7 +55230,7 @@ incident	O	O
 
 air	ORG	ORG
 
-cargo	ORG	O
+cargo	ORG	ORG
 
 newsroom	ORG	ORG
 
@@ -55262,7 +55262,7 @@ fax	O	O
 
 <s>	O	O
 
-armenians	MISC	O
+armenians	MISC	PER
 
 ,	O	O
 
@@ -55300,7 +55300,7 @@ armenia	LOC	LOC
 
 and	O	O
 
-azerbaijan	LOC	ORG
+azerbaijan	LOC	LOC
 
 held	O	O
 
@@ -55332,7 +55332,7 @@ the	O	O
 
 disputed	O	O
 
-nagorno-karabakh	LOC	O
+nagorno-karabakh	LOC	MISC
 
 region	O	O
 
@@ -55380,13 +55380,13 @@ condition	O	O
 
 of	O	O
 
-anonymity	O	O
+anonymity	O	PER
 
 ,	O	O
 
 said	O	O
 
-azerbaijani	PER	O
+azerbaijani	PER	ORG
 
 presidential	O	O
 
@@ -55394,17 +55394,17 @@ adviser	O	O
 
 vafa	PER	PER
 
-gulizade	PER	O
+gulizade	PER	PER
 
 and	O	O
 
 his	O	O
 
-armenian	MISC	ORG
+armenian	MISC	MISC
 
 counterpart	O	O
 
-zhirayr	PER	O
+zhirayr	PER	PER
 
 liparityan	PER	PER
 
@@ -55468,7 +55468,7 @@ percent	O	O
 
 of	O	O
 
-azeri	MISC	LOC
+azeri	MISC	MISC
 
 territory	O	O
 
@@ -55488,7 +55488,7 @@ armenians	MISC	O
 
 drove	O	O
 
-azeris	MISC	O
+azeris	MISC	PER
 
 out	O	O
 
@@ -55702,7 +55702,7 @@ russia	LOC	LOC
 
 interfax	ORG	ORG
 
-news	O	ORG
+news	O	O
 
 agency	O	O
 
@@ -55766,7 +55766,7 @@ amsterdam	LOC	LOC
 
 <s>	O	O
 
-interfax	ORG	ORG
+interfax	ORG	PER
 
 said	O	O
 
@@ -55800,15 +55800,15 @@ organisation	ORG	ORG
 
 for	ORG	ORG
 
-security	ORG	O
+security	ORG	ORG
 
 and	ORG	ORG
 
 cooperation	ORG	ORG
 
-in	ORG	O
+in	ORG	ORG
 
-europe	ORG	LOC
+europe	ORG	ORG
 
 (	O	O
 
@@ -55858,7 +55858,7 @@ mood	O	O
 
 on	O	O
 
-arctic	MISC	LOC
+arctic	MISC	MISC
 
 island	O	O
 
@@ -55882,7 +55882,7 @@ soderlind	PER	O
 
 <s>	O	O
 
-longyear	LOC	ORG
+longyear	LOC	LOC
 
 ,	O	O
 
@@ -55932,7 +55932,7 @@ flying	O	O
 
 at	O	O
 
-half-mast	O	O
+half-mast	O	PER
 
 beneath	O	O
 
@@ -55942,7 +55942,7 @@ brooding	O	O
 
 ,	O	O
 
-clouded	O	ORG
+clouded	O	PER
 
 sky	O	LOC
 
@@ -55962,7 +55962,7 @@ town	O	O
 
 in	O	O
 
-mourning	O	O
+mourning	O	LOC
 
 ,	O	O
 
@@ -56192,13 +56192,13 @@ on	O	O
 
 the	O	O
 
-arctic	MISC	LOC
+arctic	MISC	MISC
 
 island	O	O
 
 of	O	O
 
-spitzbergen	LOC	O
+spitzbergen	LOC	LOC
 
 on	O	O
 
@@ -56292,7 +56292,7 @@ onarheim	LOC	O
 
 ,	O	O
 
-29	O	PER
+29	O	O
 
 ,	O	O
 
@@ -56346,7 +56346,7 @@ the	O	O
 
 polar	O	PER
 
-bears	O	PER
+bears	O	MISC
 
 that	O	O
 
@@ -56358,7 +56358,7 @@ across	O	O
 
 the	O	O
 
-icy	O	O
+icy	O	LOC
 
 expanses	O	O
 
@@ -56400,7 +56400,7 @@ towns	O	O
 
 of	O	O
 
-barentsburg	LOC	ORG
+barentsburg	LOC	O
 
 and	O	O
 
@@ -56548,7 +56548,7 @@ said	O	O
 
 johan	PER	PER
 
-sletten	PER	PER
+sletten	PER	O
 
 ,	O	O
 
@@ -56560,7 +56560,7 @@ sletten	PER	PER
 
 <s>	O	O
 
-sletten	PER	ORG
+sletten	PER	PER
 
 ,	O	O
 
@@ -56638,7 +56638,7 @@ winter	O	O
 
 <s>	O	O
 
-teenage	O	O
+teenage	O	ORG
 
 shop	O	O
 
@@ -56754,7 +56754,7 @@ now	O	O
 
 <s>	O	O
 
-barentsburg	LOC	ORG
+barentsburg	LOC	O
 
 ,	O	O
 
@@ -56832,7 +56832,7 @@ russian	MISC	MISC
 
 and	O	O
 
-ukrainian	MISC	ORG
+ukrainian	MISC	PER
 
 miners	O	O
 
@@ -56974,7 +56974,7 @@ from	O	O
 
 the	O	O
 
-brightly-painted	O	O
+brightly-painted	O	LOC
 
 wooden	O	O
 
@@ -57070,7 +57070,7 @@ russia	LOC	LOC
 
 <s>	O	O
 
-spitzbergen	LOC	LOC
+spitzbergen	LOC	O
 
 lies	O	O
 
@@ -57102,7 +57102,7 @@ norway	LOC	LOC
 
 and	O	O
 
-endures	O	O
+endures	O	PER
 
 one	O	O
 
@@ -57120,7 +57120,7 @@ on	O	O
 
 the	O	O
 
-planet	O	LOC
+planet	O	O
 
 .	O	O
 
@@ -57244,9 +57244,9 @@ a	O	O
 
 1920s	O	O
 
-international	O	ORG
+international	O	O
 
-treaty	O	O
+treaty	O	ORG
 
 which	O	O
 
@@ -57266,7 +57266,7 @@ to	O	O
 
 establish	O	O
 
-setttlements	O	ORG
+setttlements	O	O
 
 and	O	O
 
@@ -57318,7 +57318,7 @@ so	O	O
 
 <s>	O	O
 
-ericsson	ORG	O
+ericsson	ORG	PER
 
 says	O	O
 
@@ -57398,7 +57398,7 @@ in	O	O
 
 the	O	O
 
-guangdong	LOC	ORG
+guangdong	LOC	LOC
 
 province	O	O
 
@@ -57412,7 +57412,7 @@ china	LOC	LOC
 
 <s>	O	O
 
-ericsson	ORG	ORG
+ericsson	ORG	PER
 
 said	O	O
 
@@ -57488,9 +57488,9 @@ products	O	O
 
 ,	O	O
 
-broad-band	O	PER
+broad-band	O	O
 
-multi-media	O	ORG
+multi-media	O	O
 
 communication	O	ORG
 
@@ -57558,7 +57558,7 @@ said	O	O
 
 --	O	O
 
-stockholm	LOC	ORG
+stockholm	LOC	LOC
 
 newsroom	O	ORG
 
@@ -57696,11 +57696,11 @@ on	O	O
 
 the	O	O
 
-south	LOC	ORG
+south	LOC	LOC
 
 china	LOC	LOC
 
-coast	O	O
+coast	O	LOC
 
 ;	O	O
 
@@ -57716,7 +57716,7 @@ transport	O	O
 
 and	O	O
 
-telecommunications	O	ORG
+telecommunications	O	O
 
 infrastructure	O	O
 
@@ -58046,7 +58046,7 @@ future	O	O
 
 wellington	LOC	LOC
 
-newsroom	O	O
+newsroom	O	ORG
 
 64	O	O
 
@@ -58096,7 +58096,7 @@ summary	O	O
 
 of	O	O
 
-major	O	O
+major	O	MISC
 
 indonesian	MISC	MISC
 
@@ -58292,9 +58292,9 @@ of	O	O
 
 the	O	O
 
-house	ORG	O
+house	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
 representatives	ORG	ORG
 
@@ -58394,7 +58394,7 @@ from	O	O
 
 the	O	O
 
-philippine	LOC	ORG
+philippine	LOC	LOC
 
 government	O	O
 
@@ -58490,7 +58490,7 @@ indonesia	LOC	LOC
 
 controversial	O	O
 
-timor	O	O
+timor	O	LOC
 
 national	O	O
 
@@ -58500,13 +58500,13 @@ made	O	O
 
 by	O	O
 
-kia	ORG	O
+kia	ORG	ORG
 
 motor	ORG	ORG
 
 corp	ORG	ORG
 
-of	O	O
+of	O	ORG
 
 south	LOC	LOC
 
@@ -58546,21 +58546,21 @@ be	O	O
 
 jointly	O	O
 
-marketed	O	MISC
+marketed	O	O
 
 by	O	O
 
-kia	ORG	O
+kia	ORG	PER
 
 and	O	O
 
 pt	ORG	ORG
 
-timor	ORG	ORG
+timor	ORG	O
 
-putra	ORG	ORG
+putra	ORG	PER
 
-nasional	ORG	O
+nasional	ORG	PER
 
 ,	O	O
 
@@ -58576,7 +58576,7 @@ of	O	O
 
 president	O	O
 
-suharto	PER	PER
+suharto	PER	O
 
 ,	O	O
 
@@ -58632,7 +58632,7 @@ central	ORG	O
 
 jakarta	ORG	LOC
 
-district	ORG	O
+district	ORG	ORG
 
 court	ORG	O
 
@@ -58654,7 +58654,7 @@ by	O	O
 
 ousted	O	O
 
-indonesian	ORG	MISC
+indonesian	ORG	ORG
 
 democratic	ORG	ORG
 
@@ -58670,7 +58670,7 @@ leader	O	O
 
 megawati	PER	PER
 
-sukarnoputri	PER	O
+sukarnoputri	PER	PER
 
 against	O	O
 
@@ -58726,7 +58726,7 @@ government-backed	O	O
 
 rebel	O	O
 
-congress	O	O
+congress	O	MISC
 
 which	O	O
 
@@ -58894,7 +58894,7 @@ note	O	O
 
 -	O	O
 
-jeans	ORG	O
+jeans	ORG	ORG
 
 mate	ORG	O
 
@@ -59152,7 +59152,7 @@ selling	O	O
 
 homemade	O	O
 
-alcohol	O	O
+alcohol	O	PER
 
 that	O	O
 
@@ -59164,7 +59164,7 @@ people	O	O
 
 and	O	O
 
-poisoned	O	O
+poisoned	O	PER
 
 157	O	O
 
@@ -59174,7 +59174,7 @@ the	O	O
 
 xinhua	ORG	ORG
 
-news	O	ORG
+news	O	O
 
 agency	O	O
 
@@ -59200,7 +59200,7 @@ farmers	O	O
 
 in	O	O
 
-huize	LOC	ORG
+huize	LOC	LOC
 
 county	O	O
 
@@ -59208,13 +59208,13 @@ in	O	O
 
 the	O	O
 
-southwestern	O	O
+southwestern	O	LOC
 
 province	O	O
 
 of	O	O
 
-yunnan	LOC	O
+yunnan	LOC	LOC
 
 were	O	O
 
@@ -59224,7 +59224,7 @@ for	O	O
 
 blending	O	O
 
-alcohol	O	O
+alcohol	O	ORG
 
 with	O	O
 
@@ -59290,7 +59290,7 @@ by	O	O
 
 the	O	O
 
-toxic	O	O
+toxic	O	MISC
 
 liquor	O	O
 
@@ -59374,9 +59374,9 @@ said	O	O
 
 <s>	O	O
 
-post-mortem	O	O
+post-mortem	O	PER
 
-examinations	O	O
+examinations	O	PER
 
 showed	O	O
 
@@ -59414,7 +59414,7 @@ of	O	O
 
 the	O	O
 
-poisonous	O	O
+poisonous	O	MISC
 
 liquor	O	O
 
@@ -59506,15 +59506,15 @@ trafficking	O	O
 
 the	O	O
 
-central	ORG	O
+central	ORG	ORG
 
 narcotics	ORG	ORG
 
-bureau	ORG	O
+bureau	ORG	ORG
 
 (	O	O
 
-cnb	ORG	O
+cnb	ORG	ORG
 
 )	O	O
 
@@ -59526,13 +59526,13 @@ said	O	O
 
 <s>	O	O
 
-jeerasak	PER	ORG
+jeerasak	PER	O
 
 densakul	PER	O
 
 ,	O	O
 
-24	O	PER
+24	O	O
 
 ,	O	O
 
@@ -59632,7 +59632,7 @@ than	O	O
 
 15	O	O
 
-grams	O	PER
+grams	O	O
 
 (	O	O
 
@@ -59652,7 +59652,7 @@ heroin	O	O
 
 30	O	PER
 
-grams	O	PER
+grams	O	O
 
 (	O	O
 
@@ -59800,7 +59800,7 @@ the	O	O
 
 west	LOC	LOC
 
-bank	LOC	LOC
+bank	LOC	ORG
 
 self-rule	O	ORG
 
@@ -59852,7 +59852,7 @@ of	O	O
 
 the	O	O
 
-palestinian	ORG	MISC
+palestinian	ORG	ORG
 
 self-rule	ORG	ORG
 
@@ -59864,7 +59864,7 @@ cabinet	O	O
 
 in	O	O
 
-nablus	LOC	O
+nablus	LOC	LOC
 
 on	O	O
 
@@ -59932,11 +59932,11 @@ holy	O	O
 
 to	O	O
 
-moslems	MISC	MISC
+moslems	MISC	LOC
 
 ,	O	O
 
-arabs	MISC	PER
+arabs	MISC	MISC
 
 and	O	O
 
@@ -59988,7 +59988,7 @@ palestinians	MISC	MISC
 
 want	O	O
 
-arab	LOC	LOC
+arab	LOC	MISC
 
 east	LOC	LOC
 
@@ -60134,7 +60134,7 @@ ended	O	O
 
 u.n.	ORG	ORG
 
-council	ORG	ORG
+council	ORG	O
 
 concerned	O	O
 
@@ -60188,7 +60188,7 @@ a	O	O
 
 palestinian	MISC	MISC
 
-day-care	O	O
+day-care	O	LOC
 
 centre	O	O
 
@@ -60234,13 +60234,13 @@ the	O	O
 
 the	O	O
 
-palestinian	MISC	ORG
+palestinian	MISC	MISC
 
 u.n.	ORG	ORG
 
 observer	O	O
 
-mission	O	O
+mission	O	ORG
 
 ,	O	O
 
@@ -60252,7 +60252,7 @@ president	O	O
 
 tono	PER	PER
 
-eitel	PER	O
+eitel	PER	PER
 
 of	O	O
 
@@ -60492,7 +60492,7 @@ the	O	O
 
 holy	LOC	O
 
-city	LOC	O
+city	LOC	LOC
 
 of	LOC	O
 
@@ -60502,7 +60502,7 @@ jerusalem	LOC	LOC
 
 and	O	O
 
-violated	O	O
+violated	O	PER
 
 agreements	O	O
 
@@ -60582,9 +60582,9 @@ of	O	O
 
 the	O	O
 
-old	LOC	O
+old	LOC	LOC
 
-city	LOC	O
+city	LOC	LOC
 
 .	O	O
 
@@ -60702,9 +60702,9 @@ jerusalem	LOC	LOC
 
 's	O	O
 
-old	O	O
+old	O	LOC
 
-city	O	O
+city	O	LOC
 
 and	O	O
 
@@ -60766,11 +60766,11 @@ called	O	O
 
 the	O	O
 
-burj	LOC	O
+burj	LOC	ORG
 
 al-laqlaq	LOC	ORG
 
-society	LOC	O
+society	LOC	ORG
 
 .	O	O
 
@@ -60788,7 +60788,7 @@ soccer	O	O
 
 -	O	O
 
-real	ORG	ORG
+real	ORG	O
 
 scrape	O	O
 
@@ -60812,7 +60812,7 @@ match	O	O
 
 la	LOC	ORG
 
-coruna	LOC	ORG
+coruna	LOC	LOC
 
 ,	O	O
 
@@ -60832,7 +60832,7 @@ goal	O	O
 
 by	O	O
 
-newly-signed	O	ORG
+newly-signed	O	PER
 
 defender	O	O
 
@@ -60848,15 +60848,15 @@ blushes	O	O
 
 of	O	O
 
-real	ORG	ORG
+real	ORG	O
 
-madrid	ORG	LOC
+madrid	ORG	ORG
 
 coach	O	O
 
 fabio	PER	PER
 
-capello	PER	O
+capello	PER	PER
 
 and	O	O
 
@@ -60934,9 +60934,9 @@ fellow	O	O
 
 title	O	O
 
-contenders	O	O
+contenders	O	PER
 
-deportivo	ORG	ORG
+deportivo	ORG	PER
 
 coruna	ORG	O
 
@@ -60980,7 +60980,7 @@ playmaker	O	O
 
 corentine	PER	O
 
-martins	PER	O
+martins	PER	PER
 
 headed	O	O
 
@@ -60998,7 +60998,7 @@ flick-on	O	O
 
 by	O	O
 
-brazilian-born	MISC	MISC
+brazilian-born	MISC	O
 
 spanish	MISC	MISC
 
@@ -61040,7 +61040,7 @@ when	O	O
 
 luis	PER	PER
 
-milla	PER	PER
+milla	PER	O
 
 was	O	O
 
@@ -61074,7 +61074,7 @@ minutes	O	O
 
 but	O	O
 
-deportivo	ORG	O
+deportivo	ORG	PER
 
 were	O	O
 
@@ -61110,7 +61110,7 @@ men	O	O
 
 when	O	O
 
-armando	PER	PER
+armando	PER	O
 
 alvarez	PER	O
 
@@ -61176,7 +61176,7 @@ deflected	O	O
 
 past	O	O
 
-despairing	O	O
+despairing	O	PER
 
 deportivo	ORG	O
 
@@ -61222,7 +61222,7 @@ ends	O	O
 
 and	O	O
 
-donato	PER	O
+donato	PER	PER
 
 ,	O	O
 
@@ -61280,7 +61280,7 @@ the	O	O
 
 match	O	O
 
-deportivo	ORG	O
+deportivo	ORG	ORG
 
 chairman	O	O
 
@@ -61340,9 +61340,9 @@ side	O	O
 
 tour	O	O
 
-of	O	O
+of	O	MISC
 
-europe	LOC	LOC
+europe	LOC	MISC
 
 .	O	O
 
@@ -61420,9 +61420,9 @@ passport	O	O
 
 <s>	O	O
 
-rugby	MISC	O
+rugby	MISC	MISC
 
-league	MISC	O
+league	MISC	MISC
 
 -	O	O
 
@@ -61444,7 +61444,7 @@ semifinal	O	O
 
 <s>	O	O
 
-wigan	LOC	ORG
+wigan	LOC	LOC
 
 ,	O	O
 
@@ -61462,7 +61462,7 @@ of	O	O
 
 english	MISC	MISC
 
-rugby	O	O
+rugby	O	MISC
 
 league	O	O
 
@@ -61544,13 +61544,13 @@ of	O	O
 
 european	MISC	MISC
 
-under-21	O	O
+under-21	O	MISC
 
 championship	O	O
 
 group	O	O
 
-5	O	ORG
+5	O	O
 
 qualifier	O	O
 
@@ -61618,7 +61618,7 @@ attendance	O	O
 
 :	O	O
 
-2,000	O	LOC
+2,000	O	O
 
 .	O	O
 
@@ -61636,7 +61636,7 @@ soccer	O	O
 
 -	O	O
 
-irish	MISC	ORG
+irish	MISC	MISC
 
 erase	O	O
 
@@ -61656,7 +61656,7 @@ win	O	O
 
 <s>	O	O
 
-eschen	LOC	ORG
+eschen	LOC	O
 
 ,	O	O
 
@@ -61670,9 +61670,9 @@ liechtenstein	LOC	LOC
 
 the	O	O
 
-republic	LOC	O
+republic	LOC	LOC
 
-of	LOC	O
+of	LOC	LOC
 
 ireland	LOC	LOC
 
@@ -61698,7 +61698,7 @@ visit	O	O
 
 to	O	O
 
-liechtenstein	LOC	LOC
+liechtenstein	LOC	O
 
 by	O	O
 
@@ -61734,7 +61734,7 @@ saturday	O	O
 
 the	O	O
 
-irish	MISC	ORG
+irish	MISC	MISC
 
 ,	O	O
 
@@ -61774,9 +61774,9 @@ townsend	PER	PER
 
 ,	O	O
 
-20-year-old	O	O
+20-year-old	O	PER
 
-norwich	ORG	ORG
+norwich	ORG	PER
 
 striker	O	O
 
@@ -61786,7 +61786,7 @@ o'neill	PER	PER
 
 ,	O	O
 
-sunderland	ORG	O
+sunderland	ORG	LOC
 
 forward	O	O
 
@@ -61800,7 +61800,7 @@ teenager	O	O
 
 ian	PER	PER
 
-harte	PER	PER
+harte	PER	O
 
 .	O	O
 
@@ -61846,7 +61846,7 @@ give	O	O
 
 the	O	O
 
-irish	MISC	ORG
+irish	MISC	MISC
 
 their	O	O
 
@@ -61884,9 +61884,9 @@ to	O	O
 
 the	O	O
 
-eschen	LOC	ORG
+eschen	LOC	LOC
 
-stadium	O	O
+stadium	O	LOC
 
 14	O	O
 
@@ -61980,7 +61980,7 @@ qualifier	O	O
 
 <s>	O	O
 
-eschen	LOC	ORG
+eschen	LOC	O
 
 1996-08-31	O	O
 
@@ -61990,9 +61990,9 @@ eschen	LOC	ORG
 
 the	O	O
 
-republic	LOC	O
+republic	LOC	LOC
 
-of	LOC	O
+of	LOC	LOC
 
 ireland	LOC	LOC
 
@@ -62000,7 +62000,7 @@ beat	O	O
 
 liechtenstein	LOC	PER
 
-5-0	O	PER
+5-0	O	O
 
 (	O	O
 
@@ -62020,7 +62020,7 @@ cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -62102,7 +62102,7 @@ attendance	O	O
 
 :	O	O
 
-3,900	O	PER
+3,900	O	O
 
 </s>	O	O
 
@@ -62114,7 +62114,7 @@ attendance	O	O
 
 <s>	O	O
 
-golf	O	O
+golf	O	LOC
 
 -	O	O
 
@@ -62164,7 +62164,7 @@ british	MISC	MISC
 
 masters	MISC	MISC
 
-golf	O	MISC
+golf	O	O
 
 tournament	O	O
 
@@ -62240,7 +62240,7 @@ at	O	O
 
 first	O	O
 
-play-off	O	O
+play-off	O	LOC
 
 hole	O	O
 
@@ -62250,9 +62250,9 @@ hole	O	O
 
 <s>	O	O
 
-285	O	ORG
+285	O	O
 
-costantino	PER	O
+costantino	PER	PER
 
 rocca	PER	PER
 
@@ -62660,7 +62660,7 @@ slovakia	LOC	LOC
 
 beat	O	O
 
-faroes	LOC	O
+faroes	LOC	PER
 
 in	O	O
 
@@ -62676,7 +62676,7 @@ qualifier	O	O
 
 <s>	O	O
 
-toftir	LOC	ORG
+toftir	LOC	O
 
 ,	O	O
 
@@ -62714,13 +62714,13 @@ in	O	O
 
 their	O	O
 
-world	MISC	O
+world	MISC	MISC
 
 cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -62750,11 +62750,11 @@ scorers	O	O
 
 faroe	LOC	LOC
 
-islands	LOC	O
+islands	LOC	LOC
 
 -	O	O
 
-jan	PER	PER
+jan	PER	O
 
 allan	PER	PER
 
@@ -62776,9 +62776,9 @@ slovakia	LOC	LOC
 
 -	O	O
 
-lubomir	PER	O
+lubomir	PER	PER
 
-moravcik	PER	O
+moravcik	PER	PER
 
 (	O	O
 
@@ -62806,7 +62806,7 @@ attendance	O	O
 
 :	O	O
 
-1,445	O	ORG
+1,445	O	O
 
 .	O	O
 
@@ -62832,7 +62832,7 @@ pakistan	LOC	LOC
 
 by	O	O
 
-107	O	ORG
+107	O	O
 
 runs	O	O
 
@@ -62868,7 +62868,7 @@ pakistan	LOC	LOC
 
 by	O	O
 
-107	O	ORG
+107	O	O
 
 runs	O	O
 
@@ -62966,11 +62966,11 @@ cycling	O	O
 
 -	O	O
 
-tour	MISC	O
+tour	MISC	MISC
 
-of	MISC	O
+of	MISC	MISC
 
-netherlands	MISC	LOC
+netherlands	MISC	MISC
 
 final	O	O
 
@@ -62986,7 +62986,7 @@ standings	O	O
 
 <s>	O	O
 
-landgraaf	LOC	ORG
+landgraaf	LOC	LOC
 
 ,	O	O
 
@@ -63024,11 +63024,11 @@ of	O	O
 
 the	O	O
 
-tour	MISC	O
+tour	MISC	MISC
 
-of	MISC	O
+of	MISC	MISC
 
-the	MISC	O
+the	MISC	MISC
 
 netherlands	MISC	LOC
 
@@ -63038,7 +63038,7 @@ netherlands	MISC	LOC
 
 between	O	O
 
-roermond	LOC	O
+roermond	LOC	PER
 
 and	O	O
 
@@ -63154,7 +63154,7 @@ seconds	O	O
 
 5.	O	O
 
-jesper	PER	O
+jesper	PER	PER
 
 skibby	PER	PER
 
@@ -63206,7 +63206,7 @@ italy	LOC	LOC
 
 )	O	O
 
-aki	PER	PER
+aki	PER	ORG
 
 11	O	O
 
@@ -63214,11 +63214,11 @@ aki	PER	PER
 
 <s>	O	O
 
-8.	O	ORG
+8.	O	O
 
-eleuterio	PER	O
+eleuterio	PER	PER
 
-anguita	PER	O
+anguita	PER	PER
 
 (	O	O
 
@@ -63226,7 +63226,7 @@ spain	LOC	LOC
 
 )	O	O
 
-mx	ORG	ORG
+mx	ORG	O
 
 onda	ORG	ORG
 
@@ -63342,7 +63342,7 @@ behind	O	O
 
 <s>	O	O
 
-3.	O	ORG
+3.	O	O
 
 ekimov	PER	O
 
@@ -63402,7 +63402,7 @@ ludwig	PER	PER
 
 <s>	O	O
 
-6.	O	ORG
+6.	O	O
 
 breukink	PER	PER
 
@@ -63446,7 +63446,7 @@ andersson	PER	PER
 
 <s>	O	O
 
-10.	O	ORG
+10.	O	O
 
 skibby	PER	O
 
@@ -63736,7 +63736,7 @@ fall	O	O
 
 :	O	O
 
-1-103	O	ORG
+1-103	O	O
 
 2-105	O	O
 
@@ -63800,7 +63800,7 @@ younis	PER	PER
 
 <s>	O	O
 
-ata-ur-rehman	PER	ORG
+ata-ur-rehman	PER	O
 
 6-0-40-1	O	O
 
@@ -63810,7 +63810,7 @@ saqlain	PER	PER
 
 mushtaq	PER	PER
 
-10-0-59-1	O	PER
+10-0-59-1	O	O
 
 ,	O	O
 
@@ -63822,7 +63822,7 @@ ahmed	PER	PER
 
 <s>	O	O
 
-10-0-33-2	O	ORG
+10-0-33-2	O	O
 
 ,	O	O
 
@@ -63910,7 +63910,7 @@ croft	PER	PER
 
 <s>	O	O
 
-inzamam-ul-haq	PER	PER
+inzamam-ul-haq	PER	O
 
 c	O	O
 
@@ -64106,13 +64106,13 @@ mullally	PER	PER
 
 ,	O	O
 
-headley	PER	PER
+headley	PER	O
 
 </s>	O	O
 
 <s>	O	O
 
-7-0-32-0	O	ORG
+7-0-32-0	O	O
 
 ,	O	O
 
@@ -64128,7 +64128,7 @@ croft	PER	PER
 
 ,	O	O
 
-hollioake	PER	PER
+hollioake	PER	O
 
 6.5-1-23-4	O	O
 
@@ -64242,11 +64242,11 @@ finals	O	O
 
 <s>	O	O
 
-1.	O	ORG
+1.	O	O
 
-antonella	PER	O
+antonella	PER	PER
 
-bellutti	PER	O
+bellutti	PER	PER
 
 (	O	O
 
@@ -64268,9 +64268,9 @@ record	O	O
 
 <s>	O	O
 
-2.	O	ORG
+2.	O	O
 
-marion	PER	ORG
+marion	PER	PER
 
 clignet	PER	PER
 
@@ -64288,7 +64288,7 @@ france	LOC	LOC
 
 3.	O	O
 
-lucy	PER	O
+lucy	PER	PER
 
 tyler-sharman	PER	PER
 
@@ -64306,9 +64306,9 @@ australia	LOC	LOC
 
 4.	O	O
 
-yvonne	PER	O
+yvonne	PER	PER
 
-mcgregor	PER	O
+mcgregor	PER	PER
 
 (	O	O
 
@@ -64378,7 +64378,7 @@ u.s.	LOC	LOC
 
 8.	O	O
 
-rasa	PER	O
+rasa	PER	PER
 
 mazeikyte	PER	PER
 
@@ -64394,11 +64394,11 @@ lithuania	LOC	LOC
 
 <s>	O	O
 
-9.	O	ORG
+9.	O	O
 
-tatian	PER	O
+tatian	PER	PER
 
-stiajkina	PER	O
+stiajkina	PER	PER
 
 (	O	O
 
@@ -64434,7 +64434,7 @@ italy	LOC	LOC
 
 (	O	O
 
-adler	PER	O
+adler	PER	PER
 
 capelli	PER	O
 
@@ -64448,11 +64448,11 @@ citto	PER	O
 
 andrea	PER	PER
 
-collinelli	PER	PER
+collinelli	PER	O
 
 ,	O	O
 
-mauro	PER	O
+mauro	PER	PER
 
 trentino	PER	O
 
@@ -64476,7 +64476,7 @@ russia	LOC	LOC
 
 anton	PER	PER
 
-chantyr	PER	PER
+chantyr	PER	O
 
 ,	O	O
 
@@ -64504,7 +64504,7 @@ france	LOC	LOC
 
 (	O	O
 
-cyril	PER	O
+cyril	PER	PER
 
 bos	PER	O
 
@@ -64542,7 +64542,7 @@ fulst	PER	O
 
 ,	O	O
 
-danilo	PER	O
+danilo	PER	PER
 
 hondo	PER	O
 
@@ -64554,7 +64554,7 @@ rund	PER	O
 
 ,	O	O
 
-heiko	PER	PER
+heiko	PER	O
 
 szonn	PER	O
 
@@ -64630,9 +64630,9 @@ france	LOC	LOC
 
 <s>	O	O
 
-2.	O	ORG
+2.	O	O
 
-annett	PER	O
+annett	PER	PER
 
 neumann	PER	PER
 
@@ -64666,9 +64666,9 @@ australia	LOC	LOC
 
 <s>	O	O
 
-4.	O	ORG
+4.	O	O
 
-magali	PER	O
+magali	PER	PER
 
 faure	PER	PER
 
@@ -64738,11 +64738,11 @@ canada	LOC	LOC
 
 <s>	O	O
 
-8.	O	ORG
+8.	O	O
 
-kathrin	PER	O
+kathrin	PER	PER
 
-freitag	PER	O
+freitag	PER	PER
 
 (	O	O
 
@@ -64778,7 +64778,7 @@ zealand	LOC	LOC
 
 10.	O	O
 
-mira	PER	O
+mira	PER	PER
 
 kasslin	PER	PER
 
@@ -64796,9 +64796,9 @@ finland	LOC	LOC
 
 11.	O	O
 
-wendy	PER	O
+wendy	PER	PER
 
-everson	PER	O
+everson	PER	PER
 
 (	O	O
 
@@ -64814,7 +64814,7 @@ britain	LOC	LOC
 
 12.	O	O
 
-giovanna	PER	O
+giovanna	PER	PER
 
 troldi	PER	PER
 
@@ -64872,7 +64872,7 @@ italy	LOC	LOC
 
 (	O	O
 
-adler	PER	O
+adler	PER	PER
 
 capelli	PER	O
 
@@ -64886,11 +64886,11 @@ citto	PER	O
 
 andrea	PER	PER
 
-collinelli	PER	PER
+collinelli	PER	O
 
 ,	O	O
 
-mauro	PER	O
+mauro	PER	PER
 
 trentino	PER	O
 
@@ -64904,7 +64904,7 @@ france	LOC	LOC
 
 (	O	O
 
-cyril	PER	O
+cyril	PER	PER
 
 bos	PER	O
 
@@ -64936,7 +64936,7 @@ moreau	PER	PER
 
 world	O	O
 
-sprint	O	O
+sprint	O	MISC
 
 championship	O	O
 
@@ -64978,7 +64978,7 @@ beat	O	O
 
 ainars	PER	PER
 
-kiksis	PER	O
+kiksis	PER	PER
 
 (	O	O
 
@@ -65106,7 +65106,7 @@ quarter-finals	O	O
 
 <s>	O	O
 
-marion	PER	ORG
+marion	PER	PER
 
 clignet	PER	PER
 
@@ -65162,7 +65162,7 @@ russia	LOC	LOC
 
 beat	O	O
 
-yvonne	PER	PER
+yvonne	PER	O
 
 mcgregor	PER	O
 
@@ -65182,7 +65182,7 @@ britain	LOC	LOC
 
 <s>	O	O
 
-lucy	PER	ORG
+lucy	PER	PER
 
 tyler-sharman	PER	PER
 
@@ -65216,9 +65216,9 @@ russia	LOC	LOC
 
 <s>	O	O
 
-antonella	PER	ORG
+antonella	PER	PER
 
-bellutti	PER	O
+bellutti	PER	PER
 
 (	O	O
 
@@ -65240,7 +65240,7 @@ rasa	PER	O
 
 <s>	O	O
 
-mazeikyte	PER	PER
+mazeikyte	PER	O
 
 (	O	O
 
@@ -65574,7 +65574,7 @@ malik	PER	PER
 
 ,	O	O
 
-inzamam-ul-haq	PER	PER
+inzamam-ul-haq	PER	O
 
 ,	O	O
 
@@ -65644,7 +65644,7 @@ rangers	ORG	ORG
 
 beat	O	O
 
-indians	ORG	ORG
+indians	ORG	MISC
 
 .	O	O
 
@@ -65652,11 +65652,11 @@ indians	ORG	ORG
 
 <s>	O	O
 
-arlington	LOC	O
+arlington	LOC	LOC
 
 ,	O	O
 
-texas	LOC	ORG
+texas	LOC	LOC
 
 1996-08-31	O	O
 
@@ -65736,9 +65736,9 @@ homer	O	O
 
 off	O	O
 
-chad	PER	LOC
+chad	PER	PER
 
-ogea	PER	PER
+ogea	PER	O
 
 (	O	O
 
@@ -65756,7 +65756,7 @@ first	O	O
 
 gave	O	O
 
-texas	LOC	ORG
+texas	LOC	LOC
 
 a	O	O
 
@@ -65810,7 +65810,7 @@ games	O	O
 
 <s>	O	O
 
-gonzalez	PER	LOC
+gonzalez	PER	PER
 
 ,	O	O
 
@@ -65850,7 +65850,7 @@ players	O	O
 
 in	O	O
 
-texas	LOC	ORG
+texas	LOC	LOC
 
 history	O	O
 
@@ -65930,7 +65930,7 @@ his	O	O
 
 121	O	O
 
-rbi	MISC	PER
+rbi	MISC	MISC
 
 broke	O	O
 
@@ -65946,7 +65946,7 @@ record	O	O
 
 of	O	O
 
-119	O	ORG
+119	O	O
 
 set	O	O
 
@@ -65962,7 +65962,7 @@ in	O	O
 
 the	O	O
 
-indians	MISC	ORG
+indians	MISC	MISC
 
 had	O	O
 
@@ -66012,13 +66012,13 @@ explain	O	O
 
 said	O	O
 
-texas	LOC	ORG
+texas	LOC	LOC
 
 manager	O	O
 
 johnny	PER	PER
 
-oates	PER	O
+oates	PER	PER
 
 about	O	O
 
@@ -66040,7 +66040,7 @@ meetings	O	O
 
 from	O	O
 
-cleveland	ORG	ORG
+cleveland	ORG	LOC
 
 this	O	O
 
@@ -66162,7 +66162,7 @@ the	O	O
 
 american	MISC	MISC
 
-league	MISC	O
+league	MISC	MISC
 
 .	O	O
 
@@ -66204,13 +66204,13 @@ and	O	O
 
 jim	PER	PER
 
-thome	PER	PER
+thome	PER	O
 
 homered	O	O
 
 for	O	O
 
-cleveland	ORG	ORG
+cleveland	ORG	LOC
 
 .	O	O
 
@@ -66256,7 +66256,7 @@ games	O	O
 
 <s>	O	O
 
-texas	ORG	ORG
+texas	ORG	LOC
 
 's	O	O
 
@@ -66386,7 +66386,7 @@ duncan	PER	PER
 
 darryl	PER	PER
 
-strawberry	PER	ORG
+strawberry	PER	PER
 
 and	O	O
 
@@ -66400,7 +66400,7 @@ leyritz	PER	PER
 
 <s>	O	O
 
-pettite	PER	PER
+pettite	PER	O
 
 (	O	O
 
@@ -66468,7 +66468,7 @@ losses	O	O
 
 mariano	PER	PER
 
-rivera	PER	O
+rivera	PER	PER
 
 pitched	O	O
 
@@ -66540,7 +66540,7 @@ incaviglia	PER	PER
 
 grand	O	O
 
-slam	O	O
+slam	O	MISC
 
 with	O	O
 
@@ -66598,13 +66598,13 @@ incaviglia	PER	O
 
 sixth	O	O
 
-grand	O	O
+grand	O	MISC
 
-slam	O	O
+slam	O	MISC
 
 and	O	O
 
-200th	O	O
+200th	O	PER
 
 homer	O	O
 
@@ -66620,7 +66620,7 @@ career	O	O
 
 <s>	O	O
 
-baltimore	ORG	ORG
+baltimore	ORG	LOC
 
 's	O	O
 
@@ -66682,7 +66682,7 @@ his	O	O
 
 for	O	O
 
-seattle	ORG	ORG
+seattle	ORG	LOC
 
 .	O	O
 
@@ -66714,7 +66714,7 @@ american	MISC	MISC
 
 league	MISC	MISC
 
-wild	O	MISC
+wild	O	O
 
 card	O	O
 
@@ -66834,7 +66834,7 @@ thomas	PER	PER
 
 ,	O	O
 
-harold	PER	O
+harold	PER	PER
 
 baines	PER	O
 
@@ -66858,7 +66858,7 @@ hits	O	O
 
 <s>	O	O
 
-baines	PER	O
+baines	PER	PER
 
 homered	O	O
 
@@ -66898,7 +66898,7 @@ all	O	O
 
 chicago	LOC	ORG
 
-starters	O	O
+starters	O	ORG
 
 got	O	O
 
@@ -66990,7 +66990,7 @@ sox	ORG	ORG
 
 <s>	O	O
 
-telgheder	PER	PER
+telgheder	PER	O
 
 (	O	O
 
@@ -67036,7 +67036,7 @@ inning	O	O
 
 <s>	O	O
 
-mcgwire	PER	O
+mcgwire	PER	LOC
 
 singled	O	O
 
@@ -67264,7 +67264,7 @@ to	O	O
 
 <s>	O	O
 
-kansas	LOC	ORG
+kansas	LOC	LOC
 
 city	LOC	LOC
 
@@ -67298,7 +67298,7 @@ milwaukee	LOC	LOC
 
 marc	PER	PER
 
-newfield	PER	PER
+newfield	PER	O
 
 homered	O	O
 
@@ -67442,7 +67442,7 @@ closer	O	O
 
 mike	PER	PER
 
-fetters	PER	O
+fetters	PER	PER
 
 with	O	O
 
@@ -67460,7 +67460,7 @@ to	O	O
 
 give	O	O
 
-minnesota	ORG	ORG
+minnesota	ORG	LOC
 
 a	O	O
 
@@ -67620,9 +67620,9 @@ the	O	O
 
 english	MISC	MISC
 
-county	O	O
+county	O	MISC
 
-championship	O	O
+championship	O	MISC
 
 run-in	O	O
 
@@ -67718,9 +67718,9 @@ nerve	O	O
 
 against	O	O
 
-struggling	O	O
+struggling	O	PER
 
-nottinghamshire	ORG	O
+nottinghamshire	ORG	ORG
 
 who	O	O
 
@@ -67760,7 +67760,7 @@ at	O	O
 
 tunbridge	LOC	LOC
 
-wells	LOC	O
+wells	LOC	LOC
 
 .	O	O
 
@@ -67768,7 +67768,7 @@ wells	LOC	O
 
 <s>	O	O
 
-derbyshire	ORG	LOC
+derbyshire	ORG	ORG
 
 ,	O	O
 
@@ -67834,7 +67834,7 @@ who	O	O
 
 beat	O	O
 
-somerset	ORG	O
+somerset	ORG	PER
 
 inside	O	O
 
@@ -67920,7 +67920,7 @@ his	O	O
 
 side	O	O
 
-chase	O	O
+chase	O	PER
 
 their	O	O
 
@@ -68168,9 +68168,9 @@ westwood	PER	PER
 
 <s>	O	O
 
-5.	O	ORG
+5.	O	O
 
-costantino	PER	O
+costantino	PER	PER
 
 rocca	PER	PER
 
@@ -68436,7 +68436,7 @@ broadhurst	PER	PER
 
 rugby	ORG	ORG
 
-union	ORG	O
+union	ORG	ORG
 
 -	O	O
 
@@ -68444,7 +68444,7 @@ english	MISC	MISC
 
 ,	O	O
 
-scottish	MISC	ORG
+scottish	MISC	MISC
 
 and	O	O
 
@@ -68474,7 +68474,7 @@ english	MISC	MISC
 
 ,	O	O
 
-scottish	MISC	ORG
+scottish	MISC	MISC
 
 and	O	O
 
@@ -68512,7 +68512,7 @@ one	O	O
 
 <s>	O	O
 
-harlequins	ORG	ORG
+harlequins	ORG	PER
 
 75	O	O
 
@@ -68524,7 +68524,7 @@ gloucester	ORG	O
 
 <s>	O	O
 
-london	ORG	LOC
+london	ORG	ORG
 
 irish	ORG	ORG
 
@@ -68538,13 +68538,13 @@ bristol	ORG	ORG
 
 <s>	O	O
 
-northampton	ORG	ORG
+northampton	ORG	LOC
 
 46	O	O
 
-west	ORG	LOC
+west	ORG	ORG
 
-hartlepool	ORG	ORG
+hartlepool	ORG	LOC
 
 20	O	O
 
@@ -68556,7 +68556,7 @@ orrell	ORG	ORG
 
 13	O	O
 
-bath	ORG	PER
+bath	ORG	O
 
 56	O	O
 
@@ -68564,7 +68564,7 @@ bath	ORG	PER
 
 <s>	O	O
 
-sale	ORG	O
+sale	ORG	ORG
 
 31	O	O
 
@@ -68590,7 +68590,7 @@ leicester	ORG	ORG
 
 welsh	MISC	MISC
 
-division	O	O
+division	O	MISC
 
 one	O	O
 
@@ -68598,7 +68598,7 @@ one	O	O
 
 <s>	O	O
 
-bridgend	ORG	ORG
+bridgend	ORG	PER
 
 13	O	O
 
@@ -68610,7 +68610,7 @@ llanelli	ORG	O
 
 <s>	O	O
 
-dunvant	ORG	ORG
+dunvant	ORG	O
 
 21	O	O
 
@@ -68624,7 +68624,7 @@ vale	ORG	ORG
 
 <s>	O	O
 
-treorchy	ORG	ORG
+treorchy	ORG	PER
 
 17	O	O
 
@@ -68636,7 +68636,7 @@ newbridge	ORG	O
 
 <s>	O	O
 
-newport	ORG	ORG
+newport	ORG	PER
 
 29	O	O
 
@@ -68674,7 +68674,7 @@ one	O	O
 
 <s>	O	O
 
-boroughmuir	ORG	ORG
+boroughmuir	ORG	O
 
 20	O	O
 
@@ -68686,11 +68686,11 @@ hawick	ORG	O
 
 <s>	O	O
 
-currie	ORG	ORG
+currie	ORG	PER
 
 45	O	O
 
-heriot	ORG	O
+heriot	ORG	PER
 
 's	ORG	O
 
@@ -68702,7 +68702,7 @@ f.p.	ORG	O
 
 <s>	O	O
 
-jed-forest	ORG	ORG
+jed-forest	ORG	O
 
 17	O	O
 
@@ -68760,7 +68760,7 @@ qualifier	O	O
 
 <s>	O	O
 
-cardiff	LOC	ORG
+cardiff	LOC	LOC
 
 1996-08-31	O	O
 
@@ -68796,7 +68796,7 @@ cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -68904,7 +68904,7 @@ ukraine	LOC	LOC
 
 beat	O	O
 
-northern	LOC	O
+northern	LOC	LOC
 
 ireland	LOC	LOC
 
@@ -68922,7 +68922,7 @@ qualifier	O	O
 
 <s>	O	O
 
-belfast	LOC	ORG
+belfast	LOC	LOC
 
 1996-08-31	O	O
 
@@ -68934,7 +68934,7 @@ ukraine	LOC	LOC
 
 beat	O	O
 
-northern	LOC	O
+northern	LOC	LOC
 
 ireland	LOC	LOC
 
@@ -68958,7 +68958,7 @@ cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -69014,7 +69014,7 @@ attendance	O	O
 
 rugby	ORG	ORG
 
-union	ORG	O
+union	ORG	ORG
 
 -	O	O
 
@@ -69026,7 +69026,7 @@ victory	O	O
 
 over	O	O
 
-dwyer	ORG	O
+dwyer	ORG	PER
 
 and	O	O
 
@@ -69106,7 +69106,7 @@ debut	O	O
 
 with	O	O
 
-leicester	LOC	ORG
+leicester	LOC	PER
 
 .	O	O
 
@@ -69204,13 +69204,13 @@ club	O	O
 
 <s>	O	O
 
-french	MISC	LOC
+french	MISC	MISC
 
 centre	O	O
 
-philippe	PER	O
+philippe	PER	PER
 
-sella	PER	O
+sella	PER	ORG
 
 also	O	O
 
@@ -69270,7 +69270,7 @@ connection	O	O
 
 at	O	O
 
-harlequins	LOC	O
+harlequins	LOC	ORG
 
 also	O	O
 
@@ -69286,7 +69286,7 @@ start	O	O
 
 laurent	PER	PER
 
-cabannes	PER	PER
+cabannes	PER	O
 
 and	O	O
 
@@ -69330,7 +69330,7 @@ england	LOC	LOC
 
 captain	O	O
 
-will	PER	PER
+will	PER	O
 
 carling	PER	PER
 
@@ -69402,11 +69402,11 @@ and	O	O
 
 the	O	O
 
-rugby	ORG	O
+rugby	ORG	ORG
 
 football	ORG	ORG
 
-union	ORG	O
+union	ORG	ORG
 
 ,	O	O
 
@@ -69424,7 +69424,7 @@ for	O	O
 
 champions	O	O
 
-bath	ORG	PER
+bath	ORG	ORG
 
 ,	O	O
 
@@ -69434,7 +69434,7 @@ winners	O	O
 
 over	O	O
 
-orrell	ORG	O
+orrell	ORG	PER
 
 ,	O	O
 
@@ -69752,7 +69752,7 @@ stirling	ORG	ORG
 
 <s>	O	O
 
-east	ORG	LOC
+east	ORG	ORG
 
 fife	ORG	ORG
 
@@ -69802,11 +69802,11 @@ livingston	ORG	ORG
 
 <s>	O	O
 
-queen	ORG	O
+queen	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
-south	ORG	LOC
+south	ORG	ORG
 
 3	O	O
 
@@ -70094,13 +70094,13 @@ alloa	ORG	ORG
 
 <s>	O	O
 
-queen	ORG	O
+queen	ORG	ORG
 
 's	ORG	ORG
 
 park	ORG	ORG
 
-3	O	ORG
+3	O	O
 
 1	O	O
 
@@ -70140,7 +70140,7 @@ montrose	ORG	ORG
 
 inverness	ORG	ORG
 
-thistle	ORG	O
+thistle	ORG	ORG
 
 3	O	O
 
@@ -70160,7 +70160,7 @@ thistle	ORG	O
 
 <s>	O	O
 
-east	ORG	LOC
+east	ORG	ORG
 
 stirling	ORG	ORG
 
@@ -70578,7 +70578,7 @@ vale	ORG	ORG
 
 <s>	O	O
 
-birmingham	ORG	LOC
+birmingham	ORG	ORG
 
 2	O	O
 
@@ -70658,7 +70658,7 @@ oxford	ORG	ORG
 
 <s>	O	O
 
-manchester	ORG	LOC
+manchester	ORG	ORG
 
 city	ORG	ORG
 
@@ -70680,7 +70680,7 @@ city	ORG	ORG
 
 <s>	O	O
 
-west	ORG	LOC
+west	ORG	ORG
 
 bromwich	ORG	ORG
 
@@ -70952,7 +70952,7 @@ blackpool	ORG	ORG
 
 <s>	O	O
 
-york	ORG	LOC
+york	ORG	ORG
 
 4	O	O
 
@@ -71896,7 +71896,7 @@ postponed	O	O
 
 :	O	O
 
-east	ORG	LOC
+east	ORG	ORG
 
 fife	ORG	ORG
 
@@ -71916,7 +71916,7 @@ v	O	O
 
 <s>	O	O
 
-airdrieonians	ORG	O
+airdrieonians	ORG	ORG
 
 .	O	O
 
@@ -71952,7 +71952,7 @@ queen	ORG	O
 
 of	ORG	O
 
-south	ORG	LOC
+south	ORG	ORG
 
 2	O	O
 
@@ -71976,7 +71976,7 @@ livingston	ORG	ORG
 
 1	O	O
 
-hamilton	ORG	PER
+hamilton	ORG	ORG
 
 0	O	O
 
@@ -72032,11 +72032,11 @@ stirling	ORG	ORG
 
 inverness	ORG	ORG
 
-thistle	ORG	O
+thistle	ORG	ORG
 
 1	O	O
 
-alloa	ORG	ORG
+alloa	ORG	O
 
 0	O	O
 
@@ -72058,7 +72058,7 @@ county	ORG	ORG
 
 <s>	O	O
 
-queen	ORG	O
+queen	ORG	ORG
 
 's	ORG	ORG
 
@@ -72240,7 +72240,7 @@ postponed	O	O
 
 :	O	O
 
-birmingham	ORG	ORG
+birmingham	ORG	LOC
 
 v	O	O
 
@@ -72248,7 +72248,7 @@ barnsley	ORG	ORG
 
 ,	O	O
 
-manchester	ORG	LOC
+manchester	ORG	ORG
 
 city	ORG	ORG
 
@@ -72394,7 +72394,7 @@ county	ORG	ORG
 
 0	O	O
 
-york	ORG	LOC
+york	ORG	ORG
 
 1	O	O
 
@@ -72582,9 +72582,9 @@ cricket	O	O
 
 english	MISC	MISC
 
-county	MISC	O
+county	MISC	MISC
 
-championship	MISC	O
+championship	MISC	MISC
 
 scores	O	O
 
@@ -72646,7 +72646,7 @@ hampshire	ORG	ORG
 
 by	O	O
 
-188	O	ORG
+188	O	O
 
 runs	O	O
 
@@ -72672,7 +72672,7 @@ hampshire	ORG	ORG
 
 and	O	O
 
-205	O	PER
+205	O	O
 
 (	O	O
 
@@ -72726,11 +72726,11 @@ glamorgan	ORG	ORG
 
 beat	O	O
 
-durham	ORG	O
+durham	ORG	ORG
 
 by	O	O
 
-141	O	ORG
+141	O	O
 
 runs	O	O
 
@@ -72812,7 +72812,7 @@ worcestershire	ORG	ORG
 
 and	O	O
 
-303	O	O
+303	O	PER
 
 (	O	O
 
@@ -72930,7 +72930,7 @@ j.	PER	PER
 
 benjamin	PER	PER
 
-4-17	O	PER
+4-17	O	O
 
 ,	O	O
 
@@ -73020,7 +73020,7 @@ headingley	LOC	LOC
 
 (	O	O
 
-leeds	LOC	ORG
+leeds	LOC	LOC
 
 )	O	O
 
@@ -73032,7 +73032,7 @@ yorkshire	ORG	ORG
 
 and	O	O
 
-329	O	O
+329	O	PER
 
 (	O	O
 
@@ -73052,7 +73052,7 @@ hamilton	PER	PER
 
 ;	O	O
 
-p.	PER	PER
+p.	PER	O
 
 such	PER	O
 
@@ -73120,7 +73120,7 @@ nottinghamshire	ORG	ORG
 
 and	O	O
 
-167-6	O	PER
+167-6	O	O
 
 (	O	O
 
@@ -73184,7 +73184,7 @@ gloucestershire	ORG	ORG
 
 and	O	O
 
-249	O	O
+249	O	PER
 
 (	O	O
 
@@ -73242,7 +73242,7 @@ race	O	O
 
 <s>	O	O
 
-vancouver	LOC	ORG
+vancouver	LOC	LOC
 
 1996-08-31	O	O
 
@@ -73270,7 +73270,7 @@ sunday	O	O
 
 's	O	O
 
-vancouver	LOC	ORG
+vancouver	LOC	O
 
 indycar	MISC	O
 
@@ -73304,7 +73304,7 @@ country	O	O
 
 ,	O	O
 
-chassis	O	O
+chassis	O	LOC
 
 ,	O	O
 
@@ -73348,11 +73348,11 @@ italy	LOC	LOC
 
 reynard	ORG	PER
 
-honda	ORG	ORG
+honda	ORG	PER
 
 ,	O	O
 
-53.980	O	PER
+53.980	O	O
 
 (	O	O
 
@@ -73390,9 +73390,9 @@ u.s.	LOC	LOC
 
 ,	O	O
 
-lola	ORG	O
+lola	ORG	PER
 
-ford	ORG	ORG
+ford	ORG	PER
 
 cosworth	ORG	O
 
@@ -73418,9 +73418,9 @@ u.s.	LOC	LOC
 
 ,	O	O
 
-reynard	ORG	O
+reynard	ORG	PER
 
-mercedes-benz	ORG	O
+mercedes-benz	ORG	PER
 
 ,	O	O
 
@@ -73432,7 +73432,7 @@ mercedes-benz	ORG	O
 
 4.	O	O
 
-bryan	PER	O
+bryan	PER	PER
 
 herta	PER	PER
 
@@ -73444,9 +73444,9 @@ u.s.	LOC	LOC
 
 ,	O	O
 
-reynard	ORG	O
+reynard	ORG	PER
 
-mercedes-benz	ORG	O
+mercedes-benz	ORG	PER
 
 ,	O	O
 
@@ -73472,7 +73472,7 @@ u.s.	LOC	LOC
 
 reynard	ORG	PER
 
-honda	ORG	ORG
+honda	ORG	PER
 
 ,	O	O
 
@@ -73496,9 +73496,9 @@ canada	LOC	LOC
 
 ,	O	O
 
-penske	ORG	O
+penske	ORG	PER
 
-mercedes-benz	ORG	O
+mercedes-benz	ORG	PER
 
 ,	O	O
 
@@ -73524,9 +73524,9 @@ u.s.	LOC	LOC
 
 ,	O	O
 
-penske	ORG	O
+penske	ORG	PER
 
-mercedes-benz	ORG	O
+mercedes-benz	ORG	PER
 
 ,	O	O
 
@@ -73552,7 +73552,7 @@ brazil	LOC	LOC
 
 lola	ORG	PER
 
-honda	ORG	ORG
+honda	ORG	PER
 
 ,	O	O
 
@@ -73576,9 +73576,9 @@ brazil	LOC	LOC
 
 ,	O	O
 
-reynard	ORG	O
+reynard	ORG	PER
 
-ford	ORG	ORG
+ford	ORG	PER
 
 cosworth	ORG	O
 
@@ -73590,7 +73590,7 @@ cosworth	ORG	O
 
 <s>	O	O
 
-10.	O	ORG
+10.	O	O
 
 gil	PER	ORG
 
@@ -73608,7 +73608,7 @@ brazil	LOC	LOC
 
 reynard	ORG	PER
 
-honda	ORG	ORG
+honda	ORG	PER
 
 ,	O	O
 
@@ -73650,7 +73650,7 @@ qualifier	O	O
 
 <s>	O	O
 
-edmonton	LOC	ORG
+edmonton	LOC	LOC
 
 1996-08-31	O	O
 
@@ -73720,7 +73720,7 @@ canada	LOC	LOC
 
 -	O	O
 
-aunger	PER	PER
+aunger	PER	O
 
 (	O	O
 
@@ -73762,7 +73762,7 @@ corrazin	PER	PER
 
 <s>	O	O
 
-panama	LOC	O
+panama	LOC	LOC
 
 -	O	O
 
@@ -73802,7 +73802,7 @@ attendance	O	O
 
 rugby	ORG	ORG
 
-union	ORG	O
+union	ORG	ORG
 
 -	O	O
 
@@ -73872,9 +73872,9 @@ of	O	O
 
 the	O	O
 
-all	ORG	O
+all	ORG	ORG
 
-blacks	ORG	ORG
+blacks	ORG	O
 
 with	O	O
 
@@ -73896,7 +73896,7 @@ an	O	O
 
 ecstatic	O	O
 
-ellis	LOC	ORG
+ellis	LOC	LOC
 
 park	LOC	LOC
 
@@ -74038,7 +74038,7 @@ first	O	O
 
 all	ORG	O
 
-black	ORG	MISC
+black	ORG	O
 
 series	O	O
 
@@ -74202,9 +74202,9 @@ penalties	O	O
 
 the	O	O
 
-all	ORG	O
+all	ORG	ORG
 
-blacks	ORG	ORG
+blacks	ORG	O
 
 salvaged	O	O
 
@@ -74338,7 +74338,7 @@ kicked	O	O
 
 the	O	O
 
-springboks	ORG	O
+springboks	ORG	ORG
 
 into	O	O
 
@@ -74448,7 +74448,7 @@ was	O	O
 
 the	O	O
 
-springboks	ORG	O
+springboks	ORG	ORG
 
 who	O	O
 
@@ -74476,7 +74476,7 @@ realised	O	O
 
 when	O	O
 
-joubert	PER	PER
+joubert	PER	O
 
 made	O	O
 
@@ -74502,7 +74502,7 @@ although	O	O
 
 winger	O	O
 
-pieter	PER	PER
+pieter	PER	O
 
 hendriks	PER	PER
 
@@ -74514,7 +74514,7 @@ knock	O	O
 
 on	O	O
 
-joubert	PER	O
+joubert	PER	PER
 
 's	O	O
 
@@ -74524,7 +74524,7 @@ pass	O	O
 
 ,	O	O
 
-welsh	MISC	ORG
+welsh	MISC	MISC
 
 referee	O	O
 
@@ -74562,7 +74562,7 @@ posts	O	O
 
 <s>	O	O
 
-honiball	PER	PER
+honiball	PER	O
 
 converted	O	O
 
@@ -74700,7 +74700,7 @@ van	PER	PER
 
 der	PER	PER
 
-westhuizen	PER	PER
+westhuizen	PER	O
 
 five	O	O
 
@@ -74784,7 +74784,7 @@ when	O	O
 
 the	O	O
 
-all	ORG	O
+all	ORG	ORG
 
 blacks	ORG	ORG
 
@@ -74838,7 +74838,7 @@ posts	O	O
 
 and	O	O
 
-scrum-half	O	O
+scrum-half	O	PER
 
 justin	PER	PER
 
@@ -74922,11 +74922,11 @@ mulder	PER	PER
 
 joel	PER	PER
 
-stransky	PER	PER
+stransky	PER	O
 
 ,	O	O
 
-48	O	PER
+48	O	O
 
 mins	O	O
 
@@ -75006,7 +75006,7 @@ venter	PER	PER
 
 wayne	PER	PER
 
-fyvie	PER	PER
+fyvie	PER	O
 
 ,	O	O
 
@@ -75022,7 +75022,7 @@ fyvie	PER	PER
 
 ruben	PER	PER
 
-kruge	PER	PER
+kruge	PER	O
 
 ,	O	O
 
@@ -75054,9 +75054,9 @@ heerden	PER	PER
 
 -	O	O
 
-kobus	PER	O
+kobus	PER	PER
 
-wiese	PER	O
+wiese	PER	PER
 
 ,	O	O
 
@@ -75084,7 +75084,7 @@ dalton	PER	PER
 
 -	O	O
 
-dawie	PER	O
+dawie	PER	PER
 
 theron	PER	PER
 
@@ -75092,7 +75092,7 @@ theron	PER	PER
 
 garry	PER	PER
 
-pagel	PER	PER
+pagel	PER	O
 
 ,	O	O
 
@@ -75122,7 +75122,7 @@ cullen	PER	PER
 
 (	O	O
 
-alama	PER	O
+alama	PER	PER
 
 ieremia	PER	O
 
@@ -75304,7 +75304,7 @@ dowd	PER	PER
 
 rugby	ORG	ORG
 
-union	ORG	O
+union	ORG	ORG
 
 -	O	O
 
@@ -75314,7 +75314,7 @@ africa	LOC	LOC
 
 beat	O	O
 
-all	ORG	O
+all	ORG	ORG
 
 blacks	ORG	ORG
 
@@ -75530,7 +75530,7 @@ penalties	O	O
 
 :	O	O
 
-mehrtens	PER	ORG
+mehrtens	PER	O
 
 .	O	O
 
@@ -75544,7 +75544,7 @@ zealand	LOC	LOC
 
 win	O	O
 
-test	O	O
+test	O	MISC
 
 series	O	O
 
@@ -75566,7 +75566,7 @@ soccer	O	O
 
 -	O	O
 
-mauritania	LOC	PER
+mauritania	LOC	LOC
 
 dissolves	O	O
 
@@ -75586,7 +75586,7 @@ exit	O	O
 
 <s>	O	O
 
-nouakchott	LOC	ORG
+nouakchott	LOC	O
 
 1996-08-31	O	O
 
@@ -75600,7 +75600,7 @@ mauritania	LOC	LOC
 
 soccer	O	O
 
-federation	O	O
+federation	O	ORG
 
 dissolved	O	O
 
@@ -75670,7 +75670,7 @@ cup	MISC	MISC
 
 since	O	O
 
-mauritania	LOC	O
+mauritania	LOC	LOC
 
 has	O	O
 
@@ -75826,7 +75826,7 @@ cup	MISC	MISC
 
 <s>	O	O
 
-nouakchott	LOC	ORG
+nouakchott	LOC	O
 
 1996-08-31	O	O
 
@@ -75934,7 +75934,7 @@ of	O	O
 
 yugoslav	MISC	MISC
 
-league	O	MISC
+league	O	O
 
 </s>	O	O
 
@@ -75966,7 +75966,7 @@ a	O	O
 
 hajduk	ORG	ORG
 
-2	O	O
+2	O	PER
 
 proleter	ORG	O
 
@@ -75986,7 +75986,7 @@ zemun	ORG	ORG
 
 1	O	O
 
-rad	ORG	PER
+rad	ORG	O
 
 (	O	O
 
@@ -76000,15 +76000,15 @@ b	O	O
 
 <s>	O	O
 
-borac	ORG	ORG
+borac	ORG	O
 
-1	O	O
+1	O	PER
 
 mladost	ORG	O
 
 (	ORG	O
 
-l	ORG	O
+l	ORG	ORG
 
 )	ORG	O
 
@@ -76018,11 +76018,11 @@ l	ORG	O
 
 <s>	O	O
 
-cukaricki	ORG	ORG
+cukaricki	ORG	O
 
 1	O	O
 
-vojvodina	ORG	ORG
+vojvodina	ORG	O
 
 0	O	O
 
@@ -76030,7 +76030,7 @@ vojvodina	ORG	ORG
 
 <s>	O	O
 
-buducnost	ORG	ORG
+buducnost	ORG	O
 
 1	O	O
 
@@ -76106,7 +76106,7 @@ red	ORG	ORG
 
 star	ORG	ORG
 
-4	O	ORG
+4	O	O
 
 4	O	O
 
@@ -76144,13 +76144,13 @@ partizan	ORG	ORG
 
 <s>	O	O
 
-mladost	ORG	PER
+mladost	ORG	O
 
 (	ORG	O
 
-l	ORG	O
+l	ORG	ORG
 
-)	ORG	O
+)	ORG	ORG
 
 4	O	O
 
@@ -76190,7 +76190,7 @@ vojvodina	ORG	ORG
 
 <s>	O	O
 
-becej	ORG	ORG
+becej	ORG	O
 
 4	O	O
 
@@ -76230,7 +76230,7 @@ hajduk	ORG	ORG
 
 <s>	O	O
 
-cukaricki	ORG	ORG
+cukaricki	ORG	O
 
 4	O	O
 
@@ -76270,7 +76270,7 @@ zemun	ORG	ORG
 
 <s>	O	O
 
-rad	ORG	ORG
+rad	ORG	PER
 
 (	ORG	O
 
@@ -76296,7 +76296,7 @@ b	ORG	O
 
 <s>	O	O
 
-buducnost	ORG	ORG
+buducnost	ORG	O
 
 4	O	O
 
@@ -76316,7 +76316,7 @@ buducnost	ORG	ORG
 
 <s>	O	O
 
-proleter	ORG	PER
+proleter	ORG	O
 
 (	ORG	O
 
@@ -76342,7 +76342,7 @@ z	ORG	ORG
 
 <s>	O	O
 
-borac	ORG	ORG
+borac	ORG	O
 
 4	O	O
 
@@ -76372,7 +76372,7 @@ b	O	O
 
 sloboda	ORG	ORG
 
-4	O	O
+4	O	PER
 
 mladost	ORG	O
 
@@ -76390,11 +76390,11 @@ bj	ORG	ORG
 
 buducnost	ORG	PER
 
-(	ORG	O
+(	ORG	ORG
 
-v	ORG	O
+v	ORG	ORG
 
-)	ORG	O
+)	ORG	ORG
 
 0	O	O
 
@@ -76408,7 +76408,7 @@ beograd	ORG	ORG
 
 <s>	O	O
 
-rudar	ORG	ORG
+rudar	ORG	O
 
 0	O	O
 
@@ -76422,9 +76422,9 @@ kikinda	ORG	O
 
 <s>	O	O
 
-obilic	ORG	ORG
+obilic	ORG	O
 
-2	O	O
+2	O	PER
 
 zeleznik	ORG	O
 
@@ -76440,7 +76440,7 @@ b	ORG	O
 
 <s>	O	O
 
-sutjeska	ORG	ORG
+sutjeska	ORG	O
 
 1	O	O
 
@@ -76452,7 +76452,7 @@ loznica	ORG	O
 
 <s>	O	O
 
-radnicki	ORG	PER
+radnicki	ORG	O
 
 (	ORG	O
 
@@ -76490,7 +76490,7 @@ standings	O	O
 
 <s>	O	O
 
-obilic	ORG	ORG
+obilic	ORG	O
 
 4	O	O
 
@@ -76510,7 +76510,7 @@ obilic	ORG	ORG
 
 <s>	O	O
 
-ofk	ORG	ORG
+ofk	ORG	O
 
 kikinda	ORG	O
 
@@ -76532,7 +76532,7 @@ kikinda	ORG	O
 
 <s>	O	O
 
-sutjeska	ORG	ORG
+sutjeska	ORG	O
 
 4	O	O
 
@@ -76552,7 +76552,7 @@ sutjeska	ORG	ORG
 
 <s>	O	O
 
-loznica	ORG	ORG
+loznica	ORG	O
 
 4	O	O
 
@@ -76596,11 +76596,11 @@ beograd	ORG	ORG
 
 buducnost	ORG	PER
 
-(	ORG	O
+(	ORG	ORG
 
-v	ORG	O
+v	ORG	ORG
 
-)	ORG	O
+)	ORG	ORG
 
 4	O	O
 
@@ -76660,13 +76660,13 @@ spartak	ORG	ORG
 
 <s>	O	O
 
-radnicki	ORG	PER
+radnicki	ORG	O
 
 (	ORG	O
 
-n	ORG	O
+n	ORG	ORG
 
-)	ORG	O
+)	ORG	ORG
 
 3	O	O
 
@@ -76686,7 +76686,7 @@ n	ORG	O
 
 <s>	O	O
 
-zeleznik	ORG	PER
+zeleznik	ORG	O
 
 (	ORG	O
 
@@ -76712,7 +76712,7 @@ b	ORG	O
 
 <s>	O	O
 
-rudar	ORG	ORG
+rudar	ORG	O
 
 4	O	O
 
@@ -76732,13 +76732,13 @@ rudar	ORG	ORG
 
 <s>	O	O
 
-mladost	ORG	PER
+mladost	ORG	O
 
 (	ORG	O
 
 bj	ORG	ORG
 
-)	ORG	O
+)	ORG	ORG
 
 4	O	O
 
@@ -76768,13 +76768,13 @@ soccer	O	O
 
 -	O	O
 
-ince	PER	PER
+ince	PER	O
 
 exposed	O	O
 
 by	O	O
 
-gascoigne	PER	O
+gascoigne	PER	PER
 
 's	O	O
 
@@ -76788,7 +76788,7 @@ prank	O	O
 
 <s>	O	O
 
-chisinau	LOC	ORG
+chisinau	LOC	O
 
 ,	O	O
 
@@ -76870,7 +76870,7 @@ moldova	LOC	LOC
 
 <s>	O	O
 
-ince	PER	O
+ince	PER	PER
 
 was	O	O
 
@@ -76888,7 +76888,7 @@ the	O	O
 
 republican	MISC	MISC
 
-stadium	O	O
+stadium	O	LOC
 
 in	O	O
 
@@ -76930,7 +76930,7 @@ clash	O	O
 
 <s>	O	O
 
-gascoigne	PER	O
+gascoigne	PER	PER
 
 ,	O	O
 
@@ -77080,7 +77080,7 @@ basketball	O	O
 
 -	O	O
 
-trofej	MISC	ORG
+trofej	MISC	O
 
 beograd	MISC	O
 
@@ -77108,7 +77108,7 @@ in	O	O
 
 the	O	O
 
-trofej	MISC	ORG
+trofej	MISC	O
 
 beograd	MISC	ORG
 
@@ -77228,7 +77228,7 @@ basketballsoccer	O	O
 
 -	O	O
 
-trofej	MISC	ORG
+trofej	MISC	O
 
 beograd	MISC	O
 
@@ -77256,7 +77256,7 @@ in	O	O
 
 the	O	O
 
-trofej	MISC	ORG
+trofej	MISC	O
 
 beograd	MISC	ORG
 
@@ -77430,7 +77430,7 @@ cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -77460,7 +77460,7 @@ romania	LOC	LOC
 
 -	O	O
 
-viorel	PER	O
+viorel	PER	PER
 
 moldovan	PER	PER
 
@@ -77544,7 +77544,7 @@ qualifier	O	O
 
 <s>	O	O
 
-yerevan	LOC	ORG
+yerevan	LOC	LOC
 
 1996-08-31	O	O
 
@@ -77556,7 +77556,7 @@ armenia	LOC	LOC
 
 and	O	O
 
-portugal	LOC	PER
+portugal	LOC	LOC
 
 drew	O	O
 
@@ -77572,7 +77572,7 @@ cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -77610,7 +77610,7 @@ soccer	O	O
 
 -	O	O
 
-azerbaijan	LOC	PER
+azerbaijan	LOC	LOC
 
 beat	O	O
 
@@ -77630,7 +77630,7 @@ qualifier	O	O
 
 <s>	O	O
 
-baku	LOC	ORG
+baku	LOC	LOC
 
 1996-08-31	O	O
 
@@ -77658,13 +77658,13 @@ in	O	O
 
 their	O	O
 
-world	MISC	O
+world	MISC	MISC
 
 cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -77692,9 +77692,9 @@ scorer	O	O
 
 <s>	O	O
 
-vidadi	PER	ORG
+vidadi	PER	PER
 
-rzayev	PER	O
+rzayev	PER	PER
 
 (	O	O
 
@@ -77786,13 +77786,13 @@ in	O	O
 
 the	O	O
 
-trofej	MISC	ORG
+trofej	MISC	O
 
 beograd	MISC	ORG
 
 96	MISC	O
 
-international	O	O
+international	O	MISC
 
 basketball	O	O
 
@@ -77838,7 +77838,7 @@ qualifier	O	O
 
 <s>	O	O
 
-riga	LOC	ORG
+riga	LOC	LOC
 
 1996-08-31	O	O
 
@@ -77890,9 +77890,9 @@ scorers	O	O
 
 :	O	O
 
-joakim	PER	PER
+joakim	PER	O
 
-persson	PER	O
+persson	PER	PER
 
 81st	O	O
 
@@ -77954,7 +77954,7 @@ qualifier	O	O
 
 <s>	O	O
 
-minsk	LOC	ORG
+minsk	LOC	LOC
 
 1996-08-31	O	O
 
@@ -77988,7 +77988,7 @@ cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -78062,7 +78062,7 @@ qualifier	O	O
 
 <s>	O	O
 
-chisinau	LOC	ORG
+chisinau	LOC	O
 
 1996-08-31	O	O
 
@@ -78100,7 +78100,7 @@ championship	O	O
 
 group	O	O
 
-2	O	ORG
+2	O	O
 
 qualifier	O	O
 
@@ -78424,7 +78424,7 @@ blighted	O	O
 
 by	O	O
 
-fines	O	O
+fines	O	PER
 
 and	O	O
 
@@ -78480,7 +78480,7 @@ that	O	O
 
 <s>	O	O
 
-hill	PER	PER
+hill	PER	ORG
 
 won	O	O
 
@@ -78558,7 +78558,7 @@ mixture	O	O
 
 of	O	O
 
-gamesmanship	O	ORG
+gamesmanship	O	O
 
 and	O	O
 
@@ -78724,7 +78724,7 @@ jansher	O	O
 
 <s>	O	O
 
-jansher	PER	ORG
+jansher	PER	PER
 
 said	O	O
 
@@ -78846,7 +78846,7 @@ the	O	O
 
 professional	ORG	O
 
-squash	ORG	O
+squash	ORG	ORG
 
 association	ORG	O
 
@@ -78916,7 +78916,7 @@ action	O	O
 
 <s>	O	O
 
-jansher	PER	ORG
+jansher	PER	O
 
 ,	O	O
 
@@ -78928,7 +78928,7 @@ an	O	O
 
 eighth	O	O
 
-hong	MISC	LOC
+hong	MISC	MISC
 
 kong	MISC	MISC
 
@@ -78944,7 +78944,7 @@ second-seeded	O	O
 
 australian	MISC	MISC
 
-rodney	PER	O
+rodney	PER	PER
 
 eyles	PER	O
 
@@ -79004,7 +79004,7 @@ scotland	LOC	LOC
 
 <s>	O	O
 
-eyles	PER	ORG
+eyles	PER	PER
 
 ,	O	O
 
@@ -79012,7 +79012,7 @@ who	O	O
 
 defeated	O	O
 
-jansher	PER	PER
+jansher	PER	O
 
 in	O	O
 
@@ -79076,7 +79076,7 @@ nothing	O	O
 
 against	O	O
 
-jansher	PER	PER
+jansher	PER	O
 
 but	O	O
 
@@ -79104,7 +79104,7 @@ him	O	O
 
 said	O	O
 
-eyles	PER	O
+eyles	PER	PER
 
 .	O	O
 
@@ -79180,7 +79180,7 @@ squash	O	O
 
 -	O	O
 
-hong	MISC	LOC
+hong	MISC	MISC
 
 kong	MISC	MISC
 
@@ -79336,7 +79336,7 @@ at	O	O
 
 greater	MISC	O
 
-milwaukee	MISC	MISC
+milwaukee	MISC	LOC
 
 open	MISC	MISC
 
@@ -79346,7 +79346,7 @@ open	MISC	MISC
 
 <s>	O	O
 
-milwaukee	LOC	ORG
+milwaukee	LOC	LOC
 
 ,	O	O
 
@@ -79358,7 +79358,7 @@ wisconsin	LOC	LOC
 
 <s>	O	O
 
-jesper	PER	ORG
+jesper	PER	PER
 
 parnevik	PER	O
 
@@ -79420,7 +79420,7 @@ open	MISC	MISC
 
 <s>	O	O
 
-parnevik	PER	ORG
+parnevik	PER	PER
 
 ,	O	O
 
@@ -79434,9 +79434,9 @@ his	O	O
 
 first	O	O
 
-pga	MISC	O
+pga	MISC	MISC
 
-tour	MISC	O
+tour	MISC	MISC
 
 victory	O	O
 
@@ -79488,9 +79488,9 @@ at	O	O
 
 the	O	O
 
-brown	LOC	PER
+brown	LOC	ORG
 
-deer	LOC	PER
+deer	LOC	ORG
 
 park	LOC	LOC
 
@@ -79510,7 +79510,7 @@ by	O	O
 
 greg	PER	PER
 
-kraft	PER	O
+kraft	PER	PER
 
 .	O	O
 
@@ -79518,7 +79518,7 @@ kraft	PER	O
 
 <s>	O	O
 
-nolan	PER	O
+nolan	PER	PER
 
 henke	PER	PER
 
@@ -79674,9 +79674,9 @@ tournament	O	O
 
 the	O	O
 
-20-year-old	O	O
+20-year-old	O	PER
 
-woods	PER	PER
+woods	PER	ORG
 
 ,	O	O
 
@@ -79700,7 +79700,7 @@ third	O	O
 
 successive	O	O
 
-u.s.	MISC	LOC
+u.s.	MISC	MISC
 
 amateur	MISC	MISC
 
@@ -79742,7 +79742,7 @@ par-four	O	O
 
 ,	O	O
 
-359-yard	O	PER
+359-yard	O	O
 
 ninth	O	O
 
@@ -79786,7 +79786,7 @@ rallied	O	O
 
 for	O	O
 
-birdies	O	ORG
+birdies	O	O
 
 on	O	O
 
@@ -79804,7 +79804,7 @@ and	O	O
 
 after	O	O
 
-parnevik	PER	PER
+parnevik	PER	O
 
 started	O	O
 
@@ -79836,7 +79836,7 @@ second	O	O
 
 the	O	O
 
-swede	MISC	ORG
+swede	MISC	MISC
 
 birdied	O	O
 
@@ -79858,7 +79858,7 @@ holes	O	O
 
 <s>	O	O
 
-parnevik	PER	ORG
+parnevik	PER	PER
 
 continued	O	O
 
@@ -79948,7 +79948,7 @@ well	O	O
 
 said	O	O
 
-parnevik	PER	O
+parnevik	PER	PER
 
 .	O	O
 
@@ -80166,7 +80166,7 @@ today	O	O
 
 said	O	O
 
-henke	PER	O
+henke	PER	PER
 
 .	O	O
 
@@ -80176,7 +80176,7 @@ henke	PER	O
 
 <s>	O	O
 
-jasper	PER	O
+jasper	PER	PER
 
 blew	O	O
 
@@ -80364,9 +80364,9 @@ week	O	O
 
 world	MISC	O
 
-series	MISC	O
+series	MISC	MISC
 
-of	MISC	O
+of	MISC	MISC
 
 golf	MISC	MISC
 
@@ -80424,11 +80424,11 @@ at	O	O
 
 the	O	O
 
-world	MISC	O
+world	MISC	MISC
 
-series	MISC	O
+series	MISC	MISC
 
-of	MISC	O
+of	MISC	MISC
 
 golf	MISC	MISC
 
@@ -80484,7 +80484,7 @@ the	O	O
 
 pga	MISC	MISC
 
-tour	MISC	O
+tour	MISC	MISC
 
 money	O	O
 
@@ -80518,7 +80518,7 @@ spain	LOC	LOC
 
 ,	O	O
 
-u.s.	LOC	LOC
+u.s.	LOC	MISC
 
 teams	O	O
 
@@ -80530,7 +80530,7 @@ road	O	O
 
 for	O	O
 
-1997	MISC	PER
+1997	MISC	O
 
 fed	MISC	O
 
@@ -80600,7 +80600,7 @@ road	O	O
 
 to	O	O
 
-open	O	O
+open	O	MISC
 
 the	O	O
 
@@ -80634,7 +80634,7 @@ at	O	O
 
 the	O	O
 
-u.s.	MISC	MISC
+u.s.	MISC	LOC
 
 open	MISC	MISC
 
@@ -80950,7 +80950,7 @@ austria	LOC	LOC
 
 in	O	O
 
-salzburg	LOC	O
+salzburg	LOC	LOC
 
 3-2	O	O
 
@@ -80980,7 +80980,7 @@ japan	LOC	LOC
 
 in	O	O
 
-nagoya	LOC	O
+nagoya	LOC	LOC
 
 last	O	O
 
@@ -81122,7 +81122,7 @@ win	O	O
 
 "	O	O
 
-king	PER	O
+king	PER	PER
 
 said	O	O
 
@@ -81136,7 +81136,7 @@ seles	PER	PER
 
 's	O	O
 
-sore	O	PER
+sore	O	O
 
 left	O	O
 
@@ -81286,7 +81286,7 @@ would	O	O
 
 be	O	O
 
-seles	PER	PER
+seles	PER	O
 
 ,	O	O
 
@@ -81300,7 +81300,7 @@ lindsay	PER	PER
 
 )	O	O
 
-davenport	PER	ORG
+davenport	PER	O
 
 and	O	O
 
@@ -81362,11 +81362,11 @@ duo	O	O
 
 of	O	O
 
-arantxa	PER	PER
+arantxa	PER	O
 
 sanchez	PER	PER
 
-vicario	PER	PER
+vicario	PER	O
 
 and	O	O
 
@@ -81482,19 +81482,19 @@ u.s.	MISC	MISC
 
 open	MISC	MISC
 
-tennis	MISC	O
+tennis	MISC	MISC
 
-championships	MISC	O
+championships	MISC	MISC
 
 at	O	O
 
 the	O	O
 
-national	LOC	O
+national	LOC	LOC
 
 tennis	LOC	LOC
 
-centre	LOC	LOC
+centre	LOC	O
 
 on	O	O
 
@@ -81688,7 +81688,7 @@ draw	O	O
 
 for	O	O
 
-1997	MISC	PER
+1997	MISC	O
 
 fed	MISC	O
 
@@ -81790,7 +81790,7 @@ march	O	O
 
 united	LOC	LOC
 
-states	LOC	O
+states	LOC	LOC
 
 at	O	O
 
@@ -81856,7 +81856,7 @@ september	O	O
 
 <s>	O	O
 
-world	O	O
+world	O	LOC
 
 group	O	O
 
@@ -81952,7 +81952,7 @@ salvador	LOC	LOC
 
 <s>	O	O
 
-los	LOC	LOC
+los	LOC	ORG
 
 angeles	LOC	LOC
 
@@ -81972,7 +81972,7 @@ beat	O	O
 
 el	LOC	PER
 
-salvador	LOC	LOC
+salvador	LOC	PER
 
 3-1	O	O
 
@@ -82016,7 +82016,7 @@ u.s.	LOC	LOC
 
 -	O	O
 
-joe-max	PER	O
+joe-max	PER	PER
 
 moore	PER	PER
 
@@ -82054,7 +82054,7 @@ wynalda	PER	PER
 
 <s>	O	O
 
-el	LOC	PER
+el	LOC	ORG
 
 salvador	LOC	LOC
 
@@ -82212,7 +82212,7 @@ gb	O	O
 
 new	ORG	LOC
 
-york	ORG	LOC
+york	ORG	ORG
 
 75	O	O
 
@@ -82256,7 +82256,7 @@ boston	ORG	ORG
 
 <s>	O	O
 
-toronto	ORG	LOC
+toronto	ORG	ORG
 
 63	O	O
 
@@ -82310,7 +82310,7 @@ cleveland	ORG	ORG
 
 <s>	O	O
 
-chicago	ORG	LOC
+chicago	ORG	ORG
 
 72	O	O
 
@@ -82452,7 +82452,7 @@ schedule	O	O
 
 <s>	O	O
 
-kansas	ORG	ORG
+kansas	ORG	LOC
 
 city	ORG	ORG
 
@@ -82508,7 +82508,7 @@ boston	ORG	ORG
 
 at	O	O
 
-oakland	LOC	ORG
+oakland	LOC	LOC
 
 </s>	O	O
 
@@ -82516,7 +82516,7 @@ oakland	LOC	ORG
 
 new	ORG	LOC
 
-york	ORG	LOC
+york	ORG	ORG
 
 at	O	O
 
@@ -82554,7 +82554,7 @@ gb	O	O
 
 <s>	O	O
 
-atlanta	ORG	LOC
+atlanta	ORG	ORG
 
 84	O	O
 
@@ -82602,7 +82602,7 @@ florida	ORG	ORG
 
 new	ORG	LOC
 
-york	ORG	LOC
+york	ORG	ORG
 
 59	O	O
 
@@ -82674,7 +82674,7 @@ louis	ORG	ORG
 
 <s>	O	O
 
-chicago	ORG	LOC
+chicago	ORG	ORG
 
 66	O	O
 
@@ -82742,9 +82742,9 @@ diego	ORG	ORG
 
 <s>	O	O
 
-los	ORG	LOC
+los	ORG	ORG
 
-angeles	ORG	LOC
+angeles	ORG	ORG
 
 73	O	O
 
@@ -82846,7 +82846,7 @@ cincinnati	LOC	LOC
 
 <s>	O	O
 
-los	ORG	LOC
+los	ORG	ORG
 
 angeles	ORG	ORG
 
@@ -82874,7 +82874,7 @@ colorado	ORG	ORG
 
 at	O	O
 
-st	LOC	ORG
+st	LOC	LOC
 
 louis	LOC	LOC
 
@@ -82978,7 +82978,7 @@ city	ORG	ORG
 
 <s>	O	O
 
-chicago	ORG	LOC
+chicago	ORG	ORG
 
 11	O	O
 
@@ -83068,7 +83068,7 @@ league	MISC	MISC
 
 <s>	O	O
 
-chicago	ORG	LOC
+chicago	ORG	ORG
 
 3	O	O
 
@@ -83088,7 +83088,7 @@ game	O	O
 
 <s>	O	O
 
-atlanta	ORG	LOC
+atlanta	ORG	ORG
 
 6	O	O
 
@@ -83134,9 +83134,9 @@ montreal	ORG	ORG
 
 <s>	O	O
 
-los	ORG	LOC
+los	ORG	ORG
 
-angeles	ORG	LOC
+angeles	ORG	ORG
 
 7	O	O
 
@@ -83174,7 +83174,7 @@ francisco	ORG	ORG
 
 6	O	O
 
-new	ORG	LOC
+new	ORG	ORG
 
 york	ORG	LOC
 
@@ -83214,7 +83214,7 @@ brown	PER	PER
 
 lowers	O	O
 
-era	MISC	O
+era	MISC	ORG
 
 as	O	O
 
@@ -83230,7 +83230,7 @@ reds	ORG	ORG
 
 <s>	O	O
 
-cincinnati	LOC	ORG
+cincinnati	LOC	LOC
 
 1996-08-31	O	O
 
@@ -83264,7 +83264,7 @@ white	PER	PER
 
 's	O	O
 
-rbi	MISC	MISC
+rbi	MISC	O
 
 double	O	O
 
@@ -83316,7 +83316,7 @@ brown	PER	PER
 
 (	O	O
 
-14-10	O	O
+14-10	O	PER
 
 )	O	O
 
@@ -83324,7 +83324,7 @@ tied	O	O
 
 todd	PER	PER
 
-stottlemyre	PER	PER
+stottlemyre	PER	O
 
 of	O	O
 
@@ -83336,7 +83336,7 @@ for	O	O
 
 the	O	O
 
-national	MISC	O
+national	MISC	MISC
 
 league	MISC	MISC
 
@@ -83728,7 +83728,7 @@ i	O	O
 
 remember	O	O
 
-nolan	PER	PER
+nolan	PER	O
 
 ryan	PER	PER
 
@@ -83780,7 +83780,7 @@ saw	O	O
 
 (	PER	O
 
-tom	PER	PER
+tom	PER	O
 
 )	PER	O
 
@@ -83820,7 +83820,7 @@ philadelphia	LOC	LOC
 
 delino	PER	PER
 
-deshields	PER	ORG
+deshields	PER	PER
 
 's	O	O
 
@@ -83846,7 +83846,7 @@ parrett	PER	PER
 
 (	O	O
 
-2-3	O	O
+2-3	O	PER
 
 )	O	O
 
@@ -83888,9 +83888,9 @@ phillies	ORG	ORG
 
 <s>	O	O
 
-los	ORG	LOC
+los	ORG	ORG
 
-angeles	ORG	ORG
+angeles	ORG	LOC
 
 won	O	O
 
@@ -84044,7 +84044,7 @@ homer	O	O
 
 for	O	O
 
-los	ORG	ORG
+los	ORG	LOC
 
 angeles	ORG	LOC
 
@@ -84090,7 +84090,7 @@ game	O	O
 
 ,	O	O
 
-ryne	PER	PER
+ryne	PER	O
 
 sandberg	PER	O
 
@@ -84158,7 +84158,7 @@ win	O	O
 
 <s>	O	O
 
-foster	PER	ORG
+foster	PER	PER
 
 ,	O	O
 
@@ -84294,7 +84294,7 @@ shortstop	O	O
 
 jose	PER	PER
 
-hernandez	PER	PER
+hernandez	PER	O
 
 committed	O	O
 
@@ -84548,7 +84548,7 @@ right-hander	O	O
 
 retired	O	O
 
-14	O	O
+14	O	PER
 
 batters	O	O
 
@@ -84586,7 +84586,7 @@ allowed	O	O
 
 one	O	O
 
-montreal	LOC	MISC
+montreal	LOC	ORG
 
 hit	O	O
 
@@ -84602,7 +84602,7 @@ ninth	O	O
 
 <s>	O	O
 
-montreal	LOC	ORG
+montreal	LOC	LOC
 
 lost	O	O
 
@@ -84636,7 +84636,7 @@ york	LOC	LOC
 
 marvin	PER	PER
 
-benard	PER	ORG
+benard	PER	PER
 
 's	O	O
 
@@ -84652,9 +84652,9 @@ tie	O	O
 
 and	O	O
 
-shawn	PER	O
+shawn	PER	PER
 
-estes	PER	O
+estes	PER	PER
 
 came	O	O
 
@@ -84698,11 +84698,11 @@ mets	ORG	ORG
 
 <s>	O	O
 
-benard	PER	ORG
+benard	PER	O
 
 ,	O	O
 
-hitting	O	O
+hitting	O	PER
 
 .467	O	O
 
@@ -84764,7 +84764,7 @@ put	O	O
 
 the	O	O
 
-giants	ORG	O
+giants	ORG	ORG
 
 up	O	O
 
@@ -84822,7 +84822,7 @@ ninth	O	O
 
 <s>	O	O
 
-beck	PER	O
+beck	PER	PER
 
 allowed	O	O
 
@@ -84836,7 +84836,7 @@ to	O	O
 
 alvaro	PER	O
 
-espinoza	PER	O
+espinoza	PER	PER
 
 ,	O	O
 
@@ -84928,7 +84928,7 @@ manager	O	O
 
 bobby	PER	PER
 
-valentine	PER	O
+valentine	PER	PER
 
 .	O	O
 
@@ -84938,7 +84938,7 @@ valentine	PER	O
 
 in	O	O
 
-st	LOC	ORG
+st	LOC	LOC
 
 louis	LOC	LOC
 
@@ -85152,7 +85152,7 @@ for	O	O
 
 the	O	O
 
-rockies	ORG	O
+rockies	ORG	ORG
 
 .	O	O
 
@@ -85258,7 +85258,7 @@ game	O	O
 
 <s>	O	O
 
-wall	PER	LOC
+wall	PER	PER
 
 (	O	O
 
@@ -85390,9 +85390,9 @@ and	O	O
 
 last	O	O
 
-u.s.	MISC	MISC
+u.s.	MISC	LOC
 
-open	MISC	O
+open	MISC	MISC
 
 when	O	O
 
@@ -85450,7 +85450,7 @@ former	O	O
 
 two-time	O	O
 
-open	MISC	O
+open	MISC	MISC
 
 champion	O	O
 
@@ -85518,11 +85518,11 @@ at	O	O
 
 the	O	O
 
-national	LOC	O
+national	LOC	LOC
 
 tennis	LOC	LOC
 
-centre	LOC	O
+centre	LOC	LOC
 
 .	O	O
 
@@ -85582,7 +85582,7 @@ his	O	O
 
 last	O	O
 
-grand	MISC	O
+grand	MISC	MISC
 
 slam	MISC	MISC
 
@@ -85632,9 +85632,9 @@ lendl	PER	PER
 
 's	O	O
 
-grand	MISC	O
+grand	MISC	MISC
 
-slam	MISC	O
+slam	MISC	MISC
 
 career	O	O
 
@@ -85708,7 +85708,7 @@ surprised	O	O
 
 by	O	O
 
-karbacher	PER	ORG
+karbacher	PER	PER
 
 's	O	O
 
@@ -85820,7 +85820,7 @@ conditions	O	O
 
 while	O	O
 
-karbacher	PER	PER
+karbacher	PER	O
 
 was	O	O
 
@@ -85832,7 +85832,7 @@ shots	O	O
 
 and	O	O
 
-blasting	O	ORG
+blasting	O	O
 
 serves	O	O
 
@@ -86228,7 +86228,7 @@ match	O	O
 
 against	O	O
 
-krajicek	PER	ORG
+krajicek	PER	PER
 
 's	O	O
 
@@ -86466,7 +86466,7 @@ britain	LOC	LOC
 
 's	O	O
 
-naseem	PER	O
+naseem	PER	PER
 
 hamed	PER	O
 
@@ -86492,7 +86492,7 @@ mexico	LOC	LOC
 
 manuel	PER	PER
 
-medina	PER	O
+medina	PER	PER
 
 was	O	O
 
@@ -86576,7 +86576,7 @@ dominated	O	O
 
 their	O	O
 
-world	MISC	O
+world	MISC	MISC
 
 cup	MISC	MISC
 
@@ -86710,7 +86710,7 @@ minute	O	O
 
 with	O	O
 
-stephan	PER	O
+stephan	PER	PER
 
 marasek	PER	O
 
@@ -86718,7 +86718,7 @@ of	O	O
 
 sc	ORG	ORG
 
-freiburg	ORG	O
+freiburg	ORG	ORG
 
 taking	O	O
 
@@ -86752,7 +86752,7 @@ passing	O	O
 
 the	O	O
 
-left-hand	O	ORG
+left-hand	O	O
 
 post	O	O
 
@@ -86902,7 +86902,7 @@ down	O	O
 
 andreas	PER	PER
 
-heraf	PER	PER
+heraf	PER	O
 
 and	O	O
 
@@ -87224,7 +87224,7 @@ konsel	PER	PER
 
 markus	PER	PER
 
-schopp	PER	PER
+schopp	PER	O
 
 ,	O	O
 
@@ -87242,7 +87242,7 @@ pfeffer	PER	O
 
 wolfgang	PER	PER
 
-feiersinger	PER	PER
+feiersinger	PER	O
 
 ,	O	O
 
@@ -87300,7 +87300,7 @@ herzog	PER	PER
 
 andreas	PER	PER
 
-heraf	PER	PER
+heraf	PER	O
 
 .	O	O
 
@@ -87338,7 +87338,7 @@ calderwood	PER	O
 
 colin	PER	PER
 
-hendry	PER	O
+hendry	PER	PER
 
 ,	O	O
 
@@ -87356,13 +87356,13 @@ ferguson	PER	PER
 
 stuart	PER	PER
 
-mccall	PER	O
+mccall	PER	PER
 
 ,	O	O
 
 alistair	PER	PER
 
-mccoist	PER	PER
+mccoist	PER	O
 
 (	O	O
 
@@ -87426,13 +87426,13 @@ dublin	LOC	LOC
 
 <s>	O	O
 
-american	MISC	ORG
+american	MISC	MISC
 
 tom	PER	PER
 
 johnson	PER	PER
 
-successfully	O	PER
+successfully	O	O
 
 defended	O	O
 
@@ -87528,11 +87528,11 @@ absentee	O	O
 
 nicolas	PER	PER
 
-ouedec	PER	PER
+ouedec	PER	O
 
 and	O	O
 
-youri	PER	O
+youri	PER	PER
 
 djorkaeff	PER	PER
 
@@ -87652,7 +87652,7 @@ central	O	O
 
 defender	O	O
 
-franck	PER	PER
+franck	PER	O
 
 leboeuf	PER	O
 
@@ -87688,7 +87688,7 @@ offence	O	O
 
 ,	O	O
 
-fouling	O	PER
+fouling	O	O
 
 mexican	MISC	MISC
 
@@ -87858,7 +87858,7 @@ fell	O	O
 
 for	O	O
 
-ouedec	PER	ORG
+ouedec	PER	O
 
 ,	O	O
 
@@ -87876,7 +87876,7 @@ barcelona	LOC	ORG
 
 from	O	O
 
-nantes	ORG	ORG
+nantes	ORG	LOC
 
 since	O	O
 
@@ -87912,7 +87912,7 @@ midfielder	O	O
 
 joaquin	PER	PER
 
-del	PER	ORG
+del	PER	PER
 
 olmo	PER	O
 
@@ -87940,7 +87940,7 @@ compliment	O	O
 
 for	O	O
 
-djorkaeff	PER	ORG
+djorkaeff	PER	O
 
 ,	O	O
 
@@ -87956,7 +87956,7 @@ the	O	O
 
 internazionale	ORG	ORG
 
-milan	ORG	LOC
+milan	ORG	ORG
 
 forward	O	O
 
@@ -87998,7 +87998,7 @@ sanchez	PER	PER
 
 <s>	O	O
 
-jacquet	PER	LOC
+jacquet	PER	PER
 
 ,	O	O
 
@@ -88094,7 +88094,7 @@ france	LOC	LOC
 
 bernard	PER	PER
 
-lama	PER	O
+lama	PER	PER
 
 ;	O	O
 
@@ -88128,7 +88128,7 @@ lamouchi	PER	O
 
 laurent	PER	PER
 
-blanc	PER	O
+blanc	PER	PER
 
 ,	O	O
 
@@ -88180,9 +88180,9 @@ karembeu	PER	PER
 
 -	O	O
 
-didier	PER	O
+didier	PER	PER
 
-deschamps	PER	O
+deschamps	PER	PER
 
 ,	O	O
 
@@ -88190,7 +88190,7 @@ deschamps	PER	O
 
 -	O	O
 
-youri	PER	O
+youri	PER	PER
 
 djorkaeff	PER	O
 
@@ -88200,9 +88200,9 @@ djorkaeff	PER	O
 
 -	O	O
 
-reynald	PER	O
+reynald	PER	PER
 
-pedros	PER	O
+pedros	PER	PER
 
 (	O	O
 
@@ -88236,7 +88236,7 @@ ouedec	PER	PER
 
 florian	PER	PER
 
-maurice	PER	O
+maurice	PER	PER
 
 64th	O	O
 
@@ -88304,7 +88304,7 @@ rios	PER	PER
 
 pavel	PER	PER
 
-pardo	PER	O
+pardo	PER	PER
 
 ,	O	O
 
@@ -88322,9 +88322,9 @@ suarez	PER	PER
 
 -	O	O
 
-duilio	PER	O
+duilio	PER	PER
 
-davino	PER	O
+davino	PER	PER
 
 (	O	O
 
@@ -88350,7 +88350,7 @@ villa	PER	PER
 
 -	O	O
 
-gomez	PER	PER
+gomez	PER	O
 
 86th	O	O
 
@@ -88364,7 +88364,7 @@ gomez	PER	PER
 
 joaquin	PER	PER
 
-del	PER	ORG
+del	PER	PER
 
 olmo	PER	O
 
@@ -88386,7 +88386,7 @@ lara	PER	PER
 
 -	O	O
 
-cuauhtemoc	PER	PER
+cuauhtemoc	PER	O
 
 blanco	PER	PER
 
@@ -88576,7 +88576,7 @@ minute	O	O
 
 youri	PER	PER
 
-djorkaeff	PER	O
+djorkaeff	PER	PER
 
 (	O	O
 
@@ -88628,7 +88628,7 @@ trouble	O	O
 
 <s>	O	O
 
-bert	PER	ORG
+bert	PER	LOC
 
 lauwers	PER	O
 
@@ -88800,7 +88800,7 @@ hand	O	O
 
 by	O	O
 
-second-half	O	O
+second-half	O	PER
 
 substitute	O	O
 
@@ -88842,7 +88842,7 @@ filip	PER	PER
 
 de	PER	PER
 
-wilde	PER	ORG
+wilde	PER	PER
 
 .	O	O
 
@@ -88988,7 +88988,7 @@ by	O	O
 
 defender	O	O
 
-dirk	PER	PER
+dirk	PER	O
 
 medved	PER	O
 
@@ -89034,7 +89034,7 @@ goalkeeper	O	O
 
 rustu	PER	O
 
-recber	PER	O
+recber	PER	PER
 
 from	O	O
 
@@ -89094,13 +89094,13 @@ shot	O	O
 
 by	O	O
 
-ogun	PER	ORG
+ogun	PER	O
 
 temizkanoglu	PER	O
 
 which	O	O
 
-de	PER	ORG
+de	PER	O
 
 wilde	PER	PER
 
@@ -89302,7 +89302,7 @@ hard	O	O
 
 arif	PER	O
 
-erdem	PER	PER
+erdem	PER	O
 
 shot	O	O
 
@@ -89372,7 +89372,7 @@ range	O	O
 
 with	O	O
 
-recber	PER	PER
+recber	PER	O
 
 beaten	O	O
 
@@ -89402,7 +89402,7 @@ filip	PER	PER
 
 de	PER	PER
 
-wilde	PER	ORG
+wilde	PER	PER
 
 ,	O	O
 
@@ -89422,7 +89422,7 @@ crasson	PER	O
 
 dirk	PER	PER
 
-medved	PER	O
+medved	PER	PER
 
 ,	O	O
 
@@ -89500,7 +89500,7 @@ verheyen	PER	PER
 
 frederic	PER	PER
 
-peiremans	PER	PER
+peiremans	PER	O
 
 ,	O	O
 
@@ -89530,7 +89530,7 @@ nilis	PER	PER
 
 ,	O	O
 
-11-	O	PER
+11-	O	O
 
 luis	PER	PER
 
@@ -89544,7 +89544,7 @@ oliveira	PER	PER
 
 gilles	PER	PER
 
-de	PER	ORG
+de	PER	PER
 
 bilde	PER	PER
 
@@ -89568,7 +89568,7 @@ turkey	LOC	LOC
 
 -	O	O
 
-rustu	PER	O
+rustu	PER	PER
 
 recber	PER	O
 
@@ -89578,9 +89578,9 @@ recber	PER	O
 
 -	O	O
 
-hakan	PER	O
+hakan	PER	PER
 
-unsal	PER	O
+unsal	PER	PER
 
 (	O	O
 
@@ -89588,7 +89588,7 @@ unsal	PER	O
 
 -	O	O
 
-sergen	PER	O
+sergen	PER	PER
 
 yalcin	PER	O
 
@@ -89604,7 +89604,7 @@ yalcin	PER	O
 
 -	O	O
 
-recep	PER	O
+recep	PER	PER
 
 cetin	PER	O
 
@@ -89624,13 +89624,13 @@ temizkanoglu	PER	O
 
 -	O	O
 
-alpay	PER	O
+alpay	PER	PER
 
 ozalan	PER	O
 
 ,	O	O
 
-7-	O	PER
+7-	O	O
 
 abdullah	PER	PER
 
@@ -89642,7 +89642,7 @@ ercan	PER	O
 
 -	O	O
 
-tolunay	PER	O
+tolunay	PER	PER
 
 kafkas	PER	O
 
@@ -89652,9 +89652,9 @@ kafkas	PER	O
 
 -	O	O
 
-oguz	PER	O
+oguz	PER	PER
 
-cetin	PER	O
+cetin	PER	PER
 
 (	O	O
 
@@ -89678,7 +89678,7 @@ erdem	PER	O
 
 -	O	O
 
-tayfun	PER	O
+tayfun	PER	PER
 
 korkut	PER	O
 
@@ -89688,7 +89688,7 @@ korkut	PER	O
 
 -	O	O
 
-hakan	PER	O
+hakan	PER	PER
 
 sukur	PER	O
 
@@ -89698,15 +89698,15 @@ sukur	PER	O
 
 -	O	O
 
-saffet	PER	O
+saffet	PER	PER
 
-sancakli	PER	O
+sancakli	PER	PER
 
 (	O	O
 
 17-	O	O
 
-orhan	PER	O
+orhan	PER	PER
 
 cikirikci	PER	O
 
@@ -89742,7 +89742,7 @@ not	O	O
 
 expected	O	O
 
-turkey	LOC	LOC
+turkey	LOC	O
 
 to	O	O
 
@@ -89938,7 +89938,7 @@ coruna	ORG	O
 
 (	O	O
 
-corentine	PER	O
+corentine	PER	PER
 
 martins	PER	O
 
@@ -89950,9 +89950,9 @@ minute	O	O
 
 )	O	O
 
-real	ORG	ORG
+real	ORG	O
 
-madrid	ORG	LOC
+madrid	ORG	ORG
 
 1	O	O
 
@@ -90066,7 +90066,7 @@ coruna	ORG	O
 
 real	ORG	ORG
 
-madrid	ORG	LOC
+madrid	ORG	ORG
 
 1	O	O
 
@@ -90206,9 +90206,9 @@ turkey	LOC	LOC
 
 -	O	O
 
-sergen	PER	O
+sergen	PER	PER
 
-yalcin	PER	O
+yalcin	PER	PER
 
 (	O	O
 
@@ -90292,7 +90292,7 @@ cup	MISC	MISC
 
 soccer	O	O
 
-european	MISC	ORG
+european	MISC	MISC
 
 group	O	O
 
@@ -90448,7 +90448,7 @@ of	O	O
 
 24	O	O
 
-knock-out	O	PER
+knock-out	O	O
 
 wins	O	O
 
@@ -90516,7 +90516,7 @@ head	O	O
 
 <s>	O	O
 
-heath	PER	ORG
+heath	PER	PER
 
 did	O	O
 
@@ -90764,7 +90764,7 @@ minute	O	O
 
 van	PER	PER
 
-gastel	PER	O
+gastel	PER	PER
 
 </s>	O	O
 
@@ -90852,7 +90852,7 @@ nate	PER	PER
 
 miller	PER	PER
 
-successfully	O	PER
+successfully	O	O
 
 defended	O	O
 
@@ -90950,7 +90950,7 @@ breeders	MISC	O
 
 <s>	O	O
 
-stakes	MISC	LOC
+stakes	MISC	PER
 
 ,	O	O
 
@@ -90960,7 +90960,7 @@ race	O	O
 
 for	O	O
 
-two-year-olds	O	ORG
+two-year-olds	O	PER
 
 run	O	O
 
@@ -91004,9 +91004,9 @@ miss	PER	PER
 
 stamper	PER	PER
 
-3-1	O	O
+3-1	O	PER
 
-joint-favourite	O	PER
+joint-favourite	O	O
 
 (	O	O
 
@@ -91026,11 +91026,11 @@ harrison	PER	PER
 
 2.	O	O
 
-paddy	PER	O
+paddy	PER	PER
 
 lad	PER	PER
 
-16-1	O	PER
+16-1	O	O
 
 (	O	O
 
@@ -91046,13 +91046,13 @@ bloomfield	PER	PER
 
 3.	O	O
 
-pelham	PER	O
+pelham	PER	PER
 
-10-1	O	O
+10-1	O	PER
 
 (	O	O
 
-warren	PER	PER
+warren	PER	O
 
 o'connor	PER	O
 
@@ -91092,9 +91092,9 @@ john	PER	PER
 
 and	O	O
 
-beryll	PER	O
+beryll	PER	PER
 
-remblance	PER	O
+remblance	PER	PER
 
 and	O	O
 
@@ -91222,7 +91222,7 @@ france	LOC	LOC
 
 for	O	O
 
-myself	O	O
+myself	O	PER
 
 ,	O	O
 
@@ -91298,7 +91298,7 @@ saturday	O	O
 
 <s>	O	O
 
-klinsmann	PER	ORG
+klinsmann	PER	PER
 
 said	O	O
 
@@ -91336,7 +91336,7 @@ the	O	O
 
 european	MISC	MISC
 
-championship	O	O
+championship	O	MISC
 
 in	O	O
 
@@ -91680,7 +91680,7 @@ halftime	O	O
 
 )	O	O
 
-lithuania	LOC	LOC
+lithuania	LOC	O
 
 in	O	O
 
@@ -91716,7 +91716,7 @@ romania	LOC	LOC
 
 -	O	O
 
-cosmin	PER	O
+cosmin	PER	PER
 
 contra	PER	PER
 
@@ -91746,9 +91746,9 @@ lithuania	LOC	LOC
 
 -	O	O
 
-danius	PER	O
+danius	PER	PER
 
-gleveckas	PER	O
+gleveckas	PER	PER
 
 (	O	O
 
@@ -91848,7 +91848,7 @@ minister	O	O
 
 in	O	O
 
-1984	O	O
+1984	O	PER
 
 that	O	O
 
@@ -91886,7 +91886,7 @@ telegraph	ORG	O
 
 quoted	O	O
 
-majorie	PER	PER
+majorie	PER	O
 
 orr	PER	O
 
@@ -91930,7 +91930,7 @@ in	O	O
 
 the	O	O
 
-irish	MISC	ORG
+irish	MISC	MISC
 
 guerrilla	O	O
 
@@ -91948,7 +91948,7 @@ the	O	O
 
 conservative	ORG	O
 
-party	ORG	O
+party	ORG	ORG
 
 conference	O	O
 
@@ -91972,7 +91972,7 @@ orr	PER	PER
 
 said	O	O
 
-thatcher	PER	O
+thatcher	PER	PER
 
 's	O	O
 
@@ -92132,7 +92132,7 @@ moves	O	O
 
 <s>	O	O
 
-ingram	PER	O
+ingram	PER	PER
 
 was	O	O
 
@@ -92150,7 +92150,7 @@ he	O	O
 
 thought	O	O
 
-astrology	O	PER
+astrology	O	MISC
 
 was	O	O
 
@@ -92192,11 +92192,11 @@ watch	O	O
 
 on	O	O
 
-thatcher	PER	O
+thatcher	PER	PER
 
 's	O	O
 
-stars	O	O
+stars	O	MISC
 
 .	O	O
 
@@ -92204,7 +92204,7 @@ stars	O	O
 
 <s>	O	O
 
-thatcher	PER	O
+thatcher	PER	PER
 
 ,	O	O
 
@@ -92214,7 +92214,7 @@ the	O	O
 
 "	O	O
 
-iron	PER	O
+iron	PER	MISC
 
 lady	PER	O
 
@@ -92252,7 +92252,7 @@ in	O	O
 
 the	O	O
 
-occult	O	ORG
+occult	O	MISC
 
 and	O	O
 
@@ -92294,7 +92294,7 @@ wife	O	O
 
 ,	O	O
 
-nancy	PER	LOC
+nancy	PER	PER
 
 ,	O	O
 
@@ -92416,7 +92416,7 @@ history	O	O
 
 -	O	O
 
-queen	O	ORG
+queen	O	PER
 
 elizabeth	PER	PER
 
@@ -92508,7 +92508,7 @@ and	O	O
 
 the	O	O
 
-arts	O	ORG
+arts	O	O
 
 .	O	O
 
@@ -92516,7 +92516,7 @@ arts	O	ORG
 
 <s>	O	O
 
-1706	O	O
+1706	O	PER
 
 -	O	O
 
@@ -92526,13 +92526,13 @@ troops	O	O
 
 under	O	O
 
-duke	O	O
+duke	O	PER
 
 of	O	O
 
 orleans	LOC	O
 
-besieging	O	O
+besieging	O	PER
 
 turin	LOC	PER
 
@@ -92548,7 +92548,7 @@ austrians	MISC	O
 
 under	O	O
 
-prince	O	O
+prince	O	PER
 
 eugene	ORG	PER
 
@@ -92592,11 +92592,11 @@ italy	LOC	LOC
 
 the	O	O
 
-treaty	MISC	O
+treaty	MISC	ORG
 
 of	MISC	O
 
-baden	MISC	O
+baden	MISC	PER
 
 was	O	O
 
@@ -92610,7 +92610,7 @@ holy	O	O
 
 roman	MISC	MISC
 
-emperor	O	O
+emperor	O	MISC
 
 charles	PER	PER
 
@@ -92666,7 +92666,7 @@ kehl	LOC	O
 
 and	O	O
 
-freiburg	LOC	ORG
+freiburg	LOC	LOC
 
 .	O	O
 
@@ -92686,7 +92686,7 @@ under	O	O
 
 general	O	O
 
-kutuzov	PER	O
+kutuzov	PER	PER
 
 was	O	O
 
@@ -92708,15 +92708,15 @@ the	O	O
 
 battle	O	O
 
-of	O	O
+of	O	ORG
 
-borodino	LOC	ORG
+borodino	LOC	O
 
 70	O	O
 
 miles	O	O
 
-west	O	O
+west	O	LOC
 
 of	O	O
 
@@ -92830,7 +92830,7 @@ to	O	O
 
 the	O	O
 
-transvaal	LOC	O
+transvaal	LOC	ORG
 
 .	O	O
 
@@ -92848,7 +92848,7 @@ the	O	O
 
 house	ORG	O
 
-of	ORG	O
+of	ORG	ORG
 
 lords	ORG	O
 
@@ -92886,11 +92886,11 @@ strike	O	O
 
 <s>	O	O
 
-1860	O	ORG
+1860	O	LOC
 
 -	O	O
 
-giuseppe	PER	PER
+giuseppe	PER	O
 
 garibaldi	PER	O
 
@@ -92900,9 +92900,9 @@ his	O	O
 
 "	O	O
 
-red	MISC	ORG
+red	MISC	O
 
-shirts	MISC	O
+shirts	MISC	MISC
 
 "	O	O
 
@@ -92916,7 +92916,7 @@ the	O	O
 
 italian	MISC	MISC
 
-war	O	O
+war	O	MISC
 
 of	O	O
 
@@ -92946,7 +92946,7 @@ china	LOC	LOC
 
 the	O	O
 
-boxer	MISC	O
+boxer	MISC	MISC
 
 rising	MISC	O
 
@@ -93026,15 +93026,15 @@ crimes	O	O
 
 -	O	O
 
-elia	PER	O
+elia	PER	PER
 
-kazan	PER	O
+kazan	PER	PER
 
 born	O	O
 
 as	O	O
 
-elia	PER	O
+elia	PER	PER
 
 kazanjoglus	PER	O
 
@@ -93178,7 +93178,7 @@ and	O	O
 
 as	O	O
 
-cardinal	O	O
+cardinal	O	PER
 
 wolsey	PER	O
 
@@ -93228,7 +93228,7 @@ born	O	O
 
 u.s.	LOC	LOC
 
-physicist	O	MISC
+physicist	O	O
 
 who	O	O
 
@@ -93276,7 +93276,7 @@ belgian	MISC	MISC
 
 king	O	O
 
-baudouin	PER	O
+baudouin	PER	PER
 
 i	PER	O
 
@@ -93330,9 +93330,9 @@ iii	PER	PER
 
 in	O	O
 
-world	MISC	O
+world	MISC	MISC
 
-war	MISC	O
+war	MISC	MISC
 
 two	MISC	O
 
@@ -93344,7 +93344,7 @@ airforce	O	O
 
 under	O	O
 
-hermann	PER	O
+hermann	PER	PER
 
 goering	PER	PER
 
@@ -93400,9 +93400,9 @@ alone	O	O
 
 -	O	O
 
-scottish	MISC	ORG
+scottish	MISC	MISC
 
-motor	O	O
+motor	O	ORG
 
 racing	O	O
 
@@ -93600,7 +93600,7 @@ to	O	O
 
 save	O	O
 
-food	O	ORG
+food	O	O
 
 in	O	O
 
@@ -93676,7 +93676,7 @@ which	O	O
 
 shaped	O	O
 
-modern	O	ORG
+modern	O	O
 
 europe	LOC	LOC
 
@@ -93752,7 +93752,7 @@ armenia	LOC	LOC
 
 and	O	O
 
-tajikistan	LOC	LOC
+tajikistan	LOC	PER
 
 ,	O	O
 
@@ -93792,11 +93792,11 @@ currency	O	O
 
 the	O	O
 
-stars	MISC	O
+stars	MISC	MISC
 
 and	MISC	O
 
-stripes	MISC	ORG
+stripes	MISC	PER
 
 flag	O	O
 
@@ -93816,7 +93816,7 @@ over	O	O
 
 u.s.	LOC	LOC
 
-army	O	O
+army	O	ORG
 
 headquarters	O	O
 
@@ -93840,7 +93840,7 @@ in	O	O
 
 the	O	O
 
-once-divided	O	ORG
+once-divided	O	O
 
 city	O	O
 
@@ -93946,9 +93946,9 @@ said	O	O
 
 <s>	O	O
 
-trevor	PER	O
+trevor	PER	PER
 
-holland	PER	O
+holland	PER	PER
 
 ,	O	O
 
@@ -94124,9 +94124,9 @@ and	O	O
 
 theme	O	ORG
 
-park	O	ORG
+park	O	LOC
 
-south	O	LOC
+south	O	ORG
 
 of	O	O
 
@@ -94138,7 +94138,7 @@ london	LOC	LOC
 
 <s>	O	O
 
-holland	PER	O
+holland	PER	PER
 
 was	O	O
 
@@ -94266,11 +94266,11 @@ problem	O	O
 
 <s>	O	O
 
-scottish	ORG	MISC
+scottish	ORG	ORG
 
 labour	ORG	ORG
 
-party	ORG	O
+party	ORG	ORG
 
 narrowly	O	O
 
@@ -94296,11 +94296,11 @@ scotland	LOC	LOC
 
 <s>	O	O
 
-british	ORG	MISC
+british	ORG	ORG
 
 labour	ORG	ORG
 
-party	ORG	O
+party	ORG	ORG
 
 leader	O	O
 
@@ -94328,7 +94328,7 @@ party	O	O
 
 's	O	O
 
-scottish	MISC	ORG
+scottish	MISC	MISC
 
 executive	O	O
 
@@ -94568,7 +94568,7 @@ minister	O	O
 
 john	PER	PER
 
-major	PER	MISC
+major	PER	PER
 
 says	O	O
 
@@ -94606,7 +94606,7 @@ his	O	O
 
 conservative	ORG	O
 
-party	ORG	O
+party	ORG	ORG
 
 's	O	O
 
@@ -94674,7 +94674,7 @@ scottish	ORG	ORG
 
 national	ORG	ORG
 
-party	ORG	O
+party	ORG	ORG
 
 .	O	O
 
@@ -94698,7 +94698,7 @@ involvement	O	O
 
 in	O	O
 
-arbil	LOC	LOC
+arbil	LOC	MISC
 
 attack	O	O
 
@@ -94722,7 +94722,7 @@ on	O	O
 
 saturday	O	O
 
-condemned	O	O
+condemned	O	MISC
 
 iraqi	MISC	MISC
 
@@ -94892,7 +94892,7 @@ fighting	O	O
 
 <s>	O	O
 
-arbil	LOC	LOC
+arbil	LOC	PER
 
 lies	O	O
 
@@ -94904,7 +94904,7 @@ so-called	O	O
 
 safe	O	O
 
-haven	O	LOC
+haven	O	O
 
 set	O	O
 
@@ -94924,7 +94924,7 @@ the	O	O
 
 gulf	MISC	MISC
 
-war	MISC	O
+war	MISC	MISC
 
 on	O	O
 
@@ -95248,7 +95248,7 @@ taking	O	O
 
 over	O	O
 
-flight	MISC	MISC
+flight	MISC	O
 
 150	MISC	O
 
@@ -95518,7 +95518,7 @@ advance	O	O
 
 in	O	O
 
-north	O	LOC
+north	O	O
 
 iraq	LOC	LOC
 
@@ -95658,7 +95658,7 @@ miles	O	O
 
 of	O	O
 
-arbil	LOC	LOC
+arbil	LOC	MISC
 
 ,	O	O
 
@@ -95730,7 +95730,7 @@ outskirts	O	O
 
 of	O	O
 
-arbil	LOC	LOC
+arbil	LOC	O
 
 ,	O	O
 
@@ -95812,7 +95812,7 @@ members	O	O
 
 in	O	O
 
-arbil	LOC	O
+arbil	LOC	PER
 
 .	O	O
 
@@ -95946,7 +95946,7 @@ iran	LOC	LOC
 
 of	O	O
 
-aggression	O	O
+aggression	O	LOC
 
 and	O	O
 
@@ -96170,7 +96170,7 @@ town	O	O
 
 of	O	O
 
-staouelli	LOC	O
+staouelli	LOC	LOC
 
 .	O	O
 
@@ -96224,7 +96224,7 @@ election	O	O
 
 that	O	O
 
-islamic	MISC	ORG
+islamic	MISC	MISC
 
 fundamentalists	O	O
 
@@ -96312,7 +96312,7 @@ samsung	ORG	ORG
 
 <s>	O	O
 
-ssangbangwool	ORG	ORG
+ssangbangwool	ORG	O
 
 2	O	O
 
@@ -96388,7 +96388,7 @@ gb	O	O
 
 <s>	O	O
 
-haitai	ORG	ORG
+haitai	ORG	O
 
 64	O	O
 
@@ -96404,7 +96404,7 @@ haitai	ORG	ORG
 
 <s>	O	O
 
-ssangbangwool	ORG	ORG
+ssangbangwool	ORG	O
 
 60	O	O
 
@@ -96420,7 +96420,7 @@ ssangbangwool	ORG	ORG
 
 <s>	O	O
 
-hanwha	ORG	ORG
+hanwha	ORG	O
 
 58	O	O
 
@@ -96526,7 +96526,7 @@ ob	ORG	ORG
 
 <s>	O	O
 
-s.	MISC	MISC
+s.	MISC	LOC
 
 african	MISC	MISC
 
@@ -96556,7 +96556,7 @@ town	LOC	LOC
 
 <s>	O	O
 
-south	MISC	LOC
+south	MISC	MISC
 
 african	MISC	MISC
 
@@ -96644,7 +96644,7 @@ freedom	ORG	ORG
 
 front	ORG	ORG
 
-party	O	O
+party	O	ORG
 
 ,	O	O
 
@@ -96870,7 +96870,7 @@ mandela	PER	PER
 
 majority	O	O
 
-african	ORG	MISC
+african	ORG	ORG
 
 national	ORG	ORG
 
@@ -97032,11 +97032,11 @@ the	O	O
 
 news	O	O
 
-conference	O	O
+conference	O	ORG
 
 the	O	O
 
-self-rule	O	O
+self-rule	O	MISC
 
 model	O	O
 
@@ -97082,9 +97082,9 @@ coloureds	O	O
 
 --	O	O
 
-speak	O	O
+speak	O	PER
 
-afrikaans	MISC	O
+afrikaans	MISC	PER
 
 .	O	O
 
@@ -97190,7 +97190,7 @@ workers	O	O
 
 the	O	O
 
-rally	ORG	O
+rally	ORG	MISC
 
 for	ORG	O
 
@@ -97200,15 +97200,15 @@ return	ORG	O
 
 of	ORG	O
 
-refugees	ORG	O
+refugees	ORG	ORG
 
-and	ORG	O
+and	ORG	ORG
 
 democracy	ORG	ORG
 
-in	ORG	O
+in	ORG	ORG
 
-rwanda	ORG	LOC
+rwanda	ORG	ORG
 
 (	O	O
 
@@ -97278,7 +97278,7 @@ the	O	O
 
 rdr	ORG	ORG
 
-appeals	O	ORG
+appeals	O	O
 
 to	O	O
 
@@ -97544,7 +97544,7 @@ minister	O	O
 
 kengo	PER	PER
 
-wa	PER	LOC
+wa	PER	PER
 
 dondo	PER	PER
 
@@ -97832,7 +97832,7 @@ village	O	O
 
 <s>	O	O
 
-mahala	LOC	ORG
+mahala	LOC	O
 
 ,	O	O
 
@@ -97866,7 +97866,7 @@ about	O	O
 
 75	O	O
 
-moslem	MISC	MISC
+moslem	MISC	O
 
 men	O	O
 
@@ -97878,7 +97878,7 @@ village	O	O
 
 of	O	O
 
-mahala	LOC	O
+mahala	LOC	LOC
 
 in	O	O
 
@@ -97984,7 +97984,7 @@ nato	ORG	ORG
 
 spokesman	O	O
 
-lieutenant-colonel	O	O
+lieutenant-colonel	O	PER
 
 max	PER	PER
 
@@ -98030,7 +98030,7 @@ road	O	O
 
 between	O	O
 
-tuzla	LOC	O
+tuzla	LOC	LOC
 
 and	O	O
 
@@ -98282,7 +98282,7 @@ overhead	O	O
 
 <s>	O	O
 
-chechens	MISC	PER
+chechens	MISC	MISC
 
 exuberant	O	O
 
@@ -98302,7 +98302,7 @@ deal	O	O
 
 <s>	O	O
 
-liutauras	PER	ORG
+liutauras	PER	O
 
 stremaitis	PER	O
 
@@ -98310,7 +98310,7 @@ stremaitis	PER	O
 
 <s>	O	O
 
-urus-martan	LOC	ORG
+urus-martan	LOC	LOC
 
 ,	O	O
 
@@ -98326,7 +98326,7 @@ crowds	O	O
 
 of	O	O
 
-pro-independence	O	O
+pro-independence	O	MISC
 
 chechens	MISC	MISC
 
@@ -98428,7 +98428,7 @@ town	O	O
 
 of	O	O
 
-urus-martan	LOC	O
+urus-martan	LOC	LOC
 
 on	O	O
 
@@ -98534,7 +98534,7 @@ leader	O	O
 
 dzhokhar	PER	PER
 
-dudayev	PER	O
+dudayev	PER	PER
 
 --	O	O
 
@@ -98626,7 +98626,7 @@ by	O	O
 
 russian	MISC	MISC
 
-peace	O	O
+peace	O	MISC
 
 envoy	O	O
 
@@ -98736,7 +98736,7 @@ the	O	O
 
 mainly-moslem	MISC	O
 
-north	LOC	O
+north	LOC	LOC
 
 caucasus	LOC	LOC
 
@@ -98876,7 +98876,7 @@ woman	O	O
 
 ,	O	O
 
-mubatik	PER	PER
+mubatik	PER	O
 
 dagayeva	PER	O
 
@@ -98886,7 +98886,7 @@ dagayeva	PER	O
 
 <s>	O	O
 
-aiza	PER	ORG
+aiza	PER	O
 
 dudayeva	PER	O
 
@@ -98900,7 +98900,7 @@ her	O	O
 
 son	O	O
 
-beside	O	O
+beside	O	PER
 
 her	O	O
 
@@ -98998,7 +98998,7 @@ traditionally	O	O
 
 anti-separatist	O	O
 
-pocket	O	ORG
+pocket	O	O
 
 in	O	O
 
@@ -99012,7 +99012,7 @@ leader	O	O
 
 doku	PER	PER
 
-zavgayev	PER	O
+zavgayev	PER	PER
 
 ,	O	O
 
@@ -99060,7 +99060,7 @@ of	O	O
 
 civil	O	O
 
-war	O	O
+war	O	MISC
 
 if	O	O
 
@@ -99172,7 +99172,7 @@ them	O	O
 
 <s>	O	O
 
-mouldi	PER	ORG
+mouldi	PER	O
 
 mamatuyev	PER	O
 
@@ -99302,7 +99302,7 @@ his	O	O
 
 sister	O	O
 
-lisa	PER	PER
+lisa	PER	O
 
 was	O	O
 
@@ -99388,7 +99388,7 @@ chechnya	LOC	LOC
 
 the	O	O
 
-fighter	O	O
+fighter	O	MISC
 
 ,	O	O
 
@@ -99510,9 +99510,9 @@ sheriat	MISC	O
 
 (	O	O
 
-islamic	MISC	MISC
+islamic	MISC	ORG
 
-law	O	ORG
+law	O	O
 
 )	O	O
 
@@ -99550,7 +99550,7 @@ for	O	O
 
 ruch	ORG	ORG
 
-newsstand	O	O
+newsstand	O	ORG
 
 chain	O	O
 
@@ -99582,9 +99582,9 @@ including	O	O
 
 the	O	O
 
-bank	ORG	O
+bank	ORG	ORG
 
-rozwoju	ORG	ORG
+rozwoju	ORG	O
 
 exportu	ORG	O
 
@@ -99610,7 +99610,7 @@ hachette	ORG	O
 
 in	O	O
 
-bidding	O	O
+bidding	O	LOC
 
 for	O	O
 
@@ -99626,11 +99626,11 @@ chain	O	O
 
 ruch	ORG	O
 
-sa	ORG	O
+sa	ORG	ORG
 
 ,	O	O
 
-zycie	ORG	PER
+zycie	ORG	O
 
 warszawy	ORG	ORG
 
@@ -99648,7 +99648,7 @@ saturday	O	O
 
 <s>	O	O
 
-zycie	ORG	ORG
+zycie	ORG	PER
 
 warszawy	ORG	PER
 
@@ -99662,13 +99662,13 @@ publisher	O	O
 
 ,	O	O
 
-mineral	O	O
+mineral	O	ORG
 
-water	O	O
+water	O	ORG
 
 firm	O	O
 
-multico	ORG	ORG
+multico	ORG	O
 
 ,	O	O
 
@@ -99764,7 +99764,7 @@ percent	O	O
 
 of	O	O
 
-ruch	ORG	ORG
+ruch	ORG	O
 
 and	O	O
 
@@ -99828,7 +99828,7 @@ control	O	O
 
 over	O	O
 
-ruch	ORG	ORG
+ruch	ORG	O
 
 and	O	O
 
@@ -99920,7 +99920,7 @@ percent	O	O
 
 of	O	O
 
-ruch	ORG	ORG
+ruch	ORG	O
 
 and	O	O
 
@@ -100084,7 +100084,7 @@ communism	O	O
 
 <s>	O	O
 
-zycie	ORG	ORG
+zycie	ORG	PER
 
 warszawy	ORG	PER
 
@@ -100132,7 +100132,7 @@ minister	O	O
 
 wieslaw	PER	PER
 
-kaczmarek	PER	O
+kaczmarek	PER	PER
 
 of	O	O
 
@@ -100180,7 +100180,7 @@ the	O	O
 
 sum	O	O
 
-ruch	ORG	PER
+ruch	ORG	O
 
 says	O	O
 
@@ -100270,7 +100270,7 @@ consortia	O	O
 
 --	O	O
 
-uwp-hachette	ORG	PER
+uwp-hachette	ORG	O
 
 and	O	O
 
@@ -100322,7 +100322,7 @@ tender	O	O
 
 conditions	O	O
 
-swiss	MISC	MISC
+swiss	MISC	O
 
 investors	O	O
 
@@ -100332,7 +100332,7 @@ out	O	O
 
 and	O	O
 
-spc	ORG	O
+spc	ORG	PER
 
 decided	O	O
 
@@ -100352,7 +100352,7 @@ uwp-hachette	ORG	O
 
 <s>	O	O
 
-kaczmarek	PER	ORG
+kaczmarek	PER	PER
 
 said	O	O
 
@@ -100382,7 +100382,7 @@ bidding	O	O
 
 for	O	O
 
-ruch	ORG	ORG
+ruch	ORG	O
 
 ,	O	O
 
@@ -100534,7 +100534,7 @@ moscow	LOC	LOC
 
 interfax	ORG	ORG
 
-news	O	ORG
+news	O	O
 
 agency	O	O
 
@@ -100704,7 +100704,7 @@ jose	PER	PER
 
 soler	PER	PER
 
-puig	PER	PER
+puig	PER	O
 
 dies	O	O
 
@@ -100784,19 +100784,19 @@ saturday	O	O
 
 <s>	O	O
 
-puig	PER	O
+puig	PER	PER
 
 's	O	O
 
 first	O	O
 
-novel	O	PER
+novel	O	O
 
 ,	O	O
 
 "	O	O
 
-bertillon	MISC	O
+bertillon	MISC	PER
 
 166	MISC	O
 
@@ -100824,7 +100824,7 @@ the	O	O
 
 cuban	MISC	MISC
 
-revolution	O	O
+revolution	O	MISC
 
 brought	O	O
 
@@ -100860,7 +100860,7 @@ translated	O	O
 
 into	O	O
 
-40	O	ORG
+40	O	O
 
 languages	O	ORG
 
@@ -100880,7 +100880,7 @@ the	O	O
 
 life	O	O
 
-of	O	O
+of	O	ORG
 
 santiago	LOC	LOC
 
@@ -100890,11 +100890,11 @@ cuba	LOC	LOC
 
 ,	O	O
 
-puig	PER	O
+puig	PER	PER
 
 's	O	O
 
-native	O	ORG
+native	O	O
 
 city	O	LOC
 
@@ -100904,7 +100904,7 @@ under	O	O
 
 the	O	O
 
-pre-castro	MISC	ORG
+pre-castro	MISC	O
 
 government	O	O
 
@@ -100952,7 +100952,7 @@ january	MISC	O
 
 (	O	O
 
-1963	O	O
+1963	O	PER
 
 )	O	O
 
@@ -100968,7 +100968,7 @@ collapse	MISC	O
 
 (	O	O
 
-1964	O	O
+1964	O	PER
 
 )	O	O
 
@@ -100984,7 +100984,7 @@ bread	MISC	O
 
 (	O	O
 
-1975	O	O
+1975	O	PER
 
 )	O	O
 
@@ -100994,7 +100994,7 @@ bread	MISC	O
 
 the	MISC	O
 
-decaying	MISC	LOC
+decaying	MISC	ORG
 
 mansion	MISC	O
 
@@ -101022,7 +101022,7 @@ things	MISC	O
 
 (	O	O
 
-1982	O	O
+1982	O	PER
 
 )	O	O
 
@@ -101044,7 +101044,7 @@ knot	MISC	O
 
 "	O	O
 
-soul	MISC	PER
+soul	MISC	O
 
 alone	MISC	O
 
@@ -101074,7 +101074,7 @@ woman	MISC	O
 
 <s>	O	O
 
-granma	ORG	ORG
+granma	ORG	O
 
 called	O	O
 
@@ -101100,7 +101100,7 @@ to	O	O
 
 the	O	O
 
-modern	O	MISC
+modern	O	O
 
 novel	O	MISC
 
@@ -101240,7 +101240,7 @@ published	O	O
 
 by	O	O
 
-prensa	ORG	O
+prensa	ORG	PER
 
 latina	ORG	O
 
@@ -101356,15 +101356,15 @@ to	O	O
 
 the	O	O
 
-united	ORG	ORG
+united	ORG	LOC
 
 nations	ORG	ORG
 
 ,	O	O
 
-madeleine	PER	O
+madeleine	PER	PER
 
-albright	PER	O
+albright	PER	PER
 
 ,	O	O
 
@@ -101388,7 +101388,7 @@ various	O	O
 
 security	ORG	O
 
-council	ORG	ORG
+council	ORG	O
 
 issues	O	O
 
@@ -101412,7 +101412,7 @@ latin	MISC	MISC
 
 american	MISC	MISC
 
-tour	O	MISC
+tour	O	O
 
 .	O	O
 
@@ -101420,7 +101420,7 @@ tour	O	MISC
 
 <s>	O	O
 
-albright	PER	O
+albright	PER	PER
 
 will	O	O
 
@@ -101538,7 +101538,7 @@ said	O	O
 
 <s>	O	O
 
-albright	PER	O
+albright	PER	PER
 
 ,	O	O
 
@@ -101622,7 +101622,7 @@ latin	MISC	MISC
 
 american	MISC	MISC
 
-summit	O	O
+summit	O	LOC
 
 meeting	O	O
 
@@ -101652,7 +101652,7 @@ also	O	O
 
 include	O	O
 
-honduras	LOC	LOC
+honduras	LOC	O
 
 and	O	O
 
@@ -101678,7 +101678,7 @@ attacked	O	O
 
 in	O	O
 
-michoacan	LOC	O
+michoacan	LOC	LOC
 
 state	O	O
 
@@ -101732,7 +101732,7 @@ state	O	O
 
 of	O	O
 
-michoacan	LOC	O
+michoacan	LOC	LOC
 
 on	O	O
 
@@ -101784,11 +101784,11 @@ town	O	O
 
 of	O	O
 
-tacambaro	LOC	O
+tacambaro	LOC	LOC
 
 ,	O	O
 
-michoacan	LOC	PER
+michoacan	LOC	O
 
 ,	O	O
 
@@ -101822,7 +101822,7 @@ as	O	O
 
 saying	O	O
 
-40	O	O
+40	O	PER
 
 to	O	O
 
@@ -101844,9 +101844,9 @@ convoy	O	O
 
 <s>	O	O
 
-gonzalo	PER	O
+gonzalo	PER	PER
 
-montoya	PER	O
+montoya	PER	PER
 
 ,	O	O
 
@@ -101858,7 +101858,7 @@ commander	O	O
 
 in	O	O
 
-tacambaro	LOC	O
+tacambaro	LOC	PER
 
 ,	O	O
 
@@ -101892,7 +101892,7 @@ rifles	O	O
 
 and	O	O
 
-wore	O	PER
+wore	O	O
 
 military-style	O	O
 
@@ -101904,7 +101904,7 @@ fatigues	O	O
 
 <s>	O	O
 
-montoya	PER	ORG
+montoya	PER	PER
 
 said	O	O
 
@@ -102026,7 +102026,7 @@ three	O	O
 
 mexican	MISC	MISC
 
-states	O	LOC
+states	O	O
 
 ,	O	O
 
@@ -102166,7 +102166,7 @@ saturday	O	O
 
 <s>	O	O
 
-xiao	PER	O
+xiao	PER	PER
 
 qiang	PER	PER
 
@@ -102186,9 +102186,9 @@ york-based	MISC	ORG
 
 group	O	O
 
-human	ORG	ORG
+human	ORG	O
 
-rights	ORG	O
+rights	ORG	ORG
 
 in	ORG	O
 
@@ -102220,7 +102220,7 @@ of	O	O
 
 the	O	O
 
-national	O	O
+national	O	MISC
 
 "	O	O
 
@@ -102308,7 +102308,7 @@ the	O	O
 
 communist	ORG	ORG
 
-party	ORG	O
+party	ORG	ORG
 
 's	O	O
 
@@ -102326,7 +102326,7 @@ leader	O	O
 
 deng	PER	PER
 
-xiaoping	PER	O
+xiaoping	PER	PER
 
 nears	O	O
 
@@ -102394,7 +102394,7 @@ political	O	O
 
 and	O	O
 
-social	O	ORG
+social	O	O
 
 discontent	O	O
 
@@ -102404,13 +102404,13 @@ discontent	O	O
 
 said	O	O
 
-xiao	PER	O
+xiao	PER	PER
 
 ,	O	O
 
 in	O	O
 
-manila	LOC	LOC
+manila	LOC	O
 
 to	O	O
 
@@ -102422,7 +102422,7 @@ amnesty	ORG	O
 
 international	ORG	O
 
-conference	O	O
+conference	O	ORG
 
 on	O	O
 
@@ -102448,7 +102448,7 @@ one	O	O
 
 of	O	O
 
-wang	PER	ORG
+wang	PER	PER
 
 's	O	O
 
@@ -102486,7 +102486,7 @@ and	O	O
 
 an	O	O
 
-independent	O	O
+independent	O	ORG
 
 judicial	O	O
 
@@ -102522,7 +102522,7 @@ corruption	O	O
 
 <s>	O	O
 
-xiao	PER	ORG
+xiao	PER	PER
 
 said	O	O
 
@@ -102588,7 +102588,7 @@ away	O	O
 
 by	O	O
 
-repression	O	O
+repression	O	PER
 
 .	O	O
 
@@ -102708,7 +102708,7 @@ wang	PER	PER
 
 ,	O	O
 
-45	O	PER
+45	O	O
 
 ,	O	O
 
@@ -102756,7 +102756,7 @@ ill-health	O	O
 
 <s>	O	O
 
-xiao	PER	ORG
+xiao	PER	PER
 
 said	O	O
 
@@ -102844,7 +102844,7 @@ well	O	O
 
 ,	O	O
 
-xiao	PER	PER
+xiao	PER	O
 
 said	O	O
 
@@ -102868,7 +102868,7 @@ indonesia	LOC	LOC
 
 ,	O	O
 
-oic	ORG	O
+oic	ORG	LOC
 
 for	O	O
 
@@ -102892,13 +102892,13 @@ manila	LOC	LOC
 
 <s>	O	O
 
-philippine	LOC	ORG
+philippine	LOC	MISC
 
 president	O	O
 
 fidel	PER	PER
 
-ramos	PER	O
+ramos	PER	PER
 
 expressed	O	O
 
@@ -102910,7 +102910,7 @@ indonesian	MISC	MISC
 
 president	O	O
 
-suharto	PER	O
+suharto	PER	PER
 
 and	O	O
 
@@ -102918,11 +102918,11 @@ the	O	O
 
 organisation	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
-islamic	ORG	MISC
+islamic	ORG	ORG
 
-conference	ORG	O
+conference	ORG	ORG
 
 (	O	O
 
@@ -103006,7 +103006,7 @@ ramos	PER	PER
 
 told	O	O
 
-suharto	PER	O
+suharto	PER	PER
 
 in	O	O
 
@@ -103128,7 +103128,7 @@ manila	LOC	LOC
 
 <s>	O	O
 
-ramos	PER	ORG
+ramos	PER	PER
 
 said	O	O
 
@@ -103136,7 +103136,7 @@ the	O	O
 
 peace	O	O
 
-agreement	O	O
+agreement	O	MISC
 
 "	O	O
 
@@ -103168,7 +103168,7 @@ strife	O	O
 
 in	O	O
 
-philippine	LOC	ORG
+philippine	LOC	MISC
 
 history	O	O
 
@@ -103272,15 +103272,15 @@ burma	LOC	LOC
 
 's	O	O
 
-democracy	O	O
+democracy	O	ORG
 
 leader	O	O
 
-aung	PER	PER
+aung	PER	O
 
-san	PER	ORG
+san	PER	LOC
 
-suu	PER	ORG
+suu	PER	LOC
 
 kyi	PER	PER
 
@@ -103420,7 +103420,7 @@ movement	O	ORG
 
 "	O	O
 
-suu	PER	O
+suu	PER	PER
 
 kyi	PER	PER
 
@@ -103432,7 +103432,7 @@ at	O	O
 
 her	O	O
 
-rangoon	LOC	ORG
+rangoon	LOC	LOC
 
 home	O	O
 
@@ -103442,7 +103442,7 @@ home	O	O
 
 <s>	O	O
 
-suu	PER	O
+suu	PER	PER
 
 kyi	PER	PER
 
@@ -103540,9 +103540,9 @@ members	O	O
 
 of	O	O
 
-suu	PER	O
+suu	PER	PER
 
-kyi	PER	O
+kyi	PER	ORG
 
 's	O	O
 
@@ -103550,7 +103550,7 @@ national	ORG	O
 
 league	ORG	MISC
 
-for	ORG	O
+for	ORG	ORG
 
 democracy	ORG	ORG
 
@@ -103566,9 +103566,9 @@ of	O	O
 
 a	O	O
 
-party	O	O
+party	O	ORG
 
-congress	O	ORG
+congress	O	O
 
 .	O	O
 
@@ -103646,7 +103646,7 @@ including	O	O
 
 suu	PER	O
 
-kyi	PER	O
+kyi	PER	PER
 
 's	O	O
 
@@ -103654,7 +103654,7 @@ assistant	O	O
 
 win	PER	O
 
-htein	PER	O
+htein	PER	PER
 
 .	O	O
 
@@ -103866,9 +103866,9 @@ said	O	O
 
 <s>	O	O
 
-suu	PER	O
+suu	PER	PER
 
-kyi	PER	O
+kyi	PER	PER
 
 ,	O	O
 
@@ -103992,15 +103992,15 @@ law	ORG	O
 
 and	ORG	O
 
-order	ORG	O
+order	ORG	ORG
 
-restoration	ORG	O
+restoration	ORG	ORG
 
 council	ORG	ORG
 
 (	O	O
 
-slorc	ORG	O
+slorc	ORG	ORG
 
 )	O	O
 
@@ -104020,7 +104020,7 @@ after	O	O
 
 crushing	O	O
 
-pro-democracy	O	O
+pro-democracy	O	PER
 
 demonstrations	O	O
 
@@ -104156,7 +104156,7 @@ trial	O	O
 
 <s>	O	O
 
-suu	PER	O
+suu	PER	PER
 
 kyi	PER	PER
 
@@ -104422,7 +104422,7 @@ sentence	O	O
 
 "	O	O
 
-suu	PER	O
+suu	PER	PER
 
 kyi	PER	PER
 
@@ -104520,7 +104520,7 @@ friend	O	O
 
 of	O	O
 
-suu	PER	O
+suu	PER	PER
 
 kyi	PER	O
 
@@ -104530,7 +104530,7 @@ danish	MISC	MISC
 
 honorary	O	O
 
-consul	O	O
+consul	O	PER
 
 ,	O	O
 
@@ -104556,7 +104556,7 @@ insein	LOC	O
 
 <s>	O	O
 
-suu	PER	O
+suu	PER	PER
 
 kyi	PER	PER
 
@@ -104580,7 +104580,7 @@ on	O	O
 
 the	O	O
 
-democracy	O	ORG
+democracy	O	O
 
 movement	O	O
 
@@ -104620,7 +104620,7 @@ and	O	O
 
 the	O	O
 
-nld	ORG	ORG
+nld	ORG	O
 
 would	O	O
 
@@ -104636,7 +104636,7 @@ to	O	O
 
 bring	O	O
 
-democracy	O	ORG
+democracy	O	O
 
 to	O	O
 
@@ -104744,13 +104744,13 @@ beijing	LOC	LOC
 
 the	O	O
 
-dow	ORG	MISC
+dow	ORG	ORG
 
 chemical	ORG	ORG
 
 co	ORG	ORG
 
-of	O	O
+of	O	ORG
 
 the	O	O
 
@@ -104864,7 +104864,7 @@ venture	O	O
 
 <s>	O	O
 
-tianjin	LOC	ORG
+tianjin	LOC	PER
 
 boasts	O	O
 
@@ -104922,7 +104922,7 @@ a	O	O
 
 lubricants	O	O
 
-blender	O	ORG
+blender	O	O
 
 in	O	O
 
@@ -104964,7 +104964,7 @@ shell	ORG	ORG
 
 and	O	O
 
-caltex	ORG	ORG
+caltex	ORG	O
 
 ,	O	O
 
@@ -105036,13 +105036,13 @@ details	O	O
 
 <s>	O	O
 
-n.	LOC	PER
+n.	LOC	O
 
 korea	LOC	LOC
 
 urges	O	O
 
-s.	LOC	LOC
+s.	LOC	O
 
 korea	LOC	LOC
 
@@ -105088,7 +105088,7 @@ return	O	O
 
 a	O	O
 
-northern	O	O
+northern	O	MISC
 
 war	O	O
 
@@ -105110,7 +105110,7 @@ since	O	O
 
 the	O	O
 
-1950-53	O	O
+1950-53	O	MISC
 
 war	O	O
 
@@ -105122,7 +105122,7 @@ seoul	LOC	LOC
 
 unification	O	ORG
 
-ministry	O	O
+ministry	O	ORG
 
 said	O	O
 
@@ -105170,13 +105170,13 @@ waiting	O	O
 
 "	O	O
 
-north	ORG	MISC
+north	ORG	O
 
-korean	ORG	MISC
+korean	ORG	ORG
 
 red	ORG	ORG
 
-cross	ORG	O
+cross	ORG	ORG
 
 president	O	O
 
@@ -105266,7 +105266,7 @@ korean	MISC	MISC
 
 unification	O	O
 
-ministry	O	O
+ministry	O	ORG
 
 .	O	O
 
@@ -105340,11 +105340,11 @@ to	O	O
 
 the	O	O
 
-international	ORG	O
+international	ORG	ORG
 
 red	ORG	ORG
 
-cross	ORG	O
+cross	ORG	ORG
 
 in	O	O
 
@@ -105370,7 +105370,7 @@ domestic	O	O
 
 yonhap	ORG	ORG
 
-news	O	ORG
+news	O	O
 
 agency	O	O
 
@@ -105432,7 +105432,7 @@ the	O	O
 
 korean	MISC	MISC
 
-war	O	O
+war	O	MISC
 
 .	O	O
 
@@ -105490,7 +105490,7 @@ by	O	O
 
 the	O	O
 
-south	LOC	O
+south	LOC	MISC
 
 during	O	O
 
@@ -105562,7 +105562,7 @@ dissident	O	O
 
 wang	PER	PER
 
-donghai	PER	PER
+donghai	PER	O
 
 ,	O	O
 
@@ -105570,15 +105570,15 @@ the	O	O
 
 new	MISC	O
 
-york-based	MISC	O
+york-based	MISC	MISC
 
 pressure	O	O
 
 group	O	O
 
-human	ORG	ORG
+human	ORG	O
 
-rights	ORG	O
+rights	ORG	ORG
 
 in	ORG	O
 
@@ -105600,7 +105600,7 @@ police	O	O
 
 in	O	O
 
-hangzhou	LOC	O
+hangzhou	LOC	LOC
 
 ,	O	O
 
@@ -105616,7 +105616,7 @@ province	O	O
 
 of	O	O
 
-zhejiang	LOC	O
+zhejiang	LOC	LOC
 
 ,	O	O
 
@@ -105630,7 +105630,7 @@ family	O	O
 
 that	O	O
 
-wang	PER	PER
+wang	PER	O
 
 would	O	O
 
@@ -105748,7 +105748,7 @@ say	O	O
 
 why	O	O
 
-wang	PER	PER
+wang	PER	O
 
 was	O	O
 
@@ -105774,11 +105774,11 @@ from	O	O
 
 the	O	O
 
-chaotic	O	O
+chaotic	O	MISC
 
 1966-76	MISC	O
 
-cultural	MISC	O
+cultural	MISC	MISC
 
 revolution	MISC	O
 
@@ -105900,11 +105900,11 @@ month	O	O
 
 ,	O	O
 
-wang	PER	PER
+wang	PER	O
 
 ,	O	O
 
-45	O	PER
+45	O	O
 
 ,	O	O
 
@@ -105972,11 +105972,11 @@ health	O	O
 
 <s>	O	O
 
-re-education	O	O
+re-education	O	ORG
 
 through	O	O
 
-labour	O	O
+labour	O	ORG
 
 is	O	O
 
@@ -106044,7 +106044,7 @@ years	O	O
 
 for	O	O
 
-organising	O	ORG
+organising	O	O
 
 street	O	O
 
@@ -106084,7 +106084,7 @@ june	O	O
 
 ,	O	O
 
-1989	O	PER
+1989	O	O
 
 ,	O	O
 
@@ -106224,7 +106224,7 @@ dissident	O	O
 
 wang	PER	PER
 
-donghai	PER	PER
+donghai	PER	O
 
 ,	O	O
 
@@ -106232,15 +106232,15 @@ the	O	O
 
 new	MISC	O
 
-york-based	MISC	O
+york-based	MISC	MISC
 
 pressure	O	O
 
 group	O	O
 
-human	ORG	ORG
+human	ORG	O
 
-rights	ORG	O
+rights	ORG	ORG
 
 in	ORG	O
 
@@ -106392,11 +106392,11 @@ month	O	O
 
 ,	O	O
 
-wang	PER	PER
+wang	PER	O
 
 ,	O	O
 
-45	O	PER
+45	O	O
 
 ,	O	O
 
@@ -106464,11 +106464,11 @@ health	O	O
 
 <s>	O	O
 
-re-education	O	O
+re-education	O	ORG
 
 through	O	O
 
-labour	O	O
+labour	O	ORG
 
 is	O	O
 
@@ -106536,7 +106536,7 @@ years	O	O
 
 for	O	O
 
-organising	O	ORG
+organising	O	O
 
 street	O	O
 
@@ -106578,7 +106578,7 @@ june	O	O
 
 ,	O	O
 
-1989	O	PER
+1989	O	O
 
 ,	O	O
 
@@ -106608,7 +106608,7 @@ hong	LOC	LOC
 
 kong	LOC	LOC
 
-jails	O	ORG
+jails	O	O
 
 88-year-old	O	O
 
@@ -106658,7 +106658,7 @@ hong	LOC	LOC
 
 kong	LOC	LOC
 
-court	O	O
+court	O	ORG
 
 for	O	O
 
@@ -106814,7 +106814,7 @@ bars	O	O
 
 <s>	O	O
 
-chen	PER	LOC
+chen	PER	PER
 
 ,	O	O
 
@@ -107032,7 +107032,7 @@ authorities	O	O
 
 in	O	O
 
-wuhan	LOC	O
+wuhan	LOC	LOC
 
 ,	O	O
 
@@ -107048,7 +107048,7 @@ province	O	O
 
 of	O	O
 
-hubei	LOC	O
+hubei	LOC	LOC
 
 ,	O	O
 
@@ -107162,7 +107162,7 @@ said	O	O
 
 <s>	O	O
 
-wuhan	LOC	O
+wuhan	LOC	PER
 
 consumes	O	O
 
@@ -107220,7 +107220,7 @@ province	O	O
 
 of	O	O
 
-guangdong	LOC	O
+guangdong	LOC	LOC
 
 ,	O	O
 
@@ -107348,7 +107348,7 @@ saturday	O	O
 
 entered	O	O
 
-kurdish-controlled	MISC	ORG
+kurdish-controlled	MISC	O
 
 northern	O	O
 
@@ -107468,9 +107468,9 @@ chuman	LOC	O
 
 "	O	O
 
-faik	PER	O
+faik	PER	PER
 
-nerweyi	PER	O
+nerweyi	PER	PER
 
 of	O	O
 
@@ -107506,7 +107506,7 @@ ankara	LOC	LOC
 
 <s>	O	O
 
-nerweyi	PER	ORG
+nerweyi	PER	PER
 
 said	O	O
 
@@ -107584,7 +107584,7 @@ withdrawn	O	O
 
 further	O	O
 
-west	O	O
+west	O	LOC
 
 .	O	O
 
@@ -107618,7 +107618,7 @@ said	O	O
 
 <s>	O	O
 
-nerweyi	PER	ORG
+nerweyi	PER	PER
 
 said	O	O
 
@@ -107702,7 +107702,7 @@ city	O	O
 
 of	O	O
 
-arbil	LOC	O
+arbil	LOC	LOC
 
 after	O	O
 
@@ -107782,7 +107782,7 @@ patriotic	ORG	ORG
 
 union	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
 kurdistan	ORG	ORG
 
@@ -107796,7 +107796,7 @@ control	O	O
 
 of	O	O
 
-arbil	LOC	LOC
+arbil	LOC	MISC
 
 in	O	O
 
@@ -107874,7 +107874,7 @@ the	O	O
 
 gulf	MISC	MISC
 
-war	MISC	O
+war	MISC	MISC
 
 .	O	O
 
@@ -107968,7 +107968,7 @@ israel	LOC	LOC
 
 and	O	O
 
-hizbollah	ORG	ORG
+hizbollah	ORG	O
 
 guerrillas	O	O
 
@@ -108002,7 +108002,7 @@ the	O	O
 
 islamic	MISC	ORG
 
-group	O	O
+group	O	ORG
 
 ,	O	O
 
@@ -108026,7 +108026,7 @@ of	O	O
 
 the	O	O
 
-five	O	O
+five	O	MISC
 
 nations	O	O
 
@@ -108162,7 +108162,7 @@ injured	O	O
 
 by	O	O
 
-hizbollah	ORG	ORG
+hizbollah	ORG	O
 
 fire	O	O
 
@@ -108170,7 +108170,7 @@ in	O	O
 
 the	O	O
 
-sikhin	LOC	ORG
+sikhin	LOC	LOC
 
 village	O	O
 
@@ -108214,7 +108214,7 @@ the	O	O
 
 monitoring	O	O
 
-committee	O	O
+committee	O	ORG
 
 was	O	O
 
@@ -108332,7 +108332,7 @@ lebanon	LOC	LOC
 
 around	O	O
 
-1,000	O	O
+1,000	O	MISC
 
 israeli	MISC	MISC
 
@@ -108352,7 +108352,7 @@ nine-mile	O	O
 
 )	O	O
 
-south	O	LOC
+south	O	MISC
 
 lebanon	LOC	LOC
 
@@ -108396,15 +108396,15 @@ bordder	O	O
 
 <s>	O	O
 
-hizbollah	ORG	PER
+hizbollah	ORG	ORG
 
 (	O	O
 
-party	ORG	O
+party	ORG	ORG
 
 of	ORG	O
 
-god	ORG	PER
+god	ORG	ORG
 
 )	O	O
 
@@ -108668,7 +108668,7 @@ restaurant	O	O
 
 in	O	O
 
-bahraini	LOC	O
+bahraini	LOC	LOC
 
 village	O	O
 
@@ -108852,7 +108852,7 @@ iraq	LOC	LOC
 
 's	O	O
 
-aziz	PER	PER
+aziz	PER	O
 
 says	O	O
 
@@ -108926,7 +108926,7 @@ leader	O	O
 
 massoud	PER	PER
 
-barzani	PER	PER
+barzani	PER	O
 
 against	O	O
 
@@ -109004,7 +109004,7 @@ patriotic	ORG	ORG
 
 union	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
 kurdistan	ORG	ORG
 
@@ -109014,7 +109014,7 @@ chief	O	O
 
 jalal	PER	PER
 
-talabani	PER	PER
+talabani	PER	O
 
 ,	O	O
 
@@ -109040,9 +109040,9 @@ official	O	O
 
 iraqi	ORG	ORG
 
-news	ORG	O
+news	ORG	ORG
 
-agency	ORG	O
+agency	ORG	ORG
 
 (	O	O
 
@@ -109088,7 +109088,7 @@ u.s.	LOC	LOC
 
 and	O	O
 
-allies	O	O
+allies	O	PER
 
 decided	O	O
 
@@ -109120,7 +109120,7 @@ plea	O	O
 
 from	O	O
 
-barzani	PER	O
+barzani	PER	PER
 
 to	O	O
 
@@ -109128,7 +109128,7 @@ president	O	O
 
 saddam	PER	PER
 
-hussein	PER	PER
+hussein	PER	O
 
 to	O	O
 
@@ -109156,7 +109156,7 @@ iran	LOC	LOC
 
 and	O	O
 
-talabani	PER	O
+talabani	PER	LOC
 
 .	O	O
 
@@ -109262,7 +109262,7 @@ end	O	O
 
 to	O	O
 
-talabani	PER	O
+talabani	PER	PER
 
 's	O	O
 
@@ -109306,7 +109306,7 @@ advancing	O	O
 
 on	O	O
 
-arbil	LOC	O
+arbil	LOC	PER
 
 were	O	O
 
@@ -109366,7 +109366,7 @@ assault	O	O
 
 on	O	O
 
-arbil	LOC	O
+arbil	LOC	PER
 
 .	O	O
 
@@ -109402,7 +109402,7 @@ fighting	O	O
 
 in	O	O
 
-arbil	LOC	O
+arbil	LOC	LOC
 
 in	O	O
 
@@ -109616,7 +109616,7 @@ in	O	O
 
 the	O	O
 
-tunisian	MISC	ORG
+tunisian	MISC	MISC
 
 press	O	O
 
@@ -109706,7 +109706,7 @@ welcomes	O	O
 
 legal	O	O
 
-tunisian	MISC	O
+tunisian	MISC	MISC
 
 residents	O	O
 
@@ -109774,7 +109774,7 @@ the	O	O
 
 palestinian	ORG	ORG
 
-authority	ORG	O
+authority	ORG	ORG
 
 .	O	O
 
@@ -109798,7 +109798,7 @@ arrives	O	O
 
 in	O	O
 
-tripoli	LOC	LOC
+tripoli	LOC	O
 
 to	O	O
 
@@ -109820,7 +109820,7 @@ the	O	O
 
 libyan	MISC	MISC
 
-revolution	O	O
+revolution	O	MISC
 
 anniversary	O	O
 
@@ -109856,7 +109856,7 @@ dinar	O	O
 
 <s>	O	O
 
-automakers	O	O
+automakers	O	LOC
 
 ,	O	O
 
@@ -109866,7 +109866,7 @@ agency	O	O
 
 plan	O	O
 
-air	O	O
+air	O	MISC
 
 bag	O	O
 
@@ -109880,7 +109880,7 @@ ads	O	O
 
 <s>	O	O
 
-detroit	LOC	ORG
+detroit	LOC	LOC
 
 1996-08-31	O	O
 
@@ -109888,7 +109888,7 @@ detroit	LOC	ORG
 
 <s>	O	O
 
-automakers	O	O
+automakers	O	PER
 
 ,	O	O
 
@@ -109984,7 +109984,7 @@ with	O	O
 
 law	O	O
 
-enforcement	O	O
+enforcement	O	ORG
 
 agencies	O	O
 
@@ -110150,7 +110150,7 @@ the	O	O
 
 labor	MISC	MISC
 
-day	MISC	O
+day	MISC	MISC
 
 weekend	O	O
 
@@ -110158,7 +110158,7 @@ weekend	O	O
 
 including	O	O
 
-interstate	LOC	O
+interstate	LOC	PER
 
 95	LOC	O
 
@@ -110188,7 +110188,7 @@ midwest	LOC	LOC
 
 and	O	O
 
-interstate	LOC	O
+interstate	LOC	PER
 
 5	LOC	O
 
@@ -110242,7 +110242,7 @@ back	O	O
 
 janet	PER	PER
 
-dewey	PER	O
+dewey	PER	PER
 
 ,	O	O
 
@@ -110256,11 +110256,11 @@ the	O	O
 
 industry-funded	O	ORG
 
-national	ORG	O
+national	ORG	ORG
 
 automobile	ORG	ORG
 
-occupant	ORG	O
+occupant	ORG	MISC
 
 protection	ORG	O
 
@@ -110370,7 +110370,7 @@ in	O	O
 
 the	O	O
 
-rear	O	O
+rear	O	LOC
 
 seat	O	O
 
@@ -110408,7 +110408,7 @@ away	O	O
 
 from	O	O
 
-introducing	O	O
+introducing	O	LOC
 
 "	O	O
 
@@ -110482,7 +110482,7 @@ momentum	O	O
 
 of	O	O
 
-an	O	O
+an	O	PER
 
 average-sized	O	O
 
@@ -110510,7 +110510,7 @@ child	O	O
 
 <s>	O	O
 
-automakers	O	O
+automakers	O	PER
 
 petitioned	O	O
 
@@ -110518,9 +110518,9 @@ the	O	O
 
 national	ORG	O
 
-highway	ORG	O
+highway	ORG	LOC
 
-traffic	ORG	O
+traffic	ORG	ORG
 
 safety	ORG	O
 
@@ -110614,7 +110614,7 @@ technology	O	O
 
 "	O	O
 
-dewey	PER	O
+dewey	PER	PER
 
 said	O	O
 
@@ -110680,7 +110680,7 @@ burns	O	O
 
 <s>	O	O
 
-rochester	LOC	O
+rochester	LOC	PER
 
 ,	O	O
 
@@ -110714,13 +110714,13 @@ explosion	O	O
 
 leveled	O	O
 
-rochester	LOC	O
+rochester	LOC	ORG
 
 's	O	O
 
 one-story	O	O
 
-lilac	LOC	PER
+lilac	LOC	O
 
 falls	LOC	O
 
@@ -110832,9 +110832,9 @@ of	O	O
 
 the	O	O
 
-rochester	ORG	O
+rochester	ORG	ORG
 
-fire	ORG	O
+fire	ORG	ORG
 
 department	ORG	ORG
 
@@ -110850,7 +110850,7 @@ eyewitnesses	O	O
 
 told	O	O
 
-boston	LOC	ORG
+boston	LOC	LOC
 
 television	O	O
 
@@ -111020,7 +111020,7 @@ to	O	O
 
 avoid	O	O
 
-texas	LOC	ORG
+texas	LOC	LOC
 
 drag	O	O
 
@@ -111268,7 +111268,7 @@ of	O	O
 
 intoxicated	O	O
 
-manslaughter	O	PER
+manslaughter	O	O
 
 .	O	O
 
@@ -111312,7 +111312,7 @@ a	O	O
 
 drag	O	O
 
-strip	O	LOC
+strip	O	O
 
 by	O	O
 
@@ -111422,7 +111422,7 @@ against	O	O
 
 iraqi	MISC	MISC
 
-military	O	O
+military	O	MISC
 
 action	O	O
 
@@ -111452,9 +111452,9 @@ they	O	O
 
 said	O	O
 
-200	O	PER
+200	O	MISC
 
-fighter	O	MISC
+fighter	O	O
 
 planes	O	O
 
@@ -111506,7 +111506,7 @@ the	O	O
 
 eastern	O	O
 
-mediterranean	MISC	LOC
+mediterranean	MISC	MISC
 
 with	O	O
 
@@ -111550,7 +111550,7 @@ the	O	O
 
 united	LOC	LOC
 
-states	LOC	O
+states	LOC	LOC
 
 if	O	O
 
@@ -111574,17 +111574,17 @@ ordered	O	O
 
 the	O	O
 
-department	ORG	O
+department	ORG	ORG
 
-of	ORG	O
+of	ORG	ORG
 
-defense	ORG	O
+defense	ORG	ORG
 
 to	O	O
 
 take	O	O
 
-prudent	O	ORG
+prudent	O	O
 
 planning	O	O
 
@@ -111626,7 +111626,7 @@ so	O	O
 
 "	O	O
 
-pentagon	ORG	ORG
+pentagon	ORG	PER
 
 spokesman	O	O
 
@@ -111652,7 +111652,7 @@ taken	O	O
 
 those	O	O
 
-prudent	O	ORG
+prudent	O	O
 
 planning	O	O
 
@@ -111850,7 +111850,7 @@ have	O	O
 
 the	O	O
 
-u.s.	LOC	LOC
+u.s.	LOC	ORG
 
 defense	O	ORG
 
@@ -112068,7 +112068,7 @@ the	O	O
 
 158	O	O
 
-f	MISC	O
+f	MISC	MISC
 
 /	MISC	O
 
@@ -112076,7 +112076,7 @@ a-18	MISC	O
 
 ,	O	O
 
-f-14	MISC	O
+f-14	MISC	PER
 
 and	O	O
 
@@ -112098,7 +112098,7 @@ vinson	MISC	O
 
 and	O	O
 
-enterprise	MISC	ORG
+enterprise	MISC	O
 
 ,	O	O
 
@@ -112108,7 +112108,7 @@ air	ORG	O
 
 force	ORG	O
 
-air	O	O
+air	O	ORG
 
 expeditionary	O	O
 
@@ -112126,9 +112126,9 @@ f-15	MISC	O
 
 and	O	O
 
-f-16	MISC	O
+f-16	MISC	MISC
 
-fighter	O	MISC
+fighter	O	O
 
 planes	O	O
 
@@ -112244,7 +112244,7 @@ sailors	O	O
 
 and	O	O
 
-marines	MISC	LOC
+marines	MISC	ORG
 
 ,	O	O
 
@@ -112296,7 +112296,7 @@ of	O	O
 
 the	O	O
 
-marines	MISC	O
+marines	MISC	ORG
 
 are	O	O
 
@@ -112326,9 +112326,9 @@ group	ORG	O
 
 the	O	O
 
-carl	MISC	PER
+carl	MISC	O
 
-vinson	MISC	PER
+vinson	MISC	O
 
 leads	O	O
 
@@ -112576,17 +112576,17 @@ girls	O	O
 
 rachel	PER	PER
 
-legeard	PER	O
+legeard	PER	PER
 
 ,	O	O
 
-18	O	PER
+18	O	O
 
 ,	O	O
 
 and	O	O
 
-severine	PER	O
+severine	PER	PER
 
 potty	PER	O
 
@@ -112672,7 +112672,7 @@ the	O	O
 
 marc	PER	PER
 
-dutroux	PER	PER
+dutroux	PER	O
 
 case	O	O
 
@@ -112860,7 +112860,7 @@ town	O	O
 
 of	O	O
 
-staoueli	LOC	O
+staoueli	LOC	LOC
 
 .	O	O
 
@@ -113068,9 +113068,9 @@ quoted	O	O
 
 the	O	O
 
-human	ORG	O
+human	ORG	ORG
 
-rights	ORG	O
+rights	ORG	ORG
 
 national	ORG	ORG
 
@@ -113304,7 +113304,7 @@ guests	O	O
 
 for	O	O
 
-questioning	O	O
+questioning	O	PER
 
 ,	O	O
 
@@ -113312,9 +113312,9 @@ bonn	LOC	LOC
 
 's	O	O
 
-foreign	O	O
+foreign	O	ORG
 
-ministry	O	O
+ministry	O	ORG
 
 said	O	O
 
@@ -113354,9 +113354,9 @@ news	O	O
 
 weekly	O	O
 
-der	ORG	O
+der	ORG	ORG
 
-spiegel	ORG	PER
+spiegel	ORG	O
 
 ,	O	O
 
@@ -113378,7 +113378,7 @@ while	O	O
 
 attache	O	O
 
-jens	PER	PER
+jens	PER	O
 
 gust	PER	O
 
@@ -113404,7 +113404,7 @@ wives	O	O
 
 <s>	O	O
 
-gust	PER	O
+gust	PER	PER
 
 was	O	O
 
@@ -113572,7 +113572,7 @@ principles	O	O
 
 of	O	O
 
-international	O	O
+international	O	ORG
 
 law	O	O
 
@@ -113706,7 +113706,7 @@ president	O	O
 
 abolhassan	PER	PER
 
-banisadr	PER	O
+banisadr	PER	PER
 
 .	O	O
 
@@ -113714,7 +113714,7 @@ banisadr	PER	O
 
 <s>	O	O
 
-banisadr	PER	ORG
+banisadr	PER	PER
 
 ,	O	O
 
@@ -113840,7 +113840,7 @@ testimony	O	O
 
 <s>	O	O
 
-banisadr	PER	ORG
+banisadr	PER	PER
 
 ,	O	O
 
@@ -114016,9 +114016,9 @@ authorities	O	O
 
 to	O	O
 
-disregard	O	O
+disregard	O	PER
 
-banisadr	PER	ORG
+banisadr	PER	PER
 
 's	O	O
 
@@ -114052,7 +114052,7 @@ italy	LOC	LOC
 
 's	O	O
 
-dini	PER	O
+dini	PER	PER
 
 meets	O	O
 
@@ -114094,13 +114094,13 @@ met	O	O
 
 former	O	O
 
-tanzanian	MISC	O
+tanzanian	MISC	MISC
 
 president	O	O
 
 julius	PER	PER
 
-nyerere	PER	O
+nyerere	PER	PER
 
 ,	O	O
 
@@ -114128,7 +114128,7 @@ said	O	O
 
 <s>	O	O
 
-nyerere	PER	O
+nyerere	PER	PER
 
 arrived	O	O
 
@@ -114180,7 +114180,7 @@ and	O	O
 
 the	O	O
 
-sant	ORG	O
+sant	ORG	MISC
 
 '	ORG	O
 
@@ -114196,7 +114196,7 @@ italian	MISC	MISC
 
 roman	MISC	MISC
 
-catholic	MISC	ORG
+catholic	MISC	MISC
 
 organisation	O	ORG
 
@@ -114208,7 +114208,7 @@ been	O	O
 
 monitoring	O	O
 
-burundi	LOC	LOC
+burundi	LOC	O
 
 closely	O	O
 
@@ -114222,7 +114222,7 @@ closely	O	O
 
 (	O	O
 
-nyerere	PER	O
+nyerere	PER	ORG
 
 )	O	O
 
@@ -114230,7 +114230,7 @@ informed	O	O
 
 minister	O	O
 
-dini	PER	O
+dini	PER	PER
 
 of	O	O
 
@@ -114246,11 +114246,11 @@ the	O	O
 
 (	O	O
 
-great	LOC	LOC
+great	LOC	O
 
-lakes	LOC	MISC
+lakes	LOC	LOC
 
-)	O	LOC
+)	O	O
 
 region	O	O
 
@@ -114324,7 +114324,7 @@ talks	O	O
 
 <s>	O	O
 
-nyerere	PER	O
+nyerere	PER	PER
 
 was	O	O
 
@@ -114356,9 +114356,9 @@ by	O	O
 
 the	O	O
 
-lay	ORG	O
+lay	ORG	ORG
 
-volunteers	ORG	O
+volunteers	ORG	ORG
 
 '	ORG	O
 
@@ -114418,9 +114418,9 @@ tutsi	MISC	MISC
 
 major	O	O
 
-pierre	PER	O
+pierre	PER	MISC
 
-buyoya	PER	PER
+buyoya	PER	O
 
 and	O	O
 
@@ -114626,9 +114626,9 @@ brussels	LOC	LOC
 
 the	O	O
 
-north	ORG	LOC
+north	ORG	ORG
 
-atlantic	ORG	LOC
+atlantic	ORG	ORG
 
 treaty	ORG	ORG
 
@@ -114870,7 +114870,7 @@ town	O	O
 
 of	O	O
 
-chatelet	LOC	ORG
+chatelet	LOC	LOC
 
 told	O	O
 
@@ -114906,7 +114906,7 @@ in	O	O
 
 neighbouring	O	O
 
-chatelineaux	LOC	LOC
+chatelineaux	LOC	O
 
 last	O	O
 
@@ -114978,7 +114978,7 @@ kalashnikov	MISC	MISC
 
 ,	O	O
 
-uzi	MISC	LOC
+uzi	MISC	PER
 
 and	O	O
 
@@ -115162,19 +115162,19 @@ legeard	PER	O
 
 ,	O	O
 
-18	O	PER
+18	O	O
 
 ,	O	O
 
 and	O	O
 
-severine	PER	O
+severine	PER	PER
 
 potty	PER	O
 
 ,	O	O
 
-19	O	PER
+19	O	O
 
 ,	O	O
 
@@ -115274,7 +115274,7 @@ village	O	O
 
 of	O	O
 
-nandrin	LOC	O
+nandrin	LOC	LOC
 
 .	O	O
 
@@ -115326,7 +115326,7 @@ the	O	O
 
 marc	PER	PER
 
-dutroux	PER	PER
+dutroux	PER	O
 
 case	O	O
 
@@ -115408,7 +115408,7 @@ haller	PER	O
 
 <s>	O	O
 
-venice	O	O
+venice	O	LOC
 
 ,	O	O
 
@@ -115420,13 +115420,13 @@ italy	LOC	LOC
 
 <s>	O	O
 
-dublin-born	O	ORG
+dublin-born	O	O
 
 director	O	O
 
 neil	PER	PER
 
-jordan	PER	LOC
+jordan	PER	PER
 
 says	O	O
 
@@ -115506,7 +115506,7 @@ film	O	O
 
 ,	O	O
 
-starring	O	PER
+starring	O	O
 
 liam	PER	PER
 
@@ -115538,9 +115538,9 @@ the	O	O
 
 irish	ORG	ORG
 
-republican	ORG	MISC
+republican	ORG	ORG
 
-army	ORG	O
+army	ORG	ORG
 
 's	O	O
 
@@ -115626,7 +115626,7 @@ in	O	O
 
 british-ruled	MISC	O
 
-northern	LOC	O
+northern	LOC	LOC
 
 ireland	LOC	LOC
 
@@ -115746,7 +115746,7 @@ time	O	O
 
 "	O	O
 
-jordan	PER	LOC
+jordan	PER	PER
 
 said	O	O
 
@@ -115762,7 +115762,7 @@ by	O	O
 
 warner	ORG	PER
 
-bros	ORG	O
+bros	ORG	PER
 
 .	O	O
 
@@ -115812,7 +115812,7 @@ jordan	PER	LOC
 
 whose	O	O
 
-1992	O	ORG
+1992	O	O
 
 film	O	O
 
@@ -115860,7 +115860,7 @@ ira	ORG	O
 
 said	O	O
 
-collins	PER	O
+collins	PER	PER
 
 was	O	O
 
@@ -115872,7 +115872,7 @@ just	O	O
 
 a	O	O
 
-revolutionary	O	ORG
+revolutionary	O	O
 
 .	O	O
 
@@ -115914,9 +115914,9 @@ world	O	O
 
 from	O	O
 
-mao	PER	O
+mao	PER	PER
 
-tse-tung	PER	O
+tse-tung	PER	PER
 
 in	O	O
 
@@ -115936,7 +115936,7 @@ israel	LOC	LOC
 
 "	O	O
 
-jordan	PER	LOC
+jordan	PER	PER
 
 said	O	O
 
@@ -115948,7 +115948,7 @@ said	O	O
 
 "	O	O
 
-collins	PER	O
+collins	PER	PER
 
 would	O	O
 
@@ -116018,7 +116018,7 @@ peace	O	O
 
 <s>	O	O
 
-leeson	PER	O
+leeson	PER	PER
 
 ,	O	O
 
@@ -116058,7 +116058,7 @@ in	O	O
 
 "	O	O
 
-schindler	MISC	O
+schindler	MISC	PER
 
 's	MISC	O
 
@@ -116090,9 +116090,9 @@ film	O	O
 
 <s>	O	O
 
-aidan	PER	O
+aidan	PER	PER
 
-quinn	PER	PER
+quinn	PER	O
 
 portrays	O	O
 
@@ -116102,7 +116102,7 @@ boland	PER	PER
 
 ,	O	O
 
-collins	PER	O
+collins	PER	PER
 
 '	O	O
 
@@ -116124,7 +116124,7 @@ love	O	O
 
 of	O	O
 
-kitty	PER	O
+kitty	PER	PER
 
 kiernan	PER	O
 
@@ -116134,7 +116134,7 @@ played	O	O
 
 by	O	O
 
-roberts	PER	O
+roberts	PER	PER
 
 .	O	O
 
@@ -116544,7 +116544,7 @@ one	O	O
 
 "	O	O
 
-jordan	PER	LOC
+jordan	PER	PER
 
 said	O	O
 
@@ -116784,7 +116784,7 @@ pressure	O	O
 
 said	O	O
 
-broker	O	O
+broker	O	PER
 
 shakil	PER	O
 
@@ -116798,9 +116798,9 @@ rizvi	PER	O
 
 broker	O	O
 
-khurshid	PER	O
+khurshid	PER	PER
 
-alam	PER	PER
+alam	PER	O
 
 said	O	O
 
@@ -116882,13 +116882,13 @@ lamps	ORG	O
 
 ,	O	O
 
-chittagong	ORG	O
+chittagong	ORG	PER
 
 cement	ORG	O
 
 and	O	O
 
-atlas	ORG	ORG
+atlas	ORG	PER
 
 bangladesh	ORG	LOC
 
@@ -117012,7 +117012,7 @@ thursday	O	O
 
 dhaka	ORG	LOC
 
-newsroom	ORG	ORG
+newsroom	ORG	O
 
 880-2-506363	O	O
 

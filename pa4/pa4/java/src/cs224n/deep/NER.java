@@ -25,15 +25,15 @@ public class NER {
 	FeatureFactory.initializeVocab("/Users/Jasper/Documents/cs224n/pa4/pa4/data/vocab.txt");
 	SimpleMatrix allVecs= FeatureFactory.readWordVectors("/Users/Jasper/Documents/cs224n/pa4/pa4/data/wordVectors.txt");
 	// initialize model 
-	String[] layersStr = "150,100,50".split(",");
+	String[] layersStr = "100".split(",");
 	int [] layer = new int[layersStr.length];
 	for (int i = 0; i < layersStr.length; ++i) {
 		layer[i] = Integer.valueOf(layersStr[i]).intValue();
 	}
-	WindowModel model = new WindowModel(3, layer, 0.01, 0.001);
+	WindowModel model = new WindowModel(5, layer, 0.01, 0.0001);
 	model.initWeights();
 	System.out.println("Starting training...");
-	model.train(trainData, 15);
+	model.train(trainData, 10);
 	
 	model.test(testData);
     }

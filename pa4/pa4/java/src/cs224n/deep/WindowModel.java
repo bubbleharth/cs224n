@@ -9,7 +9,7 @@ import org.ejml.simple.*;
 import java.text.*;
 import java.io.*;
 
-public class WindowModel {
+public class WindowModel implements ObjectiveFunction{
 	/* Word vectors */
 	protected SimpleMatrix L;
 
@@ -40,6 +40,7 @@ public class WindowModel {
 	/* Unseen word placeholder */
 	public static final String UNKNOWN = "UUUNKKK";
 
+	boolean gradientCheck = false;
 	/*multi-layer model */
 	public WindowModel(int windowSize, int [] hiddenSize, double lr, double reg) {
 		this.windowSize = windowSize;
@@ -214,27 +215,22 @@ public class WindowModel {
 		return temp;
 	}
 	
-	
-	public double getCost(SimpleMatrix X) {
-		SimpleMatrix output = batchFeedForward(X);
-		int numOfSamples = X.numCols();
-		
-		double cost = 0.0;
-		//cross entropy.
-	    for (int i = 0; i < X.numRows(); i++) {
-	        cost += X.get(i, 0) * Math.log(output.get(i, 0));
-	      }
-		cost /= -numOfSamples;
-		
-		// Regularization without bias terms as suggested by prompt
-		for (int i = 0; i < W.length; ++i) {
-			SimpleMatrix nobiasW = W[i].extractMatrix(0, W[i].numRows(), 1, W[i].numCols());
-			cost += lambda / 2 * nobiasW.elementMult(nobiasW).elementSum();
-		}
-		SimpleMatrix nobiasU = U.extractMatrix(0, U.numRows(), 1, U.numCols());
-		cost += lambda / 2 * nobiasU.elementMult(nobiasU).elementSum();
-		
-		return cost;
+	public double getCost(SimpleMatrix input, SimpleMatrix label) {
+		SimpleMatrix output = batchFeedForward(input);
+		double loss = 0;
+		for (int i = 0; i < label.numRows(); i++) {
+			loss -= label.get(i, 0) * Math.log(output.get(i, 0));
+	    }
+	    if (lambda != 0) {
+	    	for (int j = numOfHiddenLayer-1; j>=0; j--){
+				loss += computeSquaredMatrixSum(W[j]) * lambda/2;
+			}
+	      loss += computeSquaredMatrixSum(U) * lambda/2;
+	    }
+	    return loss;
+	}
+	private double computeSquaredMatrixSum(SimpleMatrix m) {
+		return m.elementMult(m).elementSum();
 	}
 	
 	private SimpleMatrix[] backpropGrad(SimpleMatrix batch, SimpleMatrix label) {
@@ -315,23 +311,15 @@ public class WindowModel {
 		for (int i = 0; i < gradients.length; ++i) {
 			// Gradient for L
 			if (i == 0) {
-				gradients[i] = gradients[i].divide(numCols);
+				gradients[i] = gradients[i];
 			}
 			// Gradient for U
 			else if (i == numOfHiddenLayer+1) {
-				SimpleMatrix nobiasU = U.copy();
-				double [] arr = new double[nobiasU.numRows()];
-				Arrays.fill(arr, 0.0);
-				nobiasU.setColumn(0, 0, arr);
-				gradients[i] = gradients[i].divide(numCols).plus(nobiasU.scale(lambda / numCols));
+				gradients[i] = gradients[i].plus(U.scale(lambda));
 			}
 			// Gradient for W
 			else {
-				SimpleMatrix nobiasW = W[i-1].copy();
-				double [] arr = new double[nobiasW.numRows()];
-				Arrays.fill(arr, 0.0);
-				nobiasW.setColumn(0, 0, arr);
-				gradients[i] = gradients[i].divide(numCols).plus(nobiasW.scale(lambda / numCols));
+				gradients[i] = gradients[i].plus(W[i-1].scale(lambda));
 			}
 		}
 		
@@ -358,7 +346,19 @@ public class WindowModel {
 				SimpleMatrix label = TrainingY.get(i);
 				// Compute Gradient
 				SimpleMatrix [] G = backpropGrad(input, label);
-				
+				if (gradientCheck){
+					List<SimpleMatrix> grad = new ArrayList<SimpleMatrix> ();
+					List<SimpleMatrix> weight = new ArrayList<SimpleMatrix> ();
+					weight.add(U);
+					for (int j = numOfHiddenLayer-1; j>=0; j--){
+						weight.add(W[j]);
+					}
+					weight.add(input);
+					for (int j = G.length - 1; j>= 0; j--){
+						grad.add(G[j]);
+					}
+					if (!GradientCheck.check(label, weight, grad, this)) System.out.println("failed gradient");
+				}
 				// Update W
 				for (int j = 1; j <= numOfHiddenLayer; ++j) {
 					W[j-1] = W[j-1].minus(G[j].scale(alpha));
@@ -414,5 +414,10 @@ public class WindowModel {
 			if (scores.get(i, 0) > scores.get(idx, 0)) idx = i;
 		}
 		return idx;
+	}
+
+	@Override
+	public double valueAt(SimpleMatrix label, SimpleMatrix input) {
+		return getCost(input, label);
 	}
 }
