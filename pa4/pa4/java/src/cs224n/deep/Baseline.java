@@ -16,12 +16,11 @@ public class Baseline {
   private static void train(List<Datum> trainData) {
     for (Datum datum : trainData) {
       if (wordMap.containsKey(datum.word)) {
-        if (wordMap.get(datum.word).equals(datum.label)) {
-          continue;
-        } else {
+        if (!wordMap.get(datum.word).equals(datum.label)) {
           wordMap.put(datum.word, "O");
         }
-      } else {
+      }
+      else {
         wordMap.put(datum.word, datum.label);
       }
     }
@@ -36,7 +35,8 @@ public class Baseline {
       String predicted;
       if (wordMap.containsKey(word)) {
         predicted = wordMap.get(word);
-      } else {
+      } 
+      else {
         predicted = "O";
       }
       out.println(word + "\t" + gold + "\t" + predicted);
@@ -57,7 +57,7 @@ public class Baseline {
     List<Datum> finalTest = FeatureFactory.readTestData(dataDir + "/dev");
 
     train(trainData);
-    baseline.test(trainData, "train");
-    baseline.test(finalTest, "dev");
+    baseline.test(trainData, "/Users/Jasper/Documents/cs224n/pa4/pa4/train");
+    baseline.test(finalTest, "/Users/Jasper/Documents/cs224n/pa4/pa4/test");
   }
 }

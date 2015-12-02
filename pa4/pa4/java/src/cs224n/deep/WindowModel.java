@@ -7,6 +7,7 @@ import org.ejml.simple.*;
 
 
 import java.text.*;
+import java.io.*;
 
 public class WindowModel {
 	/* Word vectors */
@@ -39,19 +40,7 @@ public class WindowModel {
 	/* Unseen word placeholder */
 	public static final String UNKNOWN = "UUUNKKK";
 
-	/*Single hidden layer model */
-	public WindowModel(int windowSize, int hiddenSize, double lr, double reg){
-		this.windowSize = windowSize;
-		this.wordSize = 50;
-		this.numOfHiddenLayer = 1;
-		this.W = new SimpleMatrix[numOfHiddenLayer];
-		this.hiddenSize = new int[numOfHiddenLayer];
-		this.hiddenSize[0] = hiddenSize;
-		this.alpha = lr;
-		this.lambda = reg;
-	}
-	
-	/*multilayer model */
+	/*multi-layer model */
 	public WindowModel(int windowSize, int [] hiddenSize, double lr, double reg) {
 		this.windowSize = windowSize;
 		this.wordSize = 50;
@@ -60,19 +49,28 @@ public class WindowModel {
 		this.hiddenSize = hiddenSize;
 		this.alpha = lr;
 		this.lambda = reg;
+		System.out.println("Parameters:");
+		System.out.println("-------------------------");
+		System.out.println("Window Size: " + windowSize);
+		System.out.println("Word Size: " + wordSize);
+		System.out.println("Number of Hidden Layers: " + numOfHiddenLayer);
+		System.out.println("Learning Rate: " + lr);
+		System.out.println("Regularization: " + reg);
+		
 	}
-	
 
 	 //Simple math functions that will need to be used
-	private static SimpleMatrix sigmoid(SimpleMatrix M) {
-		SimpleMatrix sig = new SimpleMatrix(M.numRows(), M.numCols());
-		for (int i = 0; i < M.numRows(); ++i) {
-			for (int j = 0; j < M.numCols(); ++j) {
-				sig.set(i, j, 1.0 / (1.0 + Math.exp(-M.get(i, j))));
-			}
-		}
-		return sig;
-	}
+	  private SimpleMatrix softmax(SimpleMatrix M) {
+		  SimpleMatrix soft = new SimpleMatrix(M.numRows(), 1);
+		  double sum = 0;
+		  for (int i = 0; i < M.numRows(); i++) {
+			  sum += Math.exp(M.get(i, 0));
+		  }
+		  for (int i = 0; i < M.numRows(); i++) {
+			  soft.set(i, 0, Math.exp(M.get(i, 0)) / sum);
+		  }
+		  return soft;
+	 }
 	
 	private static SimpleMatrix tanh(SimpleMatrix M) {
 		SimpleMatrix tanh = new SimpleMatrix(M.numRows(), M.numCols());
@@ -106,7 +104,7 @@ public class WindowModel {
 	 */
 	public void initWeights(){
 		Random rand = new Random();
-		L = FeatureFactory.getWordVectors();
+		L = FeatureFactory.allVecs;
 		//First layer size
 		int fanIn = windowSize * wordSize;
 		double epsilon;
@@ -124,7 +122,7 @@ public class WindowModel {
 		
 		// Final layer
 		epsilon = Math.sqrt(6.0) / Math.sqrt(1+fanIn);
-		U = SimpleMatrix.random(1, fanIn+1, -epsilon, epsilon, rand);
+		U = SimpleMatrix.random(5, fanIn+1, -epsilon, epsilon, rand);
 		U.set(0, 0.0);
 	}
 	
@@ -134,7 +132,6 @@ public class WindowModel {
 	private List<List<Integer>> makeInputContextWindows(List<Datum> data) {
 		int radius = windowSize / 2;
 		HashMap<String, Integer> dict = FeatureFactory.getDictionary();
-		
 		List<List<Integer>> contextWindowList = new ArrayList<List<Integer>>();
 		
 		for (int i = 0; i < data.size(); ++i) {
@@ -182,16 +179,16 @@ public class WindowModel {
 	}
 
 	//ground truth labels
-	private List<Integer> groundTruthLabels(List<Datum> data) {
-		List<Integer> labels = new ArrayList<Integer>();
-		for (int i = 0; i < data.size(); ++i) {
-			if (data.get(i).label.equals("PERSON")) {
-				labels.add(1);
-			}
-			else labels.add(0);
+	private static final String[] LABELS = {"O", "LOC", "MISC", "ORG", "PER"};
+	private static final Map<String, SimpleMatrix> LABEL_VECTORS;
+	static {
+		LABEL_VECTORS = new HashMap<>();
+		for (int i = 0; i < LABELS.length; i++) {
+			SimpleMatrix m = new SimpleMatrix(LABELS.length, 1);
+		    m.set(i, 0, 1);
+		    LABEL_VECTORS.put(LABELS[i], m);
+		    }
 		}
-		return labels;
-	}
 	
 	//add bias term to matrixes
 	public static SimpleMatrix addBiasTerm(SimpleMatrix A) {
@@ -206,21 +203,20 @@ public class WindowModel {
 		for (int i = 0; i < numOfHiddenLayer; ++i) {
 			temp = tanh(W[i].mult(addBiasTerm(temp)));
 		}
-		temp = sigmoid(U.mult(addBiasTerm(temp)));
+		temp = softmax(U.mult(addBiasTerm(temp)));
 		return temp;
 	}
 	
 	
-	public double getCost(SimpleMatrix X, SimpleMatrix L) {
+	public double getCost(SimpleMatrix X) {
 		SimpleMatrix output = batchFeedForward(X);
 		int numOfSamples = X.numCols();
 		
 		double cost = 0.0;
-		//cross entropy. because it's binary, probability of not getting 'Person' is just 1 - p('Person')
-		for (int i = 0; i < numOfSamples; ++i) {
-			cost += (L.get(0, i) * Math.log(output.get(0, i)) + (1 - L.get(0, i)) * Math.log(1 - output.get(0, i)));
-		}
-		
+		//cross entropy.
+	    for (int i = 0; i < X.numRows(); i++) {
+	        cost += X.get(i, 0) * Math.log(output.get(i, 0));
+	      }
 		cost /= -numOfSamples;
 		
 		// Regularization without bias terms as suggested by prompt
@@ -233,12 +229,106 @@ public class WindowModel {
 		
 		return cost;
 	}
-	private SimpleMatrix[] backPropGrad(SimpleMatrix batch, SimpleMatrix label) {
-		//temp placeholder
-		SimpleMatrix [] a = new SimpleMatrix[numOfHiddenLayer+2];
-		SimpleMatrix [] z = new SimpleMatrix[numOfHiddenLayer+2];
+	
+	private SimpleMatrix[] backpropGrad(SimpleMatrix batch, SimpleMatrix label) {
+		SimpleMatrix [] activation = new SimpleMatrix[numOfHiddenLayer+2];
+		SimpleMatrix [] input_vecs = new SimpleMatrix[numOfHiddenLayer+2];
+
 		
-		return z;
+		// Forward propagation. Reminder that we are passing inputs without the bias term added 
+		for (int i = 0; i < numOfHiddenLayer+2; ++i) {
+			// Input layer
+			if (i == 0) {
+				input_vecs[i] = batch;
+				activation[i] = addBiasTerm(input_vecs[i]);
+			}
+			// Output layer
+			else if (i == numOfHiddenLayer+1) {
+				input_vecs[i] = U.mult(activation[i-1]);
+
+				activation[i] = softmax(input_vecs[i]);
+			}
+			// Middle layer
+			else {
+				input_vecs[i] = W[i-1].mult(activation[i-1]);
+				activation[i] = addBiasTerm(tanh(input_vecs[i]));
+			}
+		}
+		
+		// Initialize a list of gradient matrices
+		SimpleMatrix[] gradients = new SimpleMatrix[numOfHiddenLayer+2];
+		for (int i = 0; i < gradients.length; ++i) {
+			// Gradient for L
+			if (i == 0) {
+				gradients[i] = new SimpleMatrix(batch.numRows(), 1);
+			}
+			// Gradient for U
+			else if (i == numOfHiddenLayer+1) {
+				gradients[i] = new SimpleMatrix(U.numRows(), U.numCols());
+			}
+			// Gradient for W
+			else {
+				gradients[i] = new SimpleMatrix(W[i-1].numRows(), W[i-1].numCols());
+			}
+		}
+		
+		int numCols = batch.numCols();
+		SimpleMatrix Error = activation[numOfHiddenLayer+1].minus(label);
+		
+		// For each instance in this batch
+		//Starting from the back
+		for (int m = 0; m < numCols; ++m) {
+			SimpleMatrix Delta = Error.extractVector(false, m);
+		
+			for (int i = numOfHiddenLayer+1; i >= 1; --i) {
+				gradients[i] = gradients[i].plus(Delta.mult(activation[i-1].extractVector(false, m).transpose()));
+				//Output Layer
+				if (i == numOfHiddenLayer+1) {
+					Delta = U.transpose().mult(Delta);
+					Delta = Delta.extractMatrix(1, Delta.numRows(), 0, Delta.numCols());
+					Delta = Delta.elementMult(tanhDerivative(input_vecs[i-1].extractVector(false, m)));
+				}
+				else if (i == 1) {
+					Delta = W[i-1].transpose().mult(Delta);
+					Delta = Delta.extractMatrix(1, Delta.numRows(), 0, Delta.numCols());
+				}
+				// Hidden layer
+				else {
+					Delta = W[i-1].transpose().mult(Delta);
+					Delta = Delta.extractMatrix(1, Delta.numRows(), 0, Delta.numCols());
+					Delta = Delta.elementMult(tanhDerivative(input_vecs[i-1].extractVector(false, m)));
+				}
+			}
+			// Input layer
+			gradients[0] = gradients[0].plus(Delta);
+
+		}
+		
+		// Average and add regularization term
+		for (int i = 0; i < gradients.length; ++i) {
+			// Gradient for L
+			if (i == 0) {
+				gradients[i] = gradients[i].divide(numCols);
+			}
+			// Gradient for U
+			else if (i == numOfHiddenLayer+1) {
+				SimpleMatrix nobiasU = U.copy();
+				double [] arr = new double[nobiasU.numRows()];
+				Arrays.fill(arr, 0.0);
+				nobiasU.setColumn(0, 0, arr);
+				gradients[i] = gradients[i].divide(numCols).plus(nobiasU.scale(lambda / numCols));
+			}
+			// Gradient for W
+			else {
+				SimpleMatrix nobiasW = W[i-1].copy();
+				double [] arr = new double[nobiasW.numRows()];
+				Arrays.fill(arr, 0.0);
+				nobiasW.setColumn(0, 0, arr);
+				gradients[i] = gradients[i].divide(numCols).plus(nobiasW.scale(lambda / numCols));
+			}
+		}
+		
+		return gradients;
 	}
 	
 	/**
@@ -246,23 +336,17 @@ public class WindowModel {
 	 */
 	public void train(List<Datum> _trainData, int epoch ){
 		List<List<Integer>> TrainingX = makeInputContextWindows(_trainData);
-		List<Integer> TrainingY = groundTruthLabels(_trainData);
+		Random random = new Random();
 		int numTrain = _trainData.size();
-		for (int e = 0; e < epoch; e++){
-			
-			// Randomly shuffle examples
-			long seed = System.nanoTime();
-			Collections.shuffle(TrainingX, new Random(seed));
-			Collections.shuffle(TrainingY, new Random(seed));
-						
+		for (int e = 1; e <= epoch; e++){
+			System.out.println("EPOCH: " + e);
 			// For each training example
 			for (int i = 0; i < numTrain; ++i) {
+				if (i%10000 ==0) System.out.println("Training Example: " + i);
 				SimpleMatrix input = makeInput(TrainingX.get(i));
-				SimpleMatrix label = new SimpleMatrix(1, 1);
-				label.set(TrainingY.get(i));
-				
+				SimpleMatrix label = LABEL_VECTORS.get(_trainData.get(i).label);
 				// Compute Gradient
-				SimpleMatrix [] G = backPropGrad(input, label);
+				SimpleMatrix [] G = backpropGrad(input, label);
 				
 				// Update W
 				for (int j = 1; j <= numOfHiddenLayer; ++j) {
@@ -279,52 +363,44 @@ public class WindowModel {
 					L.insertIntoThis(0, wordIdx.get(idx), input.extractMatrix(idx * wordSize, (idx+1) * wordSize, 0, 1));
 				}
 			}
-			
 		}
-		// Evaluate training statistics
-		System.out.println("Training statistics");
-		evaluateStatistics(TrainingX, TrainingY);
-		System.out.println();
-	}
+		System.out.println("Train statistics");
+		try {
+			PrintWriter pw = new PrintWriter(new File("/Users/Jasper/Documents/cs224n/pa4/pa4/train.out"));
+			for (int i = 0; i < TrainingX.size(); ++i) {
+				SimpleMatrix input = makeInput(TrainingX.get(i));
+				SimpleMatrix response = batchFeedForward(input);
+				String output = LABELS[getArgMaxIndex(response)];
+				pw.println(FeatureFactory.getTrainData().get(i).word + "\t" + _trainData.get(i).label + "\t" + output + "\n");
+			}
+			pw.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 
-	
+	}
 	public void test(List<Datum> testData){
 		List<List<Integer>> TestingX = makeInputContextWindows(testData);
-		List<Integer> TestingY = groundTruthLabels(testData);
 		// Evaluate test statistics
 		System.out.println("Test statistics");
-		evaluateStatistics(TestingX, TestingY);
-		System.out.println();
-	}
-	
-	private void evaluateStatistics(List<List<Integer>> Data, List<Integer> Label) {
-		int numData = Data.size();
-		int truePositive = 0, falsePositive = 0, falseNegative = 0, trueNegative = 0;
-		for (int i = 0; i < numData; ++i) {
-			SimpleMatrix input = makeInput(Data.get(i));
-			SimpleMatrix response = batchFeedForward(input);
-			
-			int result = 0;
-			if (response.get(0) > 0.5) result = 1;
-			int answer = Label.get(i).compareTo(1) == 0 ? 1 : 0;
-			if (result == answer && answer == 1) {
-				++truePositive;
-			} else if (result == answer && result == 0) {
-				++trueNegative;
-			} else if (result != answer && result == 1) {
-				++falsePositive;
-			} else if (result != answer && answer == 1) {
-				++falseNegative;
+		try {
+			PrintWriter pw = new PrintWriter(new File("/Users/Jasper/Documents/cs224n/pa4/pa4/test.out"));
+			for (int i = 0; i < TestingX.size(); ++i) {
+				SimpleMatrix input = makeInput(TestingX.get(i));
+				SimpleMatrix response = batchFeedForward(input);
+				String output = LABELS[getArgMaxIndex(response)];
+				pw.println(FeatureFactory.getTestData().get(i).word + "\t" + testData.get(i).label + "\t" + output + "\n");
 			}
+			pw.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 		}
-		
-		System.out.println("-------------------------------");
-		System.out.println("Dataset size: " + numData);
-		System.out.println("PERSON Precision: " + (double)truePositive / ((double)(truePositive+falsePositive)));
-		System.out.println("PERSON Recall: " + (double)truePositive / ((double)(truePositive+falseNegative)));
-		System.out.println("NON-PERSON Precision: " + (double)trueNegative / ((double)(trueNegative+falseNegative)));
-		System.out.println("NON-PERSON Recall: " + (double)trueNegative / ((double)(trueNegative+falsePositive)));
-		System.out.println("-------------------------------");
 	}
-	
+	private int getArgMaxIndex(SimpleMatrix scores) {
+		int idx = 0;
+		for (int i = 1; i < scores.numRows(); i++) {
+			if (scores.get(i, 0) > scores.get(idx, 0)) idx = i;
+		}
+		return idx;
+	}
 }
