@@ -178,6 +178,13 @@ public class WindowModel {
 		return contextWindowList;
 	}
 
+	private List<SimpleMatrix> makeGroundTruth(List<Datum> data){
+		List<SimpleMatrix> labels = new ArrayList<SimpleMatrix>();
+		for (int i = 0; i < data.size(); ++i) {
+			labels.add(LABEL_VECTORS.get(data.get(i).label));
+		}
+		return labels;
+	}
 	//ground truth labels
 	private static final String[] LABELS = {"O", "LOC", "MISC", "ORG", "PER"};
 	private static final Map<String, SimpleMatrix> LABEL_VECTORS;
@@ -336,15 +343,19 @@ public class WindowModel {
 	 */
 	public void train(List<Datum> _trainData, int epoch ){
 		List<List<Integer>> TrainingX = makeInputContextWindows(_trainData);
+		List<SimpleMatrix> TrainingY = makeGroundTruth(_trainData);
 		Random random = new Random();
 		int numTrain = _trainData.size();
 		for (int e = 1; e <= epoch; e++){
 			System.out.println("EPOCH: " + e);
 			// For each training example
+			long seed = System.nanoTime();
+			Collections.shuffle(TrainingX, new Random(seed));
+			Collections.shuffle(TrainingY, new Random(seed));
 			for (int i = 0; i < numTrain; ++i) {
 				if (i%10000 ==0) System.out.println("Training Example: " + i);
 				SimpleMatrix input = makeInput(TrainingX.get(i));
-				SimpleMatrix label = LABEL_VECTORS.get(_trainData.get(i).label);
+				SimpleMatrix label = TrainingY.get(i);
 				// Compute Gradient
 				SimpleMatrix [] G = backpropGrad(input, label);
 				
@@ -366,6 +377,7 @@ public class WindowModel {
 		}
 		System.out.println("Train statistics");
 		try {
+			TrainingX = makeInputContextWindows(_trainData);
 			PrintWriter pw = new PrintWriter(new File("/Users/Jasper/Documents/cs224n/pa4/pa4/train.out"));
 			for (int i = 0; i < TrainingX.size(); ++i) {
 				SimpleMatrix input = makeInput(TrainingX.get(i));
